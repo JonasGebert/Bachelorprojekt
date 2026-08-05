@@ -8,6 +8,8 @@ aktualisiert: 2026-08-05
 
 # Ordnerstruktur
 
+> Wer wissen will, **was wann zu tun ist**, statt wo etwas liegt: [[Arbeitsrhythmus]].
+
 ## Leitgedanke
 
 Der Vault trennt **Sichten**, nicht **Daten**. GPM und Bachelorprojekt haben eigene Ordner und eigene Dashboards, greifen aber auf **dieselben** Aufgaben, Risiken, Entscheidungen und Fragen zu. Eine Aufgabe existiert genau einmal — als Datei in `20_Backlog/Aufgaben/`. Ob sie im GPM-Sprintbericht oder in der fachlichen Planung auftaucht, entscheidet ein Filter über das Frontmatter, keine Kopie.

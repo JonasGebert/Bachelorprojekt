@@ -101,6 +101,10 @@ tools/                    Generator für das GitHub-Pages-Dashboard
 .github/workflows/        Action, die die Seite bei jedem Push baut
 ```
 
+### Womit anfangen
+
+[`00_Meta/Arbeitsrhythmus.md`](00_Meta/Arbeitsrhythmus.md) beantwortet auf einer Seite, was täglich, wöchentlich und pro Sprint zu tun ist — und was man ignorieren kann. Von rund 145 Notizen werden etwa 20 aktiv gepflegt, der Rest ist Nachschlagewerk.
+
 ### Das Strukturprinzip
 
 Der Vault trennt **Sichten**, nicht **Daten**:

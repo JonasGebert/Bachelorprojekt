@@ -13,6 +13,8 @@ aktualisiert: 2026-08-05
 > S26 · PRODT P01 · HAW Hamburg · Betreuer: Prof. Dr.-Ing. Dietmar Pähler · GPM: Prof. Dr. Birgit Koeppen
 > Abgabetermin: **05.10.2026**
 
+> **Neu hier oder den Überblick verloren?** → [[Arbeitsrhythmus]] sagt auf einer Seite, was täglich, wöchentlich und pro Sprint zu tun ist. Von 145 Notizen müssen etwa 20 gepflegt werden.
+
 ## Zwei Sichten, eine Datenbasis
 
 | | **Bachelorprojekt (BP)** | **Grundlagen Projektmanagement (GPM)** |

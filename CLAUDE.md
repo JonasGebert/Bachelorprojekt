@@ -2,7 +2,7 @@
 
 Dieses Repository ist gleichzeitig ein **Git-Repository** und ein **Obsidian-Vault**. Es dokumentiert ein Bachelorprojekt im Maschinenbau (HAW Hamburg) und die semesterbegleitende Veranstaltung *Grundlagen Projektmanagement* (GPM).
 
-Einstiegspunkt für Menschen: [[Dashboard]] · Struktur: [[Ordnerstruktur]] · Regeln: [[Konventionen]]
+Einstiegspunkt für Menschen: [[Dashboard]] · Routine: [[Arbeitsrhythmus]] · Struktur: [[Ordnerstruktur]] · Regeln: [[Konventionen]]
 
 ---
 
