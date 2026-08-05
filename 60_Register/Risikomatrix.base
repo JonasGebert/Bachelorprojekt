@@ -1,0 +1,51 @@
+filters:
+  and:
+    - 'typ == "risiko"'
+properties:
+  note.titel:
+    displayName: Risiko
+  note.wahrscheinlichkeit:
+    displayName: W
+  note.schadenshoehe:
+    displayName: H
+  note.risikozahl:
+    displayName: W x H
+  note.zone:
+    displayName: Zone
+  note.massnahme_typ:
+    displayName: Massnahme
+  note.verantwortlich:
+    displayName: Wer
+views:
+  - type: table
+    name: Risikoregister
+    order:
+      - file.name
+      - titel
+      - klasse
+      - wahrscheinlichkeit
+      - schadenshoehe
+      - risikozahl
+      - zone
+      - verantwortlich
+  - type: table
+    name: Act (Top-Risiken)
+    filters:
+      and:
+        - 'zone == "act"'
+    order:
+      - file.name
+      - titel
+      - risikozahl
+      - massnahme_typ
+      - verantwortlich
+  - type: table
+    name: Nach Klasse
+    groupBy:
+      property: note.klasse
+      direction: ASC
+    order:
+      - file.name
+      - titel
+      - risikozahl
+      - zone

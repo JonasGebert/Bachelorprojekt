@@ -1,0 +1,16 @@
+filters:
+  and:
+    - 'typ == "wissen"'
+views:
+  - type: table
+    name: Wissensbasis
+    order:
+      - file.name
+      - titel
+      - tags
+      - aktualisiert
+  - type: cards
+    name: Karten
+    order:
+      - file.name
+      - titel

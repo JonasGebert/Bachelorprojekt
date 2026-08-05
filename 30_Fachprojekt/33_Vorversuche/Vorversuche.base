@@ -1,0 +1,24 @@
+filters:
+  and:
+    - 'typ == "versuch"'
+properties:
+  note.titel:
+    displayName: Versuch
+views:
+  - type: table
+    name: Vorversuche
+    order:
+      - file.name
+      - titel
+      - status
+      - datum
+      - verantwortlich
+  - type: table
+    name: Offen
+    filters:
+      and:
+        - 'status != "ausgewertet"'
+    order:
+      - file.name
+      - titel
+      - status

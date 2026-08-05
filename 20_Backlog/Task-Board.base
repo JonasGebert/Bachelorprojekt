@@ -1,0 +1,117 @@
+filters:
+  and:
+    - 'typ == "aufgabe"'
+    - 'status != "entfallen"'
+properties:
+  note.titel:
+    displayName: Aufgabe
+  note.status:
+    displayName: Spalte
+  note.bereich:
+    displayName: Bereich
+  note.kategorie:
+    displayName: Kategorie
+  note.prioritaet:
+    displayName: Prio
+  note.aufwand_h:
+    displayName: Aufwand [h]
+  note.verantwortlich:
+    displayName: Wer
+  note.sprint:
+    displayName: Sprint
+  note.faellig:
+    displayName: Faellig
+  note.schaetzung:
+    displayName: Schaetzung
+views:
+  - type: table
+    name: Task Board
+    groupBy:
+      property: note.status
+      direction: ASC
+    order:
+      - file.name
+      - titel
+      - bereich
+      - prioritaet
+      - verantwortlich
+      - aufwand_h
+      - schaetzung
+    summaries:
+      note.aufwand_h: Sum
+  - type: table
+    name: Product Backlog
+    filters:
+      and:
+        - 'status == "product-backlog"'
+    order:
+      - file.name
+      - titel
+      - bereich
+      - kategorie
+      - prioritaet
+      - faellig
+  - type: table
+    name: Sprint 1
+    filters:
+      and:
+        - 'sprint == 1'
+    groupBy:
+      property: note.status
+      direction: ASC
+    order:
+      - file.name
+      - titel
+      - verantwortlich
+      - aufwand_h
+    summaries:
+      note.aufwand_h: Sum
+  - type: table
+    name: Nur GPM
+    filters:
+      and:
+        - 'bereich == "gpm"'
+        - 'status != "erledigt"'
+    order:
+      - file.name
+      - titel
+      - faellig
+      - prioritaet
+  - type: table
+    name: Nur Bachelorprojekt
+    filters:
+      and:
+        - 'bereich == "bp"'
+        - 'status != "erledigt"'
+    order:
+      - file.name
+      - titel
+      - kategorie
+      - prioritaet
+  - type: table
+    name: Blockiert
+    filters:
+      and:
+        - 'blockiert_durch.isEmpty() == false'
+    order:
+      - file.name
+      - titel
+      - blockiert_durch
+  - type: table
+    name: Erledigt
+    filters:
+      and:
+        - 'status == "erledigt"'
+    order:
+      - file.name
+      - titel
+      - bereich
+  - type: table
+    name: Entfallen
+    filters:
+      and:
+        - 'status == "entfallen"'
+    order:
+      - file.name
+      - titel
+      - zusammengefuehrt_in

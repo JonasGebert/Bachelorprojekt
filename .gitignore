@@ -1,0 +1,20 @@
+# Obsidian: persoenliche Fensteranordnung und Caches nicht versionieren
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/cache
+.trash/
+
+# Betriebssystem
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# CAD-/Backupdateien
+*.bak
+*.tmp
+*~
+*.SLDPRT.bak
+*.SLDASM.bak
+
+# generiertes Dashboard (wird von der GitHub Action gebaut)
+_site/

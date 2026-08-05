@@ -1,0 +1,23 @@
+filters:
+  and:
+    - 'typ == "entscheidung"'
+properties:
+  note.titel:
+    displayName: Entscheidung
+views:
+  - type: table
+    name: Entscheidungslog
+    order:
+      - file.name
+      - titel
+      - status
+      - datum
+  - type: table
+    name: Noch nicht entschieden
+    filters:
+      and:
+        - 'status != "entschieden"'
+    order:
+      - file.name
+      - titel
+      - status
