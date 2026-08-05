@@ -55,6 +55,19 @@ Eine erfasste Aufgabe wird zu `TASK-###` mit `status: product-backlog`. Sie komm
 | reine Statusinfo, „heute passiert" | [[Projektlog]], neuester Eintrag oben | — |
 | gehört nirgendwohin | löschen. Nicht alles muss aufgehoben werden. | — |
 
+## Abgrenzung: Inbox, Tagesnotiz, Projektlog
+
+Drei Orte, die leicht verwechselt werden. Die Zuordnung ist eindeutig:
+
+| | Inbox | Tagesnotiz | Projektlog |
+|---|---|---|---|
+| **Wofuer** | Gedanke zwischendurch, ohne Kontext | Mitschrift waehrend der Arbeit, v. a. Versuchstage bei Goepfert | kuratierte Projektgeschichte |
+| **Lebensdauer** | bis zum naechsten Weekly | bis zum Ende des Arbeitstags | dauerhaft |
+| **Wer liest das spaeter** | niemand | niemand | Team, Prof. Paehler, der Projektbericht |
+| **Ort** | `00_Inbox/Inbox-<Name>.md` | `70_Journal/Tagesnotizen/JJJJ-MM-TT.md` | `70_Journal/Projektlog.md` |
+
+**Faustregel:** Inbox und Tagesnotiz sind Zwischenlager mit Verfallsdatum. Nur der Projektlog ist Archiv. Steht etwas nach dem Weekly noch in der Inbox oder nach dem Arbeitstag noch in der Tagesnotiz, ist es nicht verteilt worden — und damit faktisch verloren.
+
 ## Erfassungsformat
 
 Eine Zeile reicht. Datum voranstellen, damit später nachvollziehbar ist, wann der Gedanke entstand:

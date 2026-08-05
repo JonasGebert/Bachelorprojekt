@@ -220,7 +220,11 @@ def baue():
     os.makedirs(OUT, exist_ok=True)
     tpl = open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "dashboard.html"), encoding="utf-8").read()
     js = json.dumps(daten, ensure_ascii=False, default=str)
-    open(os.path.join(OUT, "index.html"), "w", encoding="utf-8").write(tpl.replace("/*__DATEN__*/null", js))
+    if "/*__DATEN__*/null" not in tpl:
+        sys.exit("FEHLER: Platzhalter /*__DATEN__*/null fehlt in tools/dashboard.html — "
+                 "die Seite waere ohne Daten gebaut worden.")
+    seite = tpl.replace("/*__DATEN__*/null", js)
+    open(os.path.join(OUT, "index.html"), "w", encoding="utf-8").write(seite)
     open(os.path.join(OUT, ".nojekyll"), "w").close()
     print(f"_site/index.html gebaut  ·  Sprint {nr}  ·  {len(im_sprint)} Aufgaben  ·  {geplant} h")
 

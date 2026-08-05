@@ -12,6 +12,26 @@ aktualisiert: 2026-08-05
 
 > Chronologisch, neueste Einträge oben. Jeder Arbeitstag/Meilenstein ein Eintrag.
 
+## 2026-08-05 (5) — Dashboard-Seite blieb leer: Namenskollision im JavaScript
+
+- **Symptom:** Die veroeffentlichte Seite zeigte nur die Ueberschriften, kein Inhalt.
+- **Ursache:** Im Skript war `const top = ...` deklariert. `top` ist im Browser bereits als globales Objekt (`window.top`) belegt; die Neudeklaration wirft einen `SyntaxError`, wodurch das **gesamte** Skript nicht geparst wird. Kein Teilausfall, sondern Totalausfall — und ohne Fehlermeldung auf der Seite selbst.
+- **Behebung:** Variable in `topRisiko` umbenannt. Zusaetzlich ist das gesamte Skript jetzt in eine gekapselte Funktion (`IIFE`) gepackt, sodass es keinen globalen Namensraum mehr beruehrt und diese Fehlerklasse strukturell ausgeschlossen ist.
+- **Verifikation:** Rendering mit jsdom geprueft — keine JS-Fehler, 5 Kennzahlen, 4 Board-Spalten, 16 Karten, alle Tabellen gefuellt.
+- `build_dashboard.py` bricht jetzt ab, wenn der Daten-Platzhalter in der Vorlage fehlt.
+- **README korrigiert:** Die Schritte „Core plugins aktivieren" und „Vorlagenordner setzen" waren ueberfluessig — die Vault-Konfiguration liegt versioniert in `.obsidian/` und kommt mit dem Clone mit. Die englischen Menuebezeichnungen entsprachen ausserdem nicht der deutschen Oberflaeche.
+
+**Naechster Schritt:** committen und pushen, dann baut die Action die Seite neu.
+
+## 2026-08-05 (4) — Dashboard live, Tagesnotizen geordnet
+
+- Dashboard ist unter **https://jonasgebert.github.io/Bachelorprojekt/** erreichbar. Erster Workflow-Lauf erfolgreich (Build 9 s, Deploy 10 s).
+- Drei Streudateien aus dem Wurzelverzeichnis entfernt (leere Tagesnotiz, `Unbenannt.base`, `Unbenannt.canvas`).
+- **Daily Notes konfiguriert:** Zielordner `70_Journal/Tagesnotizen/`, Vorlage [[Vorlage-Tagesnotiz]]. Vorher landeten Tagesnotizen im Wurzelverzeichnis und wären zu einem zweiten, ungepflegten Journal neben [[Projektlog]] geworden.
+- **Abgrenzung dokumentiert** (in [[Inbox]] und [[Ordnerstruktur]]): Inbox = Gedanke zwischendurch, Verfall bis zum Weekly · Tagesnotiz = Mitschrift während der Arbeit, Verfall bis zum Tagesende · Projektlog = kuratiertes Archiv. Nur der Projektlog wird dauerhaft gelesen. Die Tagesnotiz-Vorlage enthält eine Verteil-Checkliste, damit Messwerte von Versuchstagen noch am selben Tag in die Versuchsnotiz wandern.
+
+**Nächster Schritt:** unverändert — Planning Poker und Barometer-Erstmessung bis Fr 07.08.
+
 ## 2026-08-05 (3) — Statisches Web-Dashboard auf GitHub Pages
 
 - `tools/build_dashboard.py` liest das YAML-Frontmatter von Aufgaben, Sprints, Risiken, Burndown-Datenblatt, weichem Kriterium und Abgaben-Tracker und erzeugt `_site/index.html`. Eine GitHub Action baut und veröffentlicht die Seite bei jedem Push (Latenz ca. 1 min).

@@ -1,0 +1,6 @@
+{
+  "folder": "70_Journal/Tagesnotizen",
+  "format": "YYYY-MM-DD",
+  "template": "00_Meta/Vorlagen/Vorlage-Tagesnotiz",
+  "autorun": false
+}

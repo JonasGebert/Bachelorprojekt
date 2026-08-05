@@ -39,7 +39,7 @@ Jede Notiz beginnt mit YAML-Frontmatter. Pflichtfelder für alle: `typ`, `titel`
 
 ### `typ` — steuert, welche Base eine Notiz erfasst
 
-`aufgabe` · `user-story` · `sprint` · `statusbericht` · `meeting` · `risiko` · `entscheidung` · `versuch` · `wissen` · `quellen` · `konstruktion` · `laborversuch` · `sicherheit` · `register` · `uebersicht` · `dashboard` · `methode` · `kurs` · `vorlage` · `meta` · `journal`
+`aufgabe` · `user-story` · `sprint` · `statusbericht` · `meeting` · `risiko` · `entscheidung` · `versuch` · `wissen` · `quellen` · `konstruktion` · `laborversuch` · `sicherheit` · `register` · `uebersicht` · `dashboard` · `methode` · `kurs` · `vorlage` · `meta` · `journal` · `tagesnotiz` · `inbox`
 
 ### `bereich` — steuert, in welcher Sicht eine Notiz erscheint
 

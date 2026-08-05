@@ -13,7 +13,7 @@ Einstiegspunkt für Menschen: [[Dashboard]] · Struktur: [[Ordnerstruktur]] · R
 | Frage | *Was bauen wir und warum so?* | *Wie steuern und belegen wir das?* |
 | Ordner | `30_Fachprojekt/`, `40_Wissensbasis/`, `50_Quellen/` | `10_Projektmanagement/` |
 
-**Gemeinsame Datenbasis:** `00_Inbox/` (Rohnotizen), `20_Backlog/` (Aufgaben), `60_Register/` (Entscheidungen, Risiken, Fragen), `70_Journal/`.
+**Gemeinsame Datenbasis:** `00_Inbox/` (Rohnotizen), `20_Backlog/` (Aufgaben), `60_Register/` (Entscheidungen, Risiken, Fragen), `70_Journal/` (Projektlog + Tagesnotizen).
 
 > **Wichtigste Regel: niemals doppelt pflegen.** Ein Sprint Backlog ist keine neue Liste, sondern eine Auswahl vorhandener Aufgaben (`sprint: N`, `status: sprint-backlog`). Ein Statusbericht erfasst keine neuen Risiken, sondern zieht sie aus `60_Register/Risiken/`.
 
@@ -97,6 +97,16 @@ Struktur aus `15_Statusberichte/Statusbericht-Vorlage.md`. Inhalte **zusammenzie
 ### „Wie ist der Stand?" / Projektlog
 
 Neue Einträge in `70_Journal/Projektlog.md` **oben** einfügen, Format `## JJJJ-MM-TT — Kurztitel`, am Ende ein Abschnitt „Nächster Schritt".
+
+### Drei Zwischenlager auseinanderhalten
+
+| Ort | Zweck | Lebensdauer |
+|---|---|---|
+| `00_Inbox/Inbox-<Name>.md` | Gedanke zwischendurch | bis zum nächsten Weekly |
+| `70_Journal/Tagesnotizen/JJJJ-MM-TT.md` | Mitschrift während der Arbeit, v. a. Versuchstage bei Göpfert | bis zum Ende des Arbeitstags |
+| `70_Journal/Projektlog.md` | kuratierte Projektgeschichte | dauerhaft |
+
+Nur der Projektlog ist Archiv. Wird Claude gebeten, eine Tagesnotiz zu verteilen, gilt dieselbe Routing-Tabelle wie für die Inbox — Messwerte gehören zusätzlich noch am selben Tag in die zugehörige Versuchsnotiz, mit Messmittel und Messunsicherheit.
 
 ---
 

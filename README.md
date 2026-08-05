@@ -15,11 +15,22 @@ cd Bachelorprojekt
 
 ### 1. Obsidian einrichten
 
-1. [Obsidian](https://obsidian.md) installieren (Version **1.9 oder neuer** — ältere Versionen kennen den Bases-Plugin nicht).
-2. *Open folder as vault* → diesen Ordner wählen.
-3. In den Einstellungen unter **Core plugins** aktivieren: **Bases**, **Templates**, **Graph view**, **Outgoing links**, **Backlinks**.
-4. Unter *Templates* den Vorlagenordner auf `00_Meta/Vorlagen` setzen.
-5. `Dashboard.md` öffnen — das ist der Einstiegspunkt.
+1. [Obsidian](https://obsidian.md) installieren — **Version 1.9 oder neuer**, ältere Versionen kennen die Bases-Funktion nicht.
+2. *Ordner als Vault öffnen* → diesen Ordner wählen.
+3. `Dashboard.md` öffnen. Das ist der Einstiegspunkt.
+
+**Mehr ist nicht nötig.** Die gesamte Vault-Konfiguration liegt versioniert im Ordner `.obsidian/` und kommt mit dem Clone mit: aktivierte Kern-Funktionen (Bases, Vorlagen, Graph, Links), der Vorlagenordner `00_Meta/Vorlagen` und der Anhang-Ordner `90_Assets`. Es muss nichts von Hand eingestellt werden.
+
+| Datei | steuert |
+|---|---|
+| `.obsidian/core-plugins.json` | welche Kern-Funktionen aktiv sind |
+| `.obsidian/templates.json` | Vorlagenordner |
+| `.obsidian/daily-notes.json` | Tagesnotizen → `70_Journal/Tagesnotizen/` |
+| `.obsidian/app.json` | Anhang-Ordner, Linkformat |
+
+Nur `.obsidian/workspace.json` (die persönliche Fensteranordnung) ist bewusst von Git ausgenommen.
+
+> Falls doch mal etwas nicht greift: In den Einstellungen gibt es ein Suchfeld — dort nach *Vorlagen* oder *Bases* suchen. Die Menübezeichnungen unterscheiden sich je nach Sprache und Obsidian-Version, die Suche findet sie zuverlässig.
 
 > Ohne Bases funktioniert der Vault weiterhin, es fehlen lediglich die Tabellen- und Kartenansichten. Alle Inhalte bleiben als reines Markdown lesbar, auch in VS Code oder auf GitHub.
 

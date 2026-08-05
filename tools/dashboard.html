@@ -108,6 +108,8 @@ footer{margin-top:32px;padding-top:14px;border-top:1px solid var(--line);font-si
 </div>
 
 <script>
+(function(){
+'use strict';
 const D = /*__DATEN__*/null;
 const $ = s => document.querySelector(s);
 const esc = s => String(s??"").replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
@@ -121,7 +123,7 @@ $('#meta').innerHTML = `zuletzt gebaut: ${esc(D.meta.gebaut)}` +
   (D.meta.repo ? ` · <a class="mono" href="${D.meta.repo}">Repository</a>` : '');
 
 /* ---------- Kennzahlen ---------- */
-const K = D.kennzahlen, W = D.weiches, top = D.risiken[0];
+const K = D.kennzahlen, W = D.weiches, topRisiko = D.risiken[0];
 const wf = {gruen:'var(--gruen)', gelb:'var(--gelb)', rot:'var(--rot)'};
 const kpi = (k,v,n,extra='') => `<div class="kpi"><div class="k">${k}</div><div class="v">${v}</div><div class="n">${n}</div>${extra}</div>`;
 $('#kpis').innerHTML = [
@@ -132,9 +134,9 @@ $('#kpis').innerHTML = [
   W ? kpi('Weiches Kriterium',
       `<span class="dot" style="background:${wf[W.status]}"></span>${W.tage} d`,
       `offen seit ${esc(W.seit)} · grün ≤ 7 d`) : '',
-  top ? kpi('Top-Risiko',
-      `<span class="dot" style="background:var(--rot)"></span>${esc(top.id)}`,
-      `W×H = ${top.risikozahl} · ${esc(top.klasse||'')}`) : ''
+  topRisiko ? kpi('Top-Risiko',
+      `<span class="dot" style="background:var(--rot)"></span>${esc(topRisiko.id)}`,
+      `W×H = ${topRisiko.risikozahl} · ${esc(topRisiko.klasse||'')}`) : ''
 ].join('');
 
 /* ---------- Filter ---------- */
@@ -226,6 +228,7 @@ $('#foot').innerHTML =
   `geändert wird ausschließlich das Frontmatter der Markdown-Notizen in Obsidian oder direkt auf GitHub. `+
   `Ein Klick auf eine Karte öffnet die zugehörige Datei.<br>`+
   `<span class="mono">≈</span> hinter einem Aufwand bedeutet Referenzschätzung — der Planning Poker im Team steht noch aus.`;
+})();
 </script>
 </body>
 </html>

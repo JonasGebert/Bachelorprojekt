@@ -26,7 +26,7 @@ Der Grund ist praktisch: Der Sprint Backlog der GPM-Veranstaltung besteht inhalt
 | `40_Wissensbasis/` | verfahrensneutrales Fachwissen (Gießverfahren, Formstoffe, Werkstoffe, Gießfehler) | BP |
 | `50_Quellen/` | Literaturverzeichnis Q01–Q25, Normen | BP |
 | `60_Register/` | Entscheidungen E##, Risiken R##, offene Fragen F## | beide |
-| `70_Journal/` | Projektlog, chronologisch | beide |
+| `70_Journal/` | Projektlog (kuratiert) + `Tagesnotizen/` (Arbeitszettel mit Verfallsdatum) | beide |
 | `90_Assets/` | CAD-Dateien, Bilder, Datenblätter | beide |
 
 ## Unterordner 10_Projektmanagement
@@ -69,6 +69,13 @@ Eine Datei **pro Person** (`Inbox-Jonas.md`, `Inbox-Fynn.md`, `Inbox-Paul.md`): 
 | Offene Fragen | **eine gemeinsame Tabelle** | hoher Umschlag, kurze Inhalte, werden in Blöcken beantwortet — Einzelnotizen wären reiner Overhead |
 | Quellen | **eine gemeinsame Tabelle** | Zitieren ist einfacher aus einer Liste als aus 25 Dateien |
 | Projektlog | **eine Datei**, neueste oben | chronologisches Lesen ist wichtiger als Verlinkung |
+| Tagesnotizen | eine Datei je Arbeitstag | Mitschrift waehrend der Arbeit; wird am selben Tag verteilt und ist danach ohne Wert |
+
+## Drei Zwischenlager, ein Archiv
+
+Inbox, Tagesnotiz und Projektlog werden leicht verwechselt. Nur der **Projektlog ist Archiv**; Inbox und Tagesnotizen sind Zwischenlager mit Verfallsdatum und werden geleert. Die Abgrenzungstabelle steht in [[Inbox]].
+
+Obsidians Core-Plugin *Daily Notes* ist auf `70_Journal/Tagesnotizen/` konfiguriert und verwendet [[Vorlage-Tagesnotiz]]. Damit landen Tagesnotizen nicht mehr im Wurzelverzeichnis.
 
 ## Dateinamen
 
