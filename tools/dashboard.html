@@ -62,6 +62,16 @@ td:last-child{text-align:right;font-variant-numeric:tabular-nums;color:var(--fg2
 .dot{display:inline-block;width:8px;height:8px;border-radius:50%;margin-right:6px;vertical-align:middle;flex:none}
 footer{margin-top:32px;padding-top:14px;border-top:1px solid var(--line);font-size:11.5px;color:var(--fg2);line-height:1.7}
 .sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
+.chartbox{width:100%}
+.chartbox svg{display:block;width:100%;height:auto}
+.chartbox .ax{stroke:var(--line);stroke-width:1}
+.chartbox .gr{stroke:var(--line-soft);stroke-width:1}
+.chartbox .lbl{fill:var(--fg2);font-size:10px;font-family:inherit}
+.chartbox .ideal{fill:none;stroke:var(--fg2);stroke-width:1.2;stroke-dasharray:4 3;opacity:.55}
+.chartbox .ist{fill:none;stroke:var(--gruen);stroke-width:2;stroke-linejoin:round}
+.chartbox .pt{fill:var(--gruen)}
+.legend{display:flex;gap:16px;font-size:11px;color:var(--fg2);margin-top:8px}
+.legend i{display:inline-block;width:16px;height:0;border-top:2px solid currentColor;vertical-align:middle;margin-right:5px}
 @media(max-width:860px){.board{grid-template-columns:repeat(2,1fr)}.grid2{grid-template-columns:1fr}}
 @media(max-width:520px){.board{grid-template-columns:1fr}}
 </style>
@@ -85,7 +95,7 @@ footer{margin-top:32px;padding-top:14px;border-top:1px solid var(--line);font-si
   <div class="grid2">
     <div class="panel">
       <h2>Burndown</h2>
-      <canvas id="bd" height="150"></canvas>
+      <div id="bd" class="chartbox"></div>
       <div class="sub" id="bdnote" style="margin-top:8px"></div>
     </div>
     <div>
@@ -198,26 +208,72 @@ $('#risk').innerHTML = D.risiken.map(r=>{
   return `<tr><td><span class="dot" style="background:${f}"></span><span class="mono">${esc(r.id)}</span> ${esc((r.titel||'').slice(0,46))}${(r.titel||'').length>46?'…':''}</td><td>${r.risikozahl??''}</td></tr>`;
 }).join('');
 
-/* ---------- Burndown ---------- */
-const s = document.createElement('script');
-s.src = 'https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js';
-s.onload = () => {
-  const cs = getComputedStyle(document.documentElement);
-  const fg2 = cs.getPropertyValue('--fg2').trim(), line = cs.getPropertyValue('--line').trim();
-  new Chart($('#bd'), {type:'line', data:{
-    labels: D.burndown.map(r=>r.tag),
-    datasets:[
-      {label:'Ideal', data:D.burndown.map(r=>r.ideal), borderColor:line, borderDash:[4,3], borderWidth:1.5, pointRadius:0},
-      {label:'Ist', data:D.burndown.map(r=>r.ist), borderColor:cs.getPropertyValue('--gruen').trim(),
-       borderWidth:2, pointRadius:3, stepped:true, spanGaps:false}
-    ]},
-    options:{responsive:true, maintainAspectRatio:false, animation:false,
-      plugins:{legend:{position:'bottom', labels:{boxWidth:12, boxHeight:2, font:{size:11}, color:fg2, padding:10}}},
-      scales:{y:{beginAtZero:true, ticks:{font:{size:10}, color:fg2}, grid:{color:line}, title:{display:true,text:'Restaufwand [h]',font:{size:10},color:fg2}},
-              x:{ticks:{font:{size:10}, color:fg2}, grid:{display:false}, title:{display:true,text:'Sprinttag',font:{size:10},color:fg2}}}}
-  });
-};
-document.body.appendChild(s);
+/* ---------- Burndown als Inline-SVG ----------
+   Bewusst ohne Chart.js: keine CDN-Abhaengigkeit (die Seite funktioniert auch
+   offline als lokale Datei) und keine Resize-Schleife, weil das SVG ueber
+   viewBox skaliert statt sich an den Container anzupassen. */
+(function burndown(){
+  const rows = D.burndown || [];
+  const box  = $('#bd');
+  if(!rows.length){ box.innerHTML = '<div class="empty">Kein Burndown-Datenblatt gefunden.</div>'; return; }
+
+  const W=480, H=210, L=44, R=10, T=12, B=30;
+  const pw = W-L-R, ph = H-T-B;
+  const tags = rows.map(r=>r.tag);
+  const xMin = Math.min(...tags), xMax = Math.max(...tags);
+  const werte = rows.flatMap(r=>[r.ideal, r.ist]).filter(v=>typeof v === 'number');
+  const roh = werte.length ? Math.max(...werte) : 100;
+  const schritt = Math.pow(10, Math.floor(Math.log10(roh)-0.5)) * 5;
+  const yMax = Math.max(schritt, Math.ceil(roh/schritt)*schritt);
+
+  const X = t => L + (xMax===xMin ? 0 : (t-xMin)/(xMax-xMin)) * pw;
+  const Y = v => T + ph - (v/yMax) * ph;
+
+  const linie = key => {
+    const pts = rows.filter(r=>typeof r[key] === 'number');
+    return pts.length < 2 ? '' : 'M' + pts.map(r=>`${X(r.tag).toFixed(1)},${Y(r[key]).toFixed(1)}`).join('L');
+  };
+  /* Ist-Kurve als Treppe: Aufgaben werden ganz oder gar nicht abgebaut. */
+  const treppe = () => {
+    const pts = rows.filter(r=>typeof r.ist === 'number');
+    if(pts.length < 2) return '';
+    let d = `M${X(pts[0].tag).toFixed(1)},${Y(pts[0].ist).toFixed(1)}`;
+    for(let i=1;i<pts.length;i++){
+      d += `L${X(pts[i].tag).toFixed(1)},${Y(pts[i-1].ist).toFixed(1)}`;
+      d += `L${X(pts[i].tag).toFixed(1)},${Y(pts[i].ist).toFixed(1)}`;
+    }
+    return d;
+  };
+
+  const yTicks = [0, yMax/4, yMax/2, yMax*3/4, yMax];
+  const gitter = yTicks.map(v=>
+    `<line class="gr" x1="${L}" y1="${Y(v).toFixed(1)}" x2="${W-R}" y2="${Y(v).toFixed(1)}"/>`+
+    `<text class="lbl" x="${L-6}" y="${(Y(v)+3.5).toFixed(1)}" text-anchor="end">${Math.round(v)}</text>`).join('');
+  const xLabels = rows.filter((r,i)=> rows.length<=12 || i%2===0).map(r=>
+    `<text class="lbl" x="${X(r.tag).toFixed(1)}" y="${H-B+15}" text-anchor="middle">${r.tag}</text>`).join('');
+  const punkte = rows.filter(r=>typeof r.ist === 'number').map(r=>
+    `<circle class="pt" cx="${X(r.tag).toFixed(1)}" cy="${Y(r.ist).toFixed(1)}" r="2.6"/>`).join('');
+
+  box.innerHTML =
+    `<svg viewBox="0 0 ${W} ${H}" role="img" preserveAspectRatio="xMidYMid meet"
+          aria-label="Burndown-Chart: Restaufwand in Stunden ueber den Sprinttagen">
+       ${gitter}
+       <line class="ax" x1="${L}" y1="${T}" x2="${L}" y2="${H-B}"/>
+       <line class="ax" x1="${L}" y1="${H-B}" x2="${W-R}" y2="${H-B}"/>
+       <path class="ideal" d="${linie('ideal')}"/>
+       <path class="ist" d="${treppe()}"/>
+       ${punkte}
+       ${xLabels}
+       <text class="lbl" x="${L+pw/2}" y="${H-2}" text-anchor="middle">Sprinttag</text>
+       <text class="lbl" x="10" y="${T+ph/2}" text-anchor="middle"
+             transform="rotate(-90 10 ${T+ph/2})">Restaufwand [h]</text>
+     </svg>
+     <div class="legend">
+       <span style="color:var(--fg2)"><i style="border-top-style:dashed"></i>Ideal</span>
+       <span style="color:var(--gruen)"><i></i>Ist</span>
+     </div>`;
+})();
+
 $('#bdnote').textContent = D.burndown.some(r=>r.ist!=null)
   ? 'Ist-Werte aus dem Datenblatt in 17_Controlling/Burndown-Chart.md.'
   : 'Noch keine Ist-Werte eingetragen — Datenblatt in 17_Controlling/Burndown-Chart.md täglich pflegen.';

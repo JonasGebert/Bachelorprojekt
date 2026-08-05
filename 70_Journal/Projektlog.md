@@ -12,6 +12,16 @@ aktualisiert: 2026-08-05
 
 > Chronologisch, neueste Einträge oben. Jeder Arbeitstag/Meilenstein ein Eintrag.
 
+## 2026-08-05 (6) — Burndown: Chart.js gegen Inline-SVG getauscht
+
+- **Symptom:** Die Seite wurde fortlaufend laenger und flackerte.
+- **Ursache:** Chart.js mit `responsive: true` und `maintainAspectRatio: false` in einem Container **ohne feste Hoehe**. Das Canvas fuellt den Container, dadurch waechst der Container, das loest ein Resize aus — eine Rueckkopplungsschleife, die bei jedem Frame ein paar Pixel zulegt. Kein Reload, sondern Dauer-Reflow.
+- **Behebung:** Chart.js ersetzt durch einen eigenen Inline-SVG-Renderer (ca. 40 Zeilen in `tools/dashboard.html`). Ein SVG mit `viewBox` skaliert rein rechnerisch und kann die Groesse seines Containers nicht beeinflussen — die Schleife ist damit ausgeschlossen, nicht nur gedaempft.
+- **Nebeneffekte, die den Tausch ohnehin rechtfertigen:** keine externe CDN-Abhaengigkeit mehr (die Seite laeuft vollstaendig offline als lokale Datei), und das Diagramm bleibt beim Zoomen scharf — relevant, weil der Burndown als Screenshot in jeden Statusbericht wandert.
+- Die Ist-Kurve wird als **Treppe** gezeichnet. Das ist keine Kosmetik: Arbeitspakete werden ganz oder gar nicht abgebaut, eine schraege Linie wuerde einen kontinuierlichen Fortschritt suggerieren, den es in Scrum nicht gibt.
+
+**Naechster Schritt:** committen und pushen.
+
 ## 2026-08-05 (5) — Dashboard-Seite blieb leer: Namenskollision im JavaScript
 
 - **Symptom:** Die veroeffentlichte Seite zeigte nur die Ueberschriften, kein Inhalt.

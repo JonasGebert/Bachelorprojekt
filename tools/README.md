@@ -32,6 +32,23 @@ Betrachter, keine zweite Datenquelle.
 | `REPO_URL` | Basis-URL fuer die Bearbeiten-Links (sonst aus `git remote origin`) |
 | `GITHUB_REPOSITORY`, `GITHUB_REF_NAME` | werden in der Action automatisch gesetzt |
 
+## Warum kein Chart.js
+
+Der Burndown wird als **Inline-SVG** erzeugt, nicht mit einer Chart-Bibliothek. Drei Gruende:
+
+1. **Keine Resize-Schleife.** Chart.js mit `responsive: true` in einem Container ohne feste
+   Hoehe vergroessert das Canvas, wodurch der Container waechst, was ein Resize ausloest — die
+   Seite wird endlos laenger und flackert. Ein SVG mit `viewBox` skaliert stattdessen rein
+   rechnerisch und kann seinen eigenen Container nicht beeinflussen.
+2. **Keine CDN-Abhaengigkeit.** Die Seite funktioniert vollstaendig offline, auch als lokal
+   geoeffnete Datei ohne Internet.
+3. **Sauberer Ausdruck.** Fuer die Statusberichte wird das Diagramm als Screenshot gebraucht;
+   ein SVG bleibt bei jeder Zoomstufe scharf.
+
+Der Renderer sitzt am Ende von `dashboard.html` und ist rund 40 Zeilen. Die Ist-Kurve wird
+bewusst als **Treppe** gezeichnet: Arbeitspakete werden ganz oder gar nicht abgebaut, es gibt
+kein „halb fertig".
+
 ## dashboard.html
 
 Die Vorlage. Der Platzhalter `/*__DATEN__*/null` wird beim Bauen durch das JSON ersetzt.
