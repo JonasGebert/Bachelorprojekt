@@ -125,7 +125,7 @@ Vollständig: [`00_Meta/Konventionen.md`](00_Meta/Konventionen.md)
 ## Mitarbeiten
 
 1. Neue Notizen immer aus einer Vorlage in `00_Meta/Vorlagen/` erzeugen — das Frontmatter steuert alle Tabellenansichten.
-2. Aufgabenstatus nur aus `product-backlog` · `sprint-backlog` · `in-arbeit` · `erledigt`. Es gibt kein „halb fertig".
-3. Aufwände (`aufwand_h`) werden ausschließlich im Planning Poker im Team bestimmt, nie geschätzt.
+2. Aufgabenstatus nur aus `product-backlog` · `sprint-backlog` · `in-arbeit` · `erledigt` · `entfallen`. Es gibt kein „halb fertig"; `entfallen` ist keine Board-Spalte, sondern kennzeichnet stillgelegte Karten.
+3. Aufwände (`aufwand_h`) tragen `schaetzung: referenz`, solange sie ein Vorschlagswert sind. Erst das Ergebnis des Planning Pokers im Team wird mit `schaetzung: poker` markiert.
 4. Wesentliche Änderungen in `70_Journal/Projektlog.md` festhalten (neueste Einträge oben).
 5. Aussagekräftige Commit-Nachrichten, gern mit ID: `TASK-024: Ergebnisse V-F1 dokumentiert`.
