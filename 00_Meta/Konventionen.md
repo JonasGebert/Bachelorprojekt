@@ -3,7 +3,7 @@ typ: meta
 titel: "Konventionen"
 tags:
   - meta
-aktualisiert: 2026-08-05
+aktualisiert: 2026-08-06
 ---
 
 # Konventionen
@@ -78,7 +78,7 @@ Jede Notiz beginnt mit YAML-Frontmatter. Pflichtfelder für alle: `typ`, `titel`
 | 04.07.2026 | Beginn der freiwilligen Vorarbeit (Wissensbasis, Bauteilkonzept, Fragenregister) — **kein** Projektzeitraum |
 | **03.08.2026** | **Modulbeginn / Projektstart**, GPM Teil 1. Nullpunkt aller Kennzahlen |
 | 10.08.2026 | Beginn Sprint 1, Start der Burndown-Messung |
-| 05.10.2026 | Abgabe |
+| 04.10.2026 | Abgabe |
 
 Kennzahlen rechnen **nie** vor dem 03.08.2026. Aufgaben, die vorher erledigt wurden, tragen `vorleistung: true`.
 
@@ -87,6 +87,21 @@ Kennzahlen rechnen **nie** vor dem 03.08.2026. Aufgaben, die vorher erledigt wur
 - Interne Verweise als Wikilink: `[[Giessverfahren]]`, nicht als Pfad. Der Vault ist flach genug, dass Dateinamen eindeutig sind.
 - Jede Fachnotiz verlinkt mindestens auf die Entscheidung oder den Versuch, in dem sie angewendet wird.
 - Bases werden mit `![[Task-Board.base]]` eingebettet (Dateiname mit Endung).
+
+## PDF-Export von Abgaben
+
+Abgabedokumente werden mit `tools/md2pdf.py` aus der Markdown-Notiz erzeugt und nach `90_Assets/Abgaben/` geschrieben. Es gibt damit **keine** zweite, von Hand gepflegte Fassung eines Abgabedokuments.
+
+```
+python3 tools/md2pdf.py <quelle.md> <ziel.pdf> [--sig]
+```
+
+- `--sig` gibt der **letzten** Tabelle im Dokument Unterschriftenhöhe.
+- Die **erste** Tabelle wird automatisch als Kopfdatenblock formatiert (Projekt, Team, Stand).
+- Frontmatter, Wikilink-Klammern und die Zeile `→ Sprintnotizen: …` werden beim Export entfernt.
+- **Nur-Vault-Inhalte:** Ein Blockzitat, dessen erste Zeile `> [!vault]` enthält, wird vollständig aus dem PDF entfernt. So bleiben interne Prozesshinweise (Rückfragen, Begründungen, Erinnerungen) in der Notiz, ohne im Dokument für Auftraggeber:in oder Dozentin zu landen. Obsidian stellt sie als Callout dar.
+
+Dateinamen von Abgaben: `JJJJ-MM-TT_<Dokument>_<Projekt>_<Nachnamen>.pdf` — das Datum ist die **Frist**, nicht das Erstellungsdatum.
 
 ## Wissenschaftliche Mindeststandards
 

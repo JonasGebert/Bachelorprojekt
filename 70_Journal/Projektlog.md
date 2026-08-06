@@ -5,12 +5,25 @@ bereich: beide
 tags:
   - journal
 erstellt: 2026-07-04
-aktualisiert: 2026-08-05
+aktualisiert: 2026-08-06
 ---
 
 # Projektlog
 
 > Chronologisch, neueste Einträge oben. Jeder Arbeitstag/Meilenstein ein Eintrag.
+
+## 2026-08-06 — Hausaufgaben GPM Teil 2 fertiggestellt: Projektauftrag und Ablaufplan
+
+- **Fertigstellungstermin auf 04.10.2026 gesetzt** (vorher 05.10.2026, dort noch mit dem Vorbehalt „zu bestätigen über F7b"). Ein Unterschriftsdokument mit Terminvorbehalt ist wertlos — Folie 30 sagt ausdrücklich, dass Aufgabenstellungen ohne Fertigstellungstermin nicht akzeptiert werden. Das Datum wurde in 14 Notizen nachgezogen (Konventionen, Dashboard, README, R07, Offene-Fragen F7, F7b, TASK-012, TASK-014, Statusbericht-Vorlage, Rollen, Risikoregister, CLAUDE.md, Abgaben-Tracker). Historische Log-Einträge blieben unverändert.
+- **Sprinttage festgelegt: Mo, Mi, Fr.** Das war der letzte offene Punkt aus GPM Teil 2, Folie 12. Die Kapazitätsrechnung geht damit auf: 24,3 h je Person und Woche / 3 Sprinttage = **8,1 h je Sprinttag**. Die Weeklys wurden von Di/Do auf **Mo und Fr** verlegt, damit an projektfreien Tagen kein Termin liegt.
+- **Nicht-Ziele N1–N7 ergänzt.** Vorher stand dort nur ein Platzhalter. Jedes Nicht-Ziel ist aus der Original-Aufgabenstellung oder einer bestehenden Entscheidung hergeleitet, keines frei erfunden.
+- **Neuer Abschnitt 5 „Abweichungen von der Original-Aufgabenstellung".** Das ist die inhaltlich wichtigste Änderung: Der Projektauftrag ist das einzige Dokument, das Prof. Pähler unterschreibt. Zwei Abweichungen waren bisher nur in Nebenbemerkungen versteckt und wären damit nie formal freigegeben worden:
+  - **Ab-1** — Nabertherm-Ofen statt Kochplatte (A5) → [[E06]], unkritisch, erfüllt die Absicht der Anforderung besser.
+  - **Ab-2** — Nutzung vorhandener Formkästen statt Eigenfertigung (A4) → [[E08]], **bewertungsrelevant, F17 offen.** Als Ersatzleistung wurde Vermessung und Dokumentation der vorhandenen Kästen vorgeschlagen.
+- **Abgabefristen der Statusberichte** im Ablaufplan aus den Sprintenden abgeleitet und tabelliert — laut Folie 30 ist der eingereichte Ablaufplan genau dafür die Basis.
+- Beide Dokumente als PDF nach `90_Assets/Abgaben/` exportiert, Mailtext-Entwurf an Prof. Koeppen erstellt.
+
+**Nächster Schritt:** F17 (Formkästen) vor der Unterschrift mit Prof. Pähler klären — sie ist die einzige Abweichung, die den Projektaufwand verändert. Danach Unterschriften einholen und beide PDFs bis 12.08.2026 an Prof. Koeppen senden.
 
 ## 2026-08-05 (6) — Burndown: Chart.js gegen Inline-SVG getauscht
 

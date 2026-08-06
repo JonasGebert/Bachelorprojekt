@@ -19,7 +19,7 @@ aktualisiert: 2026-08-05
 
 **Report Nr.:** _ **Projekt:** Entwicklung eines Versuchs zum Thema Metallguss für das FtT-Labor — Statusbericht _. Sprint
 **Scrum Master:** _ **Teammitglieder:** _
-**Abschlusstermin:** 05.10.2026 **Statusbericht vom:** _ **Restlaufzeit:** _ Wochen
+**Abschlusstermin:** 04.10.2026 **Statusbericht vom:** _ **Restlaufzeit:** _ Wochen
 
 ### Zielsetzung Gesamtvorhaben
 

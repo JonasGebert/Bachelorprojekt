@@ -6,7 +6,7 @@ tags:
   - register
   - offene-frage
 erstellt: 2026-07-04
-aktualisiert: 2026-08-05
+aktualisiert: 2026-08-06
 ---
 
 # Offene Fragen
@@ -24,7 +24,7 @@ aktualisiert: 2026-08-05
 | F26 | Unterweisung, Betriebsanweisung, PSA und Versicherungsstatus bei Göpfert | erster Schmelzversuch | **hoch** |
 | F27 | Wo befinden sich die vorhandenen Formkästen — HAW oder Göpfert? | V-F1, Vermessung F19 | hoch |
 | F28 | Anfahrtszeit nach Heide je Versuchstag und wie sie im Planning Poker angerechnet wird | Kapazitätsplanung aller Sprints | mittel |
-| F7b | Kolloquiums-/Abgabemodalitäten (Bericht, Präsentation)? Deadline 05.10.2026 bestätigt? | Projektplan | hoch |
+| F7b | Kolloquiums-/Abgabemodalitäten (Bericht, Präsentation)? Deadline 04.10.2026 bestätigt? | Projektplan | hoch |
 | F12 | Kernbinder: gebackener Ölsandkern (Ofen vorhanden!) vs. Wasserglas-CO₂? | V-K1 | hoch |
 | F14 | Finale Bauteilgeometrie (Konzeptvorschlag liegt vor → [[Bauteilkonzept]]) | CAD, Modellbau | **hoch** |
 | F15 | Exakte Typenbezeichnung Nabertherm-Ofen (5,5 kW; „Tmax 3000 °C" ist technisch unmöglich — vermutlich 300 °C oder 1300 °C). Relevant für Gefährdungsbeurteilung + Aufheizkurve | Gefährdungsbeurteilung, V-W1 | **hoch** |
@@ -42,7 +42,7 @@ aktualisiert: 2026-08-05
 | F20 | Teammitglieder | **Jonas Gebert, Fynn Barmwater, Paul Wettering** (3 Personen → ca. 510 h Gesamtaufwand) |
 | F21 | Termine GPM Teil 3 und Teil 4 | **Teil 3: Fr 07.08.2026 · Teil 4: Mi 30.09.2026** → in [[Ablaufplan]] eingetragen |
 | F22 | Product Owner | **Fynn Barmwater** (teamintern, laut GPM zulässig). Auftraggeber bleibt Prof. Pähler. Folge: Fynn kann **nicht** Scrum Master sein |
-| — | Ablaufplan-Variante | **Variante B**: 3 Sprints à 2 Wochen + 1 Sprint à 1 Woche + Pufferwoche (28.09.–05.10.) |
+| — | Ablaufplan-Variante | **Variante B**: 3 Sprints à 2 Wochen + 1 Sprint à 1 Woche + Pufferwoche (28.09.–04.10.) |
 
 ## Beantwortet (04.07.2026, Jonas)
 
@@ -54,7 +54,7 @@ aktualisiert: 2026-08-05
 | F4 | Fertigungszugang | 3D-Drucker **privat vorhanden**; Modell + Kernkasten dürfen gedruckt werden → E5 entschieden |
 | F5 | Gefährdungsbeurteilung | wird später **selbst angefertigt** (Aufgabe in [[Product-Backlog]]) |
 | F6 | FT-Skript | existiert nicht → Theorieteil des Versuchsskripts eigenständig auf Basis [Q1] erstellen |
-| F7 | Projektende | **05.10.2026** |
+| F7 | Projektende | **04.10.2026** |
 | F8 | Formkästen | **vorhanden** → eigene Kastenfertigung entfällt (aber F17, F19!) |
 | F11 | Formsand | **Vogelsand + Speiseöl** (ölgebundener Sand, Budget/Nachhaltigkeit) → E4; Rezeptur über V-F1 |
 | — | Werkstoff | **Reinzinn** → E3 entschieden |

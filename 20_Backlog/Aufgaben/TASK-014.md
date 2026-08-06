@@ -23,7 +23,7 @@ aktualisiert: 2026-08-05
 
 > **Entfallen am 2026-08-05 — zusammengeführt in [[TASK-012]].** Grund: Die Frage lag mit unter 5 h unter dem zulässigen Mindestzuschnitt; sie wird im selben Abstimmungstermin geklärt. Die ID bleibt vergeben und wird nicht wiederverwendet.
 
-Bericht, Präsentation, Deadline 05.10.2026 bestätigen lassen.
+Bericht, Präsentation, Deadline 04.10.2026 bestätigen lassen.
 
 ## Definition of Done
 

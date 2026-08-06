@@ -29,7 +29,7 @@ aktualisiert: 2026-08-05
 |---|---|---|
 | **F14** | Bauteilkonzept Miniatur-Riemenscheibe, Versionen F und O — Freigabe | entblockt CAD, friert Scope ein ([[R08]]) |
 | **F17** | Konflikt mit A4: vorhandene Formkästen statt Eigenfertigung; Ersatzleistung Nachkonstruktion/Eignungsbewertung anbieten | [[R12]] |
-| **F7b** | Kolloquiums- und Abgabemodalitäten, Deadline 05.10.2026 bestätigen | Projektplan |
+| **F7b** | Kolloquiums- und Abgabemodalitäten, Deadline 04.10.2026 bestätigen | Projektplan |
 | **F16** | Gruppengröße im FtT-Labor | Versuchsskript, Rollenverteilung im Versuch |
 | **F25** | Welcher Ofen steht im FtT-Labor? (präzisiert [[E06]]) | [[R13]] Transferbewertung |
 | **F27** | Wo befinden sich die vorhandenen Formkästen? | [[TASK-016]] |

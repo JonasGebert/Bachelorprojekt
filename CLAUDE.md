@@ -26,8 +26,8 @@ Einstiegspunkt für Menschen: [[Dashboard]] · Routine: [[Arbeitsrhythmus]] · S
 - **Team:** Jonas Gebert (**Scrum Master**) · Fynn Barmwater (**Product Owner**) · Paul Wettering. Methodenverantwortung: Task Board → Fynn · Burndown + Barometer → Paul · weiches Kriterium + One Pager → Jonas. Details: `12_Team/Rollen-und-Verantwortlichkeiten.md`.
 - **Standort:** Vorversuche bei der Firma Göpfert in Heide, Generalprobe und Laborbetrieb an der HAW (`E10`). Daraus folgt das höchstbewertete Risiko `R13` (Transferrisiko) — jeder Vorversuch dokumentiert die verwendete Ausstattung mit.
 - **Aufwand:** 6 CP ≙ 180 h/Person, davon ≈ 170 h Projektarbeit → ca. 510 h im Team
-- **Termine:** GPM Teil 3 am 07.08.2026 · Projektstart 10.08.2026 · GPM Teil 4 am 30.09.2026 · **Abgabe 05.10.2026**
-- **Ablaufplan:** Variante B — Sprint 1–3 à 2 Wochen (10.08./24.08./07.09.), Sprint 4 à 1 Woche (21.–27.09.), Pufferwoche 28.09.–05.10.
+- **Termine:** GPM Teil 3 am 07.08.2026 · Projektstart 10.08.2026 · GPM Teil 4 am 30.09.2026 · **Abgabe 04.10.2026**
+- **Ablaufplan:** Variante B — Sprint 1–3 à 2 Wochen (10.08./24.08./07.09.), Sprint 4 à 1 Woche (21.–27.09.), Pufferwoche 28.09.–04.10. Sprinttage (ST): **Mo, Mi, Fr**; Daily/Weekly: **Mo und Fr**; Abstimmung mit Prof. Pähler montags zum Sprintwechsel.
 - **Methodik:** agiles Projektmanagement nach Scrum, wie in der GPM-Vorlesung vorgegeben. Verbindliche Methodenreferenz: `10_Projektmanagement/19_GPM-Kurs/`.
 
 ---

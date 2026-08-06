@@ -7,8 +7,8 @@ tags:
   - kurs
 dozentin: "Prof. Dr. Birgit Koeppen"
 semester: "Sommerkurs 2026"
-hochschule: "HAW Hamburg, Fakultät Life Sciences / Nachhaltige Ingenieurwissenschaften"
-aktualisiert: 2026-08-05
+hochschule: "HAW Hamburg, Fakultät Nachhaltige Ingenieurwissenschaften"
+aktualisiert: 2026-08-06
 ---
 
 

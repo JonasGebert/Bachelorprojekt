@@ -11,7 +11,7 @@ aktualisiert: 2026-08-05
 
 > **Entwicklung eines Versuchs zum Thema Metallguss für das FtT-Labor**
 > S26 · PRODT P01 · HAW Hamburg · Betreuer: Prof. Dr.-Ing. Dietmar Pähler · GPM: Prof. Dr. Birgit Koeppen
-> Abgabetermin: **05.10.2026**
+> Abgabetermin: **04.10.2026**
 
 > **Neu hier oder den Überblick verloren?** → [[Arbeitsrhythmus]] sagt auf einer Seite, was täglich, wöchentlich und pro Sprint zu tun ist. Von 145 Notizen müssen etwa 20 gepflegt werden.
 
@@ -38,7 +38,7 @@ aktualisiert: 2026-08-05
 | Sprint 1 | V-F1 Sandrezeptur als erster Vorversuch | [[Vorversuchsplan]] · [[TASK-024]] |
 | ≈ 30.08.2026 | Statusbericht 1 | [[Statusbericht-1]] |
 | Mi 30.09.2026 | GPM Teil 4 — Lessons Learned | [[Abgaben-Tracker]] |
-| **Mo 05.10.2026** | **Projektabgabe** | — |
+| **So 04.10.2026** | **Projektabgabe** | — |
 
 ## Task Board
 

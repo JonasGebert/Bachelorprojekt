@@ -65,7 +65,7 @@ Jedes Teammitglied übernimmt mindestens eine Methode; der Scrum Master koordini
 | [[R13]] Transferrisiko Göpfert ↔ FtT-Labor | Jonas Gebert |
 | [[R10]] Vogelsand ungeeignet | Fynn Barmwater |
 | [[R09]] Gefährdungsbeurteilung zu spät | Paul Wettering |
-| [[R07]] Deadline 05.10.2026 | Fynn Barmwater |
+| [[R07]] Deadline 04.10.2026 | Fynn Barmwater |
 | [[R02]] Zeitbudget 3 h reicht nicht | Paul Wettering |
 
 > Jedes Mitglied braucht **mindestens eine inhaltliche Aufgabe und mindestens eine PM-Methode**.

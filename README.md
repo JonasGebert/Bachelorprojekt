@@ -1,6 +1,6 @@
 # Bachelorprojekt — Entwicklung eines Versuchs zum Thema Metallguss für das FtT-Labor
 
-**S26 · PRODT P01 · HAW Hamburg · Betreuer: Prof. Dr.-Ing. Dietmar Pähler · GPM: Prof. Dr. Birgit Koeppen · Abgabe: 05.10.2026**
+**S26 · PRODT P01 · HAW Hamburg · Betreuer: Prof. Dr.-Ing. Dietmar Pähler · GPM: Prof. Dr. Birgit Koeppen · Abgabe: 04.10.2026**
 
 Dieses Repository ist gleichzeitig ein **Git-Repository** und ein **Obsidian-Vault**. Es enthält die gesamte Projektdokumentation: fachlichen Inhalt, Projektmanagement nach Scrum und die Wissensbasis.
 

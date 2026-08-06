@@ -39,7 +39,7 @@ GPM verlangt eine Einigung auf die **fünf wichtigsten** Risiken. Sieben liegen 
 | 1 | [[R13]] Transferrisiko Göpfert ↔ FtT-Labor | **9** | technisch | präventiv | Jonas Gebert |
 | 2 | [[R10]] Vogelsand + Speiseöl ungeeignet | 6 | technisch | präventiv | Fynn Barmwater |
 | 3 | [[R09]] Gefährdungsbeurteilung zu spät → keine Freigabe | 6 | organisatorisch | präventiv | Paul Wettering |
-| 4 | [[R07]] Deadline 05.10.2026 wird gerissen | 6 | terminlich | präventiv | Fynn Barmwater |
+| 4 | [[R07]] Deadline 04.10.2026 wird gerissen | 6 | terminlich | präventiv | Fynn Barmwater |
 | 5 | [[R02]] Zeitbudget 3 h reicht nicht für 2 Abgüsse | 6 | terminlich | präventiv | Paul Wettering |
 
 **Nicht in den Top 5, obwohl Risikozahl 6:**
