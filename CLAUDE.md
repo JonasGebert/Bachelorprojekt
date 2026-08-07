@@ -23,7 +23,7 @@ Einstiegspunkt für Menschen: [[Dashboard]] · Routine: [[Arbeitsrhythmus]] · S
 
 - **Thema:** Entwicklung eines Laborversuchs zum Metallguss (Handformverfahren, Sandguss mit Kern) für das FtT-Labor, 3. Semester.
 - **Auftraggeber:** Prof. Dr.-Ing. Dietmar Pähler · **GPM:** Prof. Dr. Birgit Koeppen
-- **Team:** Jonas Gebert (**Scrum Master**) · Fynn Barmwater (**Product Owner**) · Paul Wettering. Methodenverantwortung: Task Board → Fynn · Burndown + Barometer → Paul · weiches Kriterium + One Pager → Jonas. Details: `12_Team/Rollen-und-Verantwortlichkeiten.md`.
+- **Team:** Paul Wettering (**Scrum Master**) · Fynn Barmwater (**Product Owner**) · Jonas Gebert. Methodenverantwortung: Task Board → Fynn · Burndown + Barometer → Paul · weiches Kriterium + One Pager → Jonas. Details: `12_Team/Rollen-und-Verantwortlichkeiten.md`.
 - **Standort:** Vorversuche bei der Firma Göpfert in Heide, Generalprobe und Laborbetrieb an der HAW (`E10`). Daraus folgt das höchstbewertete Risiko `R13` (Transferrisiko) — jeder Vorversuch dokumentiert die verwendete Ausstattung mit.
 - **Aufwand:** 6 CP ≙ 180 h/Person, davon ≈ 170 h Projektarbeit → ca. 510 h im Team
 - **Termine:** GPM Teil 3 am 07.08.2026 · Projektstart 10.08.2026 · GPM Teil 4 am 30.09.2026 · **Abgabe 04.10.2026**

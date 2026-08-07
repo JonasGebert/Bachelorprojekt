@@ -5,7 +5,7 @@ bereich: beide
 tags:
   - journal
 erstellt: 2026-07-04
-aktualisiert: 2026-08-06
+aktualisiert: 2026-08-07
 ---
 
 # Projektlog
@@ -67,7 +67,7 @@ aktualisiert: 2026-08-06
 
 ## 2026-08-05 (2) — Rollen besetzt, Sprint 1 geplant, Standortentscheidung E10
 
-- **Rollen festgelegt:** Jonas Gebert Scrum Master, Fynn Barmwater Product Owner, Paul Wettering Teammitglied. Methodenverantwortung mit Begründung verteilt: Task Board → Fynn (PO priorisiert), Burndown → Paul (Vier-Augen-Prinzip gegenüber der Priorisierung), Barometer → Paul (bewusst nicht der Scrum Master, dessen Stellung mitbewertet wird), weiches Kriterium + One Pager → Jonas.
+- **Rollen festgelegt:** Paul Wettering Scrum Master, Fynn Barmwater Product Owner, Jonas Gebert Teammitglied. Methodenverantwortung mit Begründung verteilt: Task Board → Fynn (PO priorisiert), Burndown → Paul (Vier-Augen-Prinzip gegenüber der Priorisierung), Barometer → Paul, weiches Kriterium + One Pager → Jonas. **Zielkonflikt dokumentiert:** Barometer und Scrum-Master-Rolle liegen bei derselben Person; kompensierende Kontrolle ist die verdeckte Abgabe mit Auszählung durch Fynn → [[Rollen-und-Verantwortlichkeiten]].
 - **[[E10]] Versuchsort:** Vorversuche bei der Firma Göpfert in Heide, Generalprobe und Laborbetrieb an der HAW. Zugang jederzeit möglich, damit entfällt das Terminrisiko für den Laborzugang.
 - **Drei neue Risiken aus E10:** [[R13]] Transferrisiko (W×H = **9**, damit höchstes Risiko im Projekt), [[R14]] Fahrzeit Heide, [[R15]] Arbeitssicherheit im Fremdbetrieb. Neue Aufgaben [[TASK-041]] und [[TASK-042]].
 - **Top-5-Risiken für den Statusbericht festgelegt:** R13, R10, R09, R07, R02 — je mit konkreter Maßnahme, Typ, Wirkung und Verantwortlicher. R14 und R15 bewusst nicht in den Top 5, Begründung im [[Risikoregister]].

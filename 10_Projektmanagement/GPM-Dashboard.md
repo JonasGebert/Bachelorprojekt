@@ -5,7 +5,7 @@ bereich: gpm
 tags:
   - dashboard
   - gpm
-aktualisiert: 2026-08-05
+aktualisiert: 2026-08-07
 ---
 
 
@@ -24,7 +24,7 @@ aktualisiert: 2026-08-05
 
 ## Team
 
-[[Rollen-und-Verantwortlichkeiten]] — Scrum Master und Product Owner noch offen
+[[Rollen-und-Verantwortlichkeiten]] — Scrum Master Paul Wettering, Product Owner Fynn Barmwater
 
 ## Anforderungen
 

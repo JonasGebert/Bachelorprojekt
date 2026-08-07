@@ -6,7 +6,7 @@ tags:
   - gpm
   - abgabe
   - tracker
-aktualisiert: 2026-08-06
+aktualisiert: 2026-08-07
 ---
 
 
@@ -31,7 +31,7 @@ aktualisiert: 2026-08-06
 
 Mitzubringen bzw. vorbereitet:
 
-- [x] Scrum Master (Jonas) und Product Owner (Fynn) gewählt → [[Rollen-und-Verantwortlichkeiten]]
+- [x] Scrum Master (Paul) und Product Owner (Fynn) gewählt → [[Rollen-und-Verantwortlichkeiten]]
 - [x] PM-Methoden auf die Teammitglieder verteilt, mit Begründung
 - [x] Fünf User Stories formuliert und INVEST-geprüft → [[User-Stories]]
 - [x] Product Backlog vollständig (42 Aufgaben) → [[Product-Backlog]]

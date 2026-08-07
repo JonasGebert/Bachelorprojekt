@@ -6,7 +6,7 @@ tags:
   - register
   - offene-frage
 erstellt: 2026-07-04
-aktualisiert: 2026-08-06
+aktualisiert: 2026-08-07
 ---
 
 # Offene Fragen
@@ -27,7 +27,7 @@ aktualisiert: 2026-08-06
 | F7b | Kolloquiums-/Abgabemodalitäten (Bericht, Präsentation)? Deadline 04.10.2026 bestätigt? | Projektplan | hoch |
 | F12 | Kernbinder: gebackener Ölsandkern (Ofen vorhanden!) vs. Wasserglas-CO₂? | V-K1 | hoch |
 | F14 | Finale Bauteilgeometrie (Konzeptvorschlag liegt vor → [[Bauteilkonzept]]) | CAD, Modellbau | **hoch** |
-| F15 | Exakte Typenbezeichnung Nabertherm-Ofen (5,5 kW; „Tmax 3000 °C" ist technisch unmöglich — vermutlich 300 °C oder 1300 °C). Relevant für Gefährdungsbeurteilung + Aufheizkurve | Gefährdungsbeurteilung, V-W1 | **hoch** |
+| F15 | Exakte Typenbezeichnung Nabertherm-Ofen (5,5 kW). **Teilantwort 07.08.2026 (Jonas, Inbox, unbelegt):** T<sub>max</sub> = 1280 °C — damit ist die 1300-°C-Klasse bestätigt und die Lesart „300 °C" widerlegt. **Weiterhin offen:** Typenbezeichnung und Beleg (Foto Typenschild). Relevant für Gefährdungsbeurteilung + Aufheizkurve | Gefährdungsbeurteilung, V-W1 | **hoch** |
 | F16 | Gruppengröße im FtT-L? | Versuchsskript, Rollenverteilung | mittel |
 | F17 | **Konflikt A4:** Aufgabenstellung verlangt Konstruktion+Fertigung der Formkästen — vorhandene Kästen nutzen = Abweichung. Mit Prof. Pähler klären (ggf. „Nachkonstruktion/Dokumentation der vorhandenen Kästen" als Ersatzleistung) | Bewertung des Projekts | **hoch** |
 | F18 | Temperaturmessung: Einstech-Thermoelement statt IR-Pyrometer? (Emissionsgrad blanker Sn-Schmelze niedrig/instabil → IR unzuverlässig [Fachwissen – prüfen]) | Beschaffung | hoch |
@@ -50,7 +50,7 @@ aktualisiert: 2026-08-06
 |---|---|---|
 | F1 | Dauer Laborviertel | **1,5 h** → 2 Viertel = 3 h Gesamtversuch inkl. Theorie, Vorbereitung, Durchführung, Nachbesprechung |
 | F2 | Budget | vorerst unkritisch; dennoch bewusst kostengünstig/nachhaltig gewählt (Vogelsand, Speiseöl, Recycling) |
-| F3/F9 | Wärmequelle | **Nabertherm-Ofen, 5,5 kW** (Tmax klären → F15); ersetzt „Kochplatte" aus Aufgabenstellung → E6 |
+| F3/F9 | Wärmequelle | **Nabertherm-Ofen, 5,5 kW**, T<sub>max</sub> ≈ 1280 °C (Typenbezeichnung weiterhin offen → F15); ersetzt „Kochplatte" aus Aufgabenstellung → E6 |
 | F4 | Fertigungszugang | 3D-Drucker **privat vorhanden**; Modell + Kernkasten dürfen gedruckt werden → E5 entschieden |
 | F5 | Gefährdungsbeurteilung | wird später **selbst angefertigt** (Aufgabe in [[Product-Backlog]]) |
 | F6 | FT-Skript | existiert nicht → Theorieteil des Versuchsskripts eigenständig auf Basis [Q1] erstellen |

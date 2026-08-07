@@ -10,7 +10,7 @@ tags:
   - gpm
   - abgabe
   - ablaufplan
-aktualisiert: 2026-08-06
+aktualisiert: 2026-08-07
 ---
 
 
@@ -20,7 +20,7 @@ aktualisiert: 2026-08-06
 |---|---|
 | **Projekt** | S26 · PRODT P01 · Entwicklung eines Versuchs zum Thema Metallguss für das FtT-Labor |
 | **Hochschule** | HAW Hamburg, Fakultät Nachhaltige Ingenieurwissenschaften |
-| **Projektteam** | Jonas Gebert (Scrum Master) · Fynn Barmwater (Product Owner) · Paul Wettering |
+| **Projektteam** | Paul Wettering (Scrum Master) · Fynn Barmwater (Product Owner) · Jonas Gebert |
 | **Auftraggeber** | Prof. Dr.-Ing. Dietmar Pähler |
 | **Zeitraum** | 10.08.2026 – 04.10.2026 |
 | **Stand** | 06.08.2026 |

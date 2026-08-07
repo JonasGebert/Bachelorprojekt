@@ -12,7 +12,7 @@ bereich: gpm
 tags:
   - gpm
   - sprint
-aktualisiert: 2026-08-05
+aktualisiert: 2026-08-07
 ---
 
 
@@ -130,7 +130,7 @@ views:
 ## Sprint Planning
 
 - **Datum:** Mo 10.08.2026 (Kick-off + Planning 1) · Vorbereitung in GPM Teil 3, Fr 07.08.2026
-- **Teilnehmende:** Jonas Gebert (Scrum Master, Moderation), Fynn Barmwater (Product Owner), Paul Wettering
+- **Teilnehmende:** Paul Wettering (Scrum Master, Moderation), Fynn Barmwater (Product Owner), Jonas Gebert
 - **Planning Poker:** für alle 12 Aufgaben durchzuführen. Referenzschätzungen liegen als Ausgangswert in den Aufgabennotizen. Ablauf: [[Planning-Poker]]
 - **Zu klären im Planning:**
   - [ ] Werden TASK-021 und TASK-024 geteilt?

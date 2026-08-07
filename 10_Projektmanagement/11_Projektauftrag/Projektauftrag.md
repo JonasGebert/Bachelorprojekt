@@ -10,7 +10,7 @@ tags:
   - gpm
   - abgabe
   - projektauftrag
-aktualisiert: 2026-08-06
+aktualisiert: 2026-08-07
 ---
 
 
@@ -109,9 +109,9 @@ Mit ihrer Unterschrift bestätigen die Beteiligten das Projektziel, die Hauptauf
 
 | Name | Rolle | Ort, Datum | Unterschrift |
 |---|---|---|---|
-| Jonas Gebert | Teammitglied, Scrum Master |  |  |
+| Jonas Gebert | Teammitglied |  |  |
 | Fynn Barmwater | Teammitglied, Product Owner |  |  |
-| Paul Wettering | Teammitglied |  |  |
+| Paul Wettering | Teammitglied, Scrum Master |  |  |
 | Prof. Dr.-Ing. Dietmar Pähler | Auftraggeber |  |  |
 
 > [!vault] Nur im Vault — nicht im PDF

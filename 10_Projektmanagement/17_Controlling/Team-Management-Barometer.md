@@ -7,14 +7,14 @@ tags:
   - gpm
   - controlling
   - team
-aktualisiert: 2026-08-05
+aktualisiert: 2026-08-07
 ---
 
 
 # Team-Management-Barometer
 
 > **In jedem Daily/Weekly erheben** und als Graph (Barograph) über der Zeit darstellen. Bewertung erfolgt **verdeckt**, die/der Verantwortliche sammelt ein und stellt dem Team vor.
-> **Verantwortlich: Paul Wettering** — bewusst nicht der Scrum Master, siehe [[Rollen-und-Verantwortlichkeiten]].
+> **Verantwortlich: Paul Wettering** (zugleich Scrum Master). Zielkonflikt und kompensierende Kontrolle — verdeckte Abgabe, Auszählung durch **Fynn Barmwater**, Paul erhält nur den Mittelwert — siehe [[Rollen-und-Verantwortlichkeiten]], Abschnitt „Zielkonflikt".
 
 > ⚠️ **Diese Tabelle wird nicht vorausgefüllt.** Das Barometer misst die subjektive Einschätzung der drei Teammitglieder. Erfundene Werte sind keine Messung, und ein Barograph aus Fantasiewerten im Statusbericht wäre eine Falschaussage gegenüber dem Auftraggeber. Erhebung dauert drei Minuten: Jede:r trägt vier Zahlen von 1 bis 6 verdeckt ein, Paul mittelt und stellt vor.
 

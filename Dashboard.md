@@ -3,7 +3,7 @@ typ: dashboard
 titel: "Dashboard"
 tags:
   - dashboard
-aktualisiert: 2026-08-05
+aktualisiert: 2026-08-07
 ---
 
 
@@ -24,7 +24,7 @@ aktualisiert: 2026-08-05
 | Ordner | `30_Fachprojekt/`, `40_Wissensbasis/`, `50_Quellen/` | `10_Projektmanagement/` |
 | Gemeinsam | [[Inbox]] · [[Product-Backlog]] · [[Risikoregister]] · [[Entscheidungsregister]] · [[Offene-Fragen]] · [[Projektlog]] | |
 
-**Team:** Jonas Gebert (Scrum Master) · Fynn Barmwater (Product Owner) · Paul Wettering
+**Team:** Paul Wettering (Scrum Master) · Fynn Barmwater (Product Owner) · Jonas Gebert
 
 ## Was als Nächstes ansteht
 

@@ -5,7 +5,7 @@ person: Jonas
 bereich: beide
 tags:
   - inbox
-aktualisiert: 2026-08-05
+aktualisiert: 2026-08-07
 ---
 
 # Inbox Jonas
@@ -14,9 +14,8 @@ aktualisiert: 2026-08-05
 > Geleert wird im Weekly (Di/Do). Vor dem Sprint Planning muss diese Datei leer sein. Regeln: [[Inbox]]
 
 ## Offen
-Paul wird zum scrum master
-nabertherm hat 1280 tmax
-
 
 ## Zum Klären im nächsten Weekly
+
+- 2026-08-07 Foto vom Typenschild des Nabertherm-Ofens machen (Typenbezeichnung + Standort) — schließt F15 und F25, ist zugleich der von [[R13]] geforderte Ausstattungsnachweis
 

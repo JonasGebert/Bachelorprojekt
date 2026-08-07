@@ -6,7 +6,7 @@ status: definiert
 verantwortlich: "Jonas Gebert"
 nullpunkt: 2026-08-03
 aelteste_offene_frage_seit: 2026-08-03
-aktualisiert: 2026-08-05
+aktualisiert: 2026-08-07
 tags:
   - gpm
   - controlling
@@ -15,7 +15,7 @@ tags:
 # Weiches Kriterium zur Fortschrittskontrolle
 
 > Weiche Messgrößen sind ein **Frühwarnsystem** für die harten Messgrößen. Anders als das [[Team-Management-Barometer]] brauchen sie eine **objektive Messvorschrift**, keine subjektive Einschätzung. Methodik: [[Projektcontrolling]].
-> Verantwortlich: Jonas Gebert (Scrum Master), gemeinsam mit dem [[Statusbericht-Vorlage|One Pager]].
+> Verantwortlich: Jonas Gebert, gemeinsam mit dem [[Statusbericht-Vorlage|One Pager]].
 
 ## Gewähltes Kriterium
 
@@ -42,7 +42,7 @@ Das Kriterium ist zudem **ohne Zusatzaufwand messbar**: Der Wert lässt sich dir
 | 🟡 gelb | **8 bis 14 Tage** |
 | 🔴 rot | **> 14 Tage** |
 
-Erhebung: in jedem Weekly (Di und Do) durch den Scrum Master.
+Erhebung: in jedem Weekly (Di und Do) durch den Verantwortlichen (Jonas Gebert).
 
 > **Für das Dashboard:** Das Feld `aelteste_offene_frage_seit` im Frontmatter dieser Notiz steuert die Anzeige auf der Webseite. Wird eine der Fragen beantwortet, wird das Feld auf das Datum der nächstältesten offenen Hoch-Prio-Frage gesetzt — oder auf das heutige Datum, wenn keine mehr offen ist. Das ist der einzige Handgriff, den die Kennzahl braucht.
 
@@ -62,7 +62,7 @@ Der Nullpunkt verschiebt sich, die Regel nicht. Eine Frage, die seit Projektstar
 | Status | Maßnahme |
 |---|---|
 | 🟢 grün | keine |
-| 🟡 gelb | Scrum Master prüft, ob nachgefasst werden muss, und benennt eine:n Verantwortliche:n je Frage |
+| 🟡 gelb | Der Verantwortliche prüft, ob nachgefasst werden muss, und benennt eine:n Verantwortliche:n je Frage |
 | 🔴 rot | **zwingend:** Nachfassen mit konkreter Frist. Zusätzlich prüfen, ob die blockierte Aufgabe umgangen werden kann — etwa durch eine dokumentierte Arbeitsannahme, die bei Antwort revidiert wird. Eskalation an den Product Owner. |
 
 ## Verlauf
@@ -82,7 +82,7 @@ Die vier Fragen sind mit dem Nullpunkt vom 03.08. gekoppelt und altern ab jetzt:
 | Datum | Alter | Status | was dann gilt |
 |---|---|---|---|
 | 10.08.2026 | 7 d | 🟢 gerade noch grün | Sprintstart, [[TASK-012]] beginnt |
-| **11.08.2026** | 8 d | 🟡 **gelb** | Scrum Master muss nachfassen |
+| **11.08.2026** | 8 d | 🟡 **gelb** | Verantwortlicher muss nachfassen |
 | **18.08.2026** | 15 d | 🔴 **rot** | Maßnahme zwingend, Eskalation an den Product Owner |
 | 24.08.2026 | 21 d | 🔴 rot | Sprint Review — Status geht so in [[Statusbericht-1]] |
 
