@@ -10,7 +10,7 @@ tags:
   - gpm
   - abgabe
   - projektauftrag
-aktualisiert: 2026-08-07
+aktualisiert: 2026-08-08
 ---
 
 
@@ -23,7 +23,7 @@ aktualisiert: 2026-08-07
 | **Auftraggeber** | Prof. Dr.-Ing. Dietmar Pähler |
 | **Projektteam** | Jonas Gebert · Fynn Barmwater · Paul Wettering |
 | **Betreuung GPM** | Prof. Dr. Birgit Koeppen |
-| **Stand** | 06.08.2026 |
+| **Stand** | 08.08.2026 |
 
 > Dieses Dokument ist die projektmanagementseitige Aufgabenstellung (Projektdefinition) nach **GPM Teil 2, Folie 6**: Ziel · Hauptaufgaben · Nicht-Ziele · Randbedingungen · Fertigstellungstermin · Team und Auftraggeber:in · Unterschriften.
 > Fachliche Grundlage ist die Original-Aufgabenstellung der HAW vom 22.03.2026. Dieses Dokument ersetzt sie nicht und verändert sie nicht; vereinbarte Abweichungen sind in Abschnitt 5 einzeln ausgewiesen.
@@ -53,6 +53,10 @@ Nicht Gegenstand dieses Projekts sind:
 | N5 | Rechtsverbindliche Freigabe der Gefährdungsbeurteilung | Das Team **erstellt** die Gefährdungsbeurteilung in Eigenleistung (F5). Die **Freigabe** für den Laborbetrieb erteilt der/die Laborverantwortliche, nicht das Projektteam. |
 | N6 | Dauerhafte Durchführung und Betreuung des Versuchs im Regellaborbetrieb über den 04.10.2026 hinaus | Projektergebnis ist der **übergabefähige Versuch** samt Versuchsskript, nicht dessen laufender Betrieb. |
 | N7 | Erweiterung auf weitere Gießverfahren (Kokillen-, Druck-, Feinguss) oder weitere Werkstoffe | A2/A3 legen ein Bauteil im Sandguss mit mindestens einem Kern fest. |
+| N8 | Erstellung begleitender Lehrmaterialien über das Versuchsskript hinaus | Projektergebnis ist der übergabefähige Versuch samt Versuchsskript; weiterführende Lehrunterlagen sind nicht Teil des Auftrags. |
+| N9 | Metallurgische Gefügeanalyse oder Bewertung der Gussqualität nach industriellen Maßstäben | Ziel ist ein sicher durchführbarer Lehrversuch, keine werkstoffanalytische Qualitätsbewertung. |
+
+> In der eingereichten Projektdefinition (12.08.2026, PDF unter `90_Assets/Abgaben/`) sind als Nicht-Ziele **N2, N8 und N9** aufgeführt. N1 und N3–N7 bleiben hier zur vollständigen Abgrenzung dokumentiert.
 
 ## 4. Randbedingungen
 

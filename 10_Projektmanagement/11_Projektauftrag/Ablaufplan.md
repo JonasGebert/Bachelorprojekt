@@ -10,7 +10,7 @@ tags:
   - gpm
   - abgabe
   - ablaufplan
-aktualisiert: 2026-08-07
+aktualisiert: 2026-08-08
 ---
 
 
@@ -23,7 +23,7 @@ aktualisiert: 2026-08-07
 | **Projektteam** | Paul Wettering (Scrum Master) · Fynn Barmwater (Product Owner) · Jonas Gebert |
 | **Auftraggeber** | Prof. Dr.-Ing. Dietmar Pähler |
 | **Zeitraum** | 10.08.2026 – 04.10.2026 |
-| **Stand** | 06.08.2026 |
+| **Stand** | 08.08.2026 |
 
 > **Status: im Team beschlossen — Variante B.** Der eingereichte Ablaufplan legt die **Abgabefristen der Statusberichte** fest (GPM Teil 2, Folie 12). Variante A ist unten zur Nachvollziehbarkeit der Entscheidung dokumentiert.
 > Gliederung nach GPM Teil 2, Folie 12: Projektstart und -ende · Sprintlängen · Netto-Arbeitszeit je Sprint · Sprinttage · Dailys/Weeklys, Projekttreffen und Auftraggebertermine · offene Punkte.
@@ -46,7 +46,7 @@ aktualisiert: 2026-08-07
 | 03.08.2026 | Mo | GPM Teil 1 |
 | 05.08.2026 | Mi | GPM Teil 2 |
 | **07.08.2026** | **Fr** | **GPM Teil 3** — Rollen, Motivation, Projektcontrolling |
-| 10.08.2026 | Mo | **Projektstart, Kick-off, Sprint Planning 1** |
+| 10.08.2026 | Mo | **Projektstart, Kick-off, Sprint Planning 1** + Abstimmung Prof. Pähler (Bauteilfreigabe, F14) |
 | ≈ 12.08.2026 | Mi | Abgabe Projektauftrag + Ablaufplan an Prof. Koeppen |
 | 27.09.2026 | So | Ende Sprint 4 |
 | **30.09.2026** | **Mi** | **GPM Teil 4** — Ergebnisse und Lessons Learned (liegt in der Pufferwoche) |
@@ -102,7 +102,7 @@ Wochenarbeitszeit: 510 h / 7 Wochen = **72,9 h/Woche im Team ≈ 24,3 h je Perso
 | **ST** | Sprinttage, an denen **alle drei** Teammitglieder Zeit haben | **Montag, Mittwoch, Freitag** |
 | **P** | Projekttreffen (Kick-off, Sprint Planning, Review, Retrospective) | Montag zu Sprintbeginn |
 | **W** | Daily/Weekly, 15–30 min organisatorische Abstimmung | **Montag und Freitag**, jeweils zu Beginn und zum Abschluss der Arbeitswoche |
-| **A** | Abstimmungstermin mit Prof. Pähler | alle 2 Wochen montags zum Sprintwechsel: 24.08. · 07.09. · 21.09. · 28.09. — *Verfügbarkeit offen, F23* |
+| **A** | Abstimmungstermin mit Prof. Pähler | **Kick-off 10.08. (Bauteilfreigabe, F14)** sowie alle 2 Wochen montags zum Sprintwechsel: 24.08. · 07.09. · 21.09. · 28.09. — *Verfügbarkeit offen, F23* |
 
 **Warum Mo/Mi/Fr:** 24,3 h je Person und Woche entsprechen bei drei Sprinttagen **8,1 h je Sprinttag** — die Kapazitätsrechnung geht damit ohne Restposten auf. Die Weeklys liegen bewusst auf zwei der drei Sprinttage, damit an projektfreien Tagen kein Termin anfällt. Zwei Weeklys pro Woche erfüllen die Vorgabe „mindestens zweimal pro Sprint **und** mindestens wöchentlich" auch im einwöchigen Sprint 4.
 
@@ -110,7 +110,7 @@ Wochenarbeitszeit: 510 h / 7 Wochen = **72,9 h/Woche im Team ≈ 24,3 h je Perso
 
 | Woche ab | Mo | Di | Mi | Do | Fr | Sa/So |
 |---|---|---|---|---|---|---|
-| 10.08. | **P** Kick-off + Planning 1 · ST · W | | ST | | ST · W | frei |
+| 10.08. | **P** Kick-off + Planning 1 · **A** (Bauteilfreigabe) · ST · W | | ST | | ST · W | frei |
 | 17.08. | ST · W | | ST | | ST · W | frei |
 | 24.08. | **P** Review 1 + Retro 1 + Planning 2 · **A** · ST · W | | ST | | ST · W | frei |
 | 31.08. | ST · W | | ST | | ST · W | frei |
@@ -134,7 +134,7 @@ Frist jeweils eine Woche nach Sprintende (GPM Teil 2, Folie 30) — die verbindl
 
 | Nr. | Offener Punkt | Auswirkung, falls ungeklärt |
 |---|---|---|
-| F23 | Verfügbarkeit von Prof. Pähler für die vier Abstimmungstermine (A) | Sprint Reviews ohne Auftraggeber; Termine verschieben sich innerhalb der jeweiligen Sprintwoche |
+| F23 | Verfügbarkeit von Prof. Pähler für die Abstimmungstermine (A: Kick-off 10.08. sowie 24.08. · 07.09. · 21.09. · 28.09.) | Sprint Reviews ohne Auftraggeber bzw. verspätete Bauteilfreigabe; Termine verschieben sich innerhalb der jeweiligen Sprintwoche |
 | F17 | Anerkennung der Abweichung Ab-2 (vorhandene Formkästen statt Eigenfertigung) | Zusätzlicher Fertigungsaufwand in Sprint 2/3, Umplanung des Sprint Backlogs |
 | — | Laborzugang FtT-L für Generalprobe und Testlauf terminieren | Generalprobe verschiebt sich in die Pufferwoche |
 | — | Zugang und Termine bei der Firma Göpfert (Heide) für die Vorversuche | Vorversuche in Sprint 1/2 nicht durchführbar → [[R13]] |

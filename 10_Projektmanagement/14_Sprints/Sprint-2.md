@@ -12,14 +12,14 @@ bereich: gpm
 tags:
   - gpm
   - sprint
-aktualisiert: 2026-08-05
+aktualisiert: 2026-08-08
 ---
 
 
 # Sprint 2 (2026-08-24 – 2026-09-06)
 
 > Termine nach **Variante B** des [[Ablaufplan]]s (im Team beschlossen).
-> Planning: Mo 24.08.2026 · Review + Retro: Mo 07.09.2026 · Abstimmung Prof. Pähler: 06.09.2026
+> Planning: Mo 24.08.2026 · Review + Retro: Mo 07.09.2026 · Abstimmung Prof. Pähler: Mo 07.09.2026 (mit Review 2)
 
 ## Sprintziel
 
