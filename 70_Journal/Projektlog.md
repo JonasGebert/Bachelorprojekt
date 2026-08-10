@@ -12,6 +12,14 @@ aktualisiert: 2026-08-07
 
 > Chronologisch, neueste Einträge oben. Jeder Arbeitstag/Meilenstein ein Eintrag.
 
+## 2026-08-10 — Innenmaße Formkästen vermessen (F19, teilweise): Konflikt mit Bauteilkonzept aufgedeckt
+
+- Innenmaße je Kastenhälfte gemessen (Gliedermaßstab, ± 1 mm): **Breite 90 mm, Länge 190 mm, Höhe 80 mm**. Eingetragen in [[Formkasten]]. Führungssystem und Zustand der Kästen (Rest von F19/TASK-016) noch offen.
+- **Konflikt entdeckt:** Bauteilkonzept sieht Ø 70 mm Kranzdurchmesser vor. Bei 90 mm Breite bleiben nur 10 mm Sandumhüllung je Seite — unter der Faustregel ≥ 30–50 mm. Höhe und Länge unkritisch. In [[Bauteilkonzept]] als offener Punkt vermerkt.
+- Datum der Messung und messende Person nicht mitgeteilt — in [[Formkasten]] als offen markiert, bitte ergänzen.
+
+**Nächster Schritt:** Konflikt Ø 70 mm vs. Kastenbreite mit Prof. Pähler klären; Rest von TASK-016 (Führung, Zustand) erledigen.
+
 ## 2026-08-06 — Hausaufgaben GPM Teil 2 fertiggestellt: Projektauftrag und Ablaufplan
 
 - **Fertigstellungstermin auf 04.10.2026 gesetzt** (vorher 05.10.2026, dort noch mit dem Vorbehalt „zu bestätigen über F7b"). Ein Unterschriftsdokument mit Terminvorbehalt ist wertlos — Folie 30 sagt ausdrücklich, dass Aufgabenstellungen ohne Fertigstellungstermin nicht akzeptiert werden. Das Datum wurde in 14 Notizen nachgezogen (Konventionen, Dashboard, README, R07, Offene-Fragen F7, F7b, TASK-012, TASK-014, Statusbericht-Vorlage, Rollen, Risikoregister, CLAUDE.md, Abgaben-Tracker). Historische Log-Einträge blieben unverändert.

@@ -8,7 +8,7 @@ tags:
   - konstruktion
   - form
 erstellt: 2026-07-04
-aktualisiert: 2026-08-05
+aktualisiert: 2026-08-10
 ---
 
 # Formkasten (Ober- und Unterkasten)
@@ -42,6 +42,18 @@ Der zweiteilige Formkasten nimmt den verdichteten Formsand auf. Der **Unterkaste
 | Alu-Profil verschraubt | leicht, präzise, kein Schweißen | Kosten Profile | gut |
 
 Empfehlungsrichtung: v1 aus Holz für Vorversuche (schnell, billig, Geometrie iterierbar), finale Laborkästen aus Stahl/Alu — Entscheidung nach Vorversuchen (→ [[Entscheidungsregister]]).
+
+## Vermessung (F19) — Innenmaße vorhandene Kästen
+
+| Größe | Wert | Messmittel | Messunsicherheit |
+|---|---|---|---|
+| Breite (Ober-/Unterkasten, je Hälfte gleich) | 90 mm | Gliedermaßstab | ± 1 mm [Fachwissen – typische Ableseunsicherheit bei Gliedermaßstab, Gelenkspiel; Q## nachtragen] |
+| Länge | 190 mm | Gliedermaßstab | ± 1 mm |
+| Höhe (je Hälfte) | 80 mm | Gliedermaßstab | ± 1 mm |
+
+Datum der Messung: nicht angegeben — bitte ergänzen. Gemessen: [Person nachtragen].
+
+> ⚠️ **Konflikt mit [[Bauteilkonzept]]:** Kranz-Außendurchmesser Version O/F = Ø 70 mm. Bei Breite = 90 mm bleibt bei zentrischer Lage nur (90 − 70) / 2 = **10 mm** Sandumhüllung je Seite — deutlich unter der Faustregel von ≥ 30–50 mm (siehe unten). Die Höhe (80 mm/Hälfte) ist mit Kranzradius 35 mm + 45 mm Restsand knapp im Rahmen, die Länge (190 mm) reicht für Nabe/Kernmarken/Gießsystem üppig. **Engpass ist die Breite.** Folgeoptionen: (a) Kranzdurchmesser reduzieren, (b) prüfen ob Gliedermaßstab-Ablesung an dieser Stelle stimmt (mit Messschieber gegenkontrollieren, da die Toleranz hier entscheidungsrelevant ist), oder (c) Rückfalloption Lagerbock (siehe [[Bauteilkonzept]], „Verworfene Alternative") erneut prüfen. Nicht selbst entscheiden — Freigabe/Klärung im nächsten Sprintwechsel mit Prof. Pähler.
 
 ## Auslegung Kastengröße (Faustregeln, [Fachwissen])
 

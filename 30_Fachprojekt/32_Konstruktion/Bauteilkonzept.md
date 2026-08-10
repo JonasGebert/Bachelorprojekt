@@ -7,7 +7,7 @@ tags:
   - bp
   - konstruktion
 erstellt: 2026-07-04
-aktualisiert: 2026-08-05
+aktualisiert: 2026-08-10
 ---
 
 # Bauteilkonzept — zwei Werkstücke (Version F „Fehlerteil" / Version O „optimiert")
@@ -71,6 +71,7 @@ Klassisches Handform-Lehrbeispiel (Riemenscheibe liegend eingeformt, geteiltes M
 
 ## Offene Punkte
 
-- [ ] F19: Innenmaße Formkästen vermessen → Ø 70 mm + Gießsystem prüfen
+- [x] F19: Innenmaße Formkästen vermessen (Gliedermaßstab, ± 1 mm) → Breite 90 mm, Länge 190 mm, Höhe 80 mm/Hälfte, siehe [[Formkasten]]
+- [ ] **Konflikt:** Ø 70 mm Kranz passt bei Breite 90 mm nicht mit ausreichender Sandumhüllung (nur 10 mm statt ≥30–50 mm je Seite) → Durchmesser reduzieren oder Rückfalloption Lagerbock prüfen, mit Prof. Pähler klären
 - [ ] Abkühlzeit 0,5 kg Sn in Ölsandform messen (Zeitbudget 3 h!) → V-Z1
 - [ ] Freigabe des Konzepts durch Prof. Pähler
