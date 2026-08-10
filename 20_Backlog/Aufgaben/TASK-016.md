@@ -2,7 +2,7 @@
 typ: aufgabe
 id: TASK-016
 titel: "Vorhandene Formkästen vermessen und dokumentieren (F19)"
-status: sprint-backlog
+status: in-arbeit
 bereich: bp
 kategorie: bestandsaufnahme
 prioritaet: hoch
@@ -17,7 +17,7 @@ tags:
   - bp
   - bestandsaufnahme
 erstellt: 2026-08-05
-aktualisiert: 2026-08-05
+aktualisiert: 2026-08-10
 ---
 # TASK-016 — Vorhandene Formkästen vermessen und dokumentieren (F19)
 
@@ -25,7 +25,12 @@ Innenmaße, Führung/Zentrierung, Zustand. Begrenzt Bauteil- und Gießsystemgrö
 
 ## Definition of Done
 
-- [ ] *(Akzeptanzkriterium festlegen — es gibt kein 'halb fertig')*
+- [x] Innenmaße beider Kastenhälften vermessen (Gliedermaßstab, ± 1 mm) → Breite 90 mm, Länge 190 mm, Höhe 80 mm, siehe [[Formkasten]]
+- [x] Messdatum und messende Person nachgetragen — 10.08.2026, Fynn Barmwater
+- [x] Führungssystem aufgenommen — Stifte (Ausführung/Anzahl noch nicht im Detail erfasst)
+- [x] Zustand der Kästen dokumentiert — gut (Detailkriterien Dichtheit/Verzug nicht einzeln geprüft)
+- [ ] Breite mit Messschieber gegenkontrollieren — bei der gewählten Orientierung (Achse entlang 190-mm-Länge) nicht mehr entscheidungskritisch für den Kranzdurchmesser, aber für die knappe axiale Umhüllung (≈ 20 mm/Seite) weiterhin sinnvoll
+- [ ] Skizze oder Foto der Kästen erstellt
 
 ## Bezug
 

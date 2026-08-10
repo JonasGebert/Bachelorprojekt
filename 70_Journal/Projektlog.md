@@ -5,20 +5,90 @@ bereich: beide
 tags:
   - journal
 erstellt: 2026-07-04
-aktualisiert: 2026-08-07
+aktualisiert: 2026-08-10
 ---
 
 # Projektlog
 
 > Chronologisch, neueste Einträge oben. Jeder Arbeitstag/Meilenstein ein Eintrag.
 
+## 2026-08-10 (6) — Aushebbarkeit: Regel korrigiert, Bauteil neu (Stehbuchse)
+
+Jonas hat auch den Lagerbock widerlegt: Die Grundplatte liegt 39 mm unter der Teilungsebene und ist breiter als alles darüber — beim Ziehen müsste eine 100 × 44 mm große Platte durch eine 32 × 5 mm große Sandöffnung. Beide Vorentwürfe sind an derselben Regel gescheitert, die ich zweimal falsch formuliert hatte.
+
+**Richtige Regel:** Jeder Schnitt parallel zur Teilungsebene muss in der Projektion des näher an der Teilung liegenden Schnitts liegen; die Querschnittsfläche darf mit dem Abstand von der Teilung nur abnehmen. „Keine konkave Fläche" war eine notwendige, aber keine hinreichende Bedingung.
+
+Der Nachweis ist jetzt als Skript hinterlegt: `tools/zeichnungen/check_aushebbarkeit.py` prüft alle drei Entwürfe numerisch. Ergebnis: Riemenscheibe ✗, Lagerbock ✗, Stehbuchse ✓.
+
+**Neuer Vorschlag: Stehbuchse mit Fußplatte** (110 × 36 × 7, Nabe Ø 34 / Bohrung Ø 18, h = 7…47, zwei Rippen 5 mm, ≈ 415 g Sn). Senkrechte Bohrung, stehender Kern, das gesamte Bauteil liegt im Oberkasten, der Unterkasten ist eine ebene Fläche mit einem einzigen Loch. Modell einteilig — für den 3D-Druck einfacher als jedes geteilte Modell. Zeichnung `Stehbuchse_Vorschlag.svg` mit Bauteil, Formaufbau, Formfolge und dem Aushebbarkeitsdiagramm.
+
+**Nächster Schritt:** F33 entscheiden. Danach CAD; offen bleibt die Speisung der Fußplatte über den Knoten zur Nabe — das wird im Vorversuch gemessen.
+
+## 2026-08-10 (5) — Bauteilwechsel vorgeschlagen: Lagerbock statt Riemenscheibe
+
+Konsequenz aus dem Hinterschnitt (F33). Statt die Riemenscheibe zu reparieren, wird die im [[Bauteilkonzept]] bereits dokumentierte Rückfalloption aktiviert: **Lagerbock (Stehlager) mit Durchgangsbohrung**. Zeichnung `Lagerbock_Vorschlag.svg` (A3): Bauteil 1:1 in Vorderansicht und Schnitt, Formaufbau im Querschnitt und Draufsicht auf die Teilungsebene, jeweils 1:2, plus Anforderungscheck.
+
+Maße Version O: Grundplatte 100 × 44 × 6 · Rippe 5 × 32, h = 6…25 · Lagerauge Ø 40 / Bohrung Ø 20, Breite 32 · Achshöhe 45 · Kern Ø 20 × 60 · ≈ 0,43 kg Sn.
+
+Warum es trägt:
+
+- **hinterschnittfrei** — Teilung durch die Bohrungsachse, keine zur Ausheberichtung konkave Modellfläche; die einzige konkave Fläche ist die Bohrung, und die macht der Kern
+- **A3 erfüllt** — die Bohrung ist ohne Kern nicht herstellbar
+- **passt in die vorhandenen Kästen** — 25 mm Sand seitlich, 35 mm unter der Platte, 45 mm an den Stirnseiten
+- **E7 bleibt gültig** — Version F/O über Rippendicke, Kehlenradius, Lageraugendurchmesser und Gießsystem
+- **Speisung funktioniert** — Moduln Lagerauge 3,9 > Platte 2,6 > Rippe 2,2 mm, dickste Stelle oben unter dem Speiser
+
+Der frühere Einwand gegen den Lagerbock („weniger Fehlerbühnen") trägt nicht mehr: Der Knotenpunkt Rippe/Grundplatte ist das Lehrbuchbeispiel für Materialanhäufung und liefert Warmriss und Lunker an einer Stelle.
+
+**Nächster Schritt:** F33 im Weekly entscheiden. Erst danach CAD. Offen bleibt, ob die Grundplatte durch die Rippe hindurch ausreichend gespeist wird — das ist im Vorversuch zu messen, nicht zu behaupten.
+
+## 2026-08-10 (4) — Hinterschnitt: Einformlage aus dem Bauteilkonzept ist nicht ausführbar (F33)
+
+Jonas hat am gezeichneten Formaufbau den entscheidenden Fehler gefunden: Bei Teilung **durch** die Achse ist die Ringnut zwischen Nabe (Ø 28) und Kranz (Ø 54 innen) ein Hinterschnitt. Die Kranz-Innenfläche umschließt den Nutsand unterhalb der Teilungsebene über die volle Nuttiefe von 13 mm; beim senkrechten Ausheben der Modellhälfte würde dieser Sand ausreißen. Die frühere Aussage „größter Querschnitt in der Teilung, beide Hälften ziehen gerade" war falsch — hinterschnittfrei ist nur, was in Ausheberichtung keine zur Achse konkave Fläche hat.
+
+Folgen:
+
+- Die Teilungsebene muss **senkrecht zur Rotationsachse** liegen (Stegebene). Damit steht der Kern — die ursprüngliche Rückfrage von Jonas war richtig.
+- Damit ist die Antwort zu F29 hinfällig: Ø 70 liegt dann in der 190 × 90 mm-Grundfläche, die 90-mm-Breite lässt nur 10 mm Sandumhüllung.
+- `Formaufbau_Schnitt.svg` ist als nicht ausführbar gekennzeichnet, nicht gelöscht (Dokumentation des Denkwegs).
+- Auch die Formulierung im Bauteilkonzept war von Anfang an mehrdeutig: „Riemenscheibe liegend eingeformt" (= Achse senkrecht) und „horizontaler Kern" im selben Satz schließen sich aus.
+
+**Nächster Schritt:** F33 entscheiden, bevor irgendein CAD-Modell entsteht. Vier Optionen stehen im Register; Vorzugsvariante ist der Bau eigener Formkästen, weil A4 das ohnehin verlangt (F17) und damit Kastenmaß und Bauteil gemeinsam ausgelegt werden können.
+
+## 2026-08-10 (3) — Formaufbau gezeichnet, Speiserlage als F32 aufgeworfen
+
+Zeichnung `Formaufbau_Schnitt.svg` (A3, 1:1): zwei senkrecht zueinander stehende Schnitte durch den geschlossenen Formkasten mit Kern, Kernmarken, Einguss, Querlauf, Anschnitt, Speiser, Windpfeife und Kühleisen; Sandumhüllung bemaßt (60/45 mm radial, 21 mm axial hinter den Kernmarken).
+
+Zwei Punkte sind dabei aufgefallen:
+
+1. **Speisung (neu als F32):** „Speiser über der Nabe" aus dem [[Bauteilkonzept]] ist bei liegender Achse nicht ausführbar — der Kranz steht darüber, es bliebe ein Speiser Ø 6 mm (M = 1,5 mm), nötig wären M ≥ 1,2 · 2,7 = 3,2 mm. Vorschlag: Speiser Ø 14 mm auf den Kranz (M = 3,5 mm) und die Nabe mit Kühleisen (Alu-Ring Ø 40/Ø 14 × 8 mm) zuerst erstarren lassen. Erstarrungsmoduln aus den Konzeptmaßen: Nabe 2,7 · Kranz 2,6 · Steg 2,5 mm — sehr dicht beieinander, also kein natürlicher Speisungsweg.
+2. **Formulierungskorrektur F29 / [[Formkasten]]:** Der Satz „Achse entlang der 190-mm-Länge" widersprach den eigenen Zahlen. Richtig und gemeint: die Scheibenebene (Ø 70) liegt in der 190-mm-Länge, die **Rotationsachse liegt quer, entlang der 90-mm-Breite**. Die Zahlen 60/45/20 mm waren immer richtig, nur die Richtungsangabe war falsch benannt.
+
+**Nächster Schritt:** F32 im Weekly entscheiden (Speiser auf dem Kranz + Kühleisen ja/nein), erst danach Modell- und Kernkasten-CAD beginnen — die Speiserlage bestimmt, ob der Speiser mit eingeformt oder separat aufgesetzt wird.
+
+## 2026-08-10 — Prinzipskizze des Bauteils erstellt
+
+Aus den Konzeptmaßen des [[Bauteilkonzept]]s wurde eine maßstäbliche Prinzipskizze (A3, Ansicht + Vollschnitt A–A, Version O und F) sowie eine 3D-Ansicht mit Viertelausschnitt erzeugt. Beides liegt in `90_Assets/Bilder/`, die erzeugenden Skripte in `tools/zeichnungen/` (parametrisch, damit Tabelle und Skizze nicht auseinanderlaufen). Es ist ausdrücklich **keine** fertigungsreife Zeichnung nach DIN EN 12890 [Q18] — Schwindmaß, Formschrägen, Kernmarkenpassung, Radien, Anschnitt/Speiser und Toleranzen fehlen bewusst.
+
+Beim Aufmaßen sind zwei Widersprüche im Konzept aufgefallen und als [[Offene-Fragen|F30]] (Kernlänge 50 vs. 48 mm) und F31 (Nabe 24 mm breiter als Kranz 20 mm) erfasst.
+
+**Nächster Schritt:** F30/F31 im nächsten Weekly klären, danach parametrisches CAD aufsetzen; Schwindmaß aus V-S1 erst vor dem finalen Druck einpflegen.
+
+## 2026-08-10 (2) — F29-Konflikt aufgelöst: Orientierungsfrage statt Ø70-Redesign
+
+- Nachtrag zu F19: gemessen hat **Fynn Barmwater**, heute. Führungssystem = **Stifte**. Zustand = **gut**.
+- F29 (Ø 70 mm Kranz vs. 90 mm Kastenbreite) war kein Konflikt mit der Aufgabenstellung, sondern eine unausgesprochene Orientierungsannahme: Die 10-mm-Sandumhüllung galt nur, wenn die Rotationsachse entlang der 90-mm-Breite liegt. Legt man die Achse stattdessen entlang der **190-mm-Länge**, ergeben sich 60 mm radiale Umhüllung — komfortabel im Rahmen der Faustregel. Team-Entscheidung, **keine Rücksprache mit Prof. Pähler nötig** — anders als F17, das eine echte Abweichung von A4 betrifft.
+- Restpunkt bleibt: axiale Umhüllung an den Kernmarken in dieser Orientierung ≈ 20 mm/Seite, unter der 30–50-mm-Faustregel. Rechnerisch plausibel für kleines Sn-Teil bei niedriger Gießtemperatur, aber noch nicht praktisch verifiziert → in V-F1/V-Z1 prüfen.
+- F19 und F29 im Fragenregister als beantwortet verschoben. TASK-016 bleibt `in-arbeit` (Skizze/Foto und Messschieber-Kontrolle noch offen).
+
 ## 2026-08-10 — Innenmaße Formkästen vermessen (F19, teilweise): Konflikt mit Bauteilkonzept aufgedeckt
 
 - Innenmaße je Kastenhälfte gemessen (Gliedermaßstab, ± 1 mm): **Breite 90 mm, Länge 190 mm, Höhe 80 mm**. Eingetragen in [[Formkasten]]. Führungssystem und Zustand der Kästen (Rest von F19/TASK-016) noch offen.
 - **Konflikt entdeckt:** Bauteilkonzept sieht Ø 70 mm Kranzdurchmesser vor. Bei 90 mm Breite bleiben nur 10 mm Sandumhüllung je Seite — unter der Faustregel ≥ 30–50 mm. Höhe und Länge unkritisch. In [[Bauteilkonzept]] als offener Punkt vermerkt.
 - Datum der Messung und messende Person nicht mitgeteilt — in [[Formkasten]] als offen markiert, bitte ergänzen.
+- Neue Frage **F29** im Offene-Fragen-Register angelegt (Konflikt Ø70 mm vs. Kastenbreite, mit Prof. Pähler zu klären). F19 mit Teilantwort versehen, bleibt offen. **TASK-016** DoD-Checkliste ergänzt und Status auf `in-arbeit` gesetzt (Messung begonnen, Führung/Zustand/Kontrollmessung fehlen noch) — nicht auf `erledigt` gesetzt, da Definition of Done nicht vollständig erfüllt.
 
-**Nächster Schritt:** Konflikt Ø 70 mm vs. Kastenbreite mit Prof. Pähler klären; Rest von TASK-016 (Führung, Zustand) erledigen.
+**Nächster Schritt:** Konflikt Ø 70 mm vs. Kastenbreite (F29) mit Prof. Pähler klären; Rest von TASK-016 (Führung, Zustand, Messdatum/Person, Kontrollmessung Breite) erledigen.
 
 ## 2026-08-06 — Hausaufgaben GPM Teil 2 fertiggestellt: Projektauftrag und Ablaufplan
 

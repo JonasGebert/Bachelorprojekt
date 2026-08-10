@@ -43,6 +43,16 @@ Klassisches Handform-Lehrbeispiel (Riemenscheibe liegend eingeformt, geteiltes M
 | Entlüftung | Windpfeife am Kranz gegenüber Anschnitt | keine |
 | Gießtemperatur | ~280 °C (gemessen, Thermoelement) | ~240 °C (knapp über Liquidus) → Kaltlauf |
 
+### Formaufbau (Vorschlag — **formtechnisch widerlegt, siehe F33**)
+
+> ⛔ **Diese Darstellung ist nicht ausführbar.** Bei Teilung durch die Achse ist die Ringnut zwischen Nabe und Kranz ein **Hinterschnitt**: Die Kranz-Innenfläche Ø 54 umschließt den Nutsand unterhalb der Teilungsebene; beim senkrechten Ausheben der Modellhälfte reißt dieser Sand aus. Konsequenz: Die Teilungsebene muss **senkrecht zur Rotationsachse** liegen (Achse senkrecht, Kern steht). Damit ist auch die Antwort zu F29 hinfällig, weil Ø 70 in der 90-mm-Kastenbreite nur 10 mm Sandumhüllung lässt. → **F33**, entschieden wird vor jedem weiteren CAD-Schritt.
+
+![[Formaufbau_Schnitt.svg]]
+
+Zwei zueinander senkrechte Schnitte durch den geschlossenen Formkasten: Kernlagerung, Gießsystem, Speiser, Kühleisen, Sandumhüllung. **Abweichung von der Gießsystem-Tabelle oben:** Der Speiser sitzt dort „über der Nabe" — bei liegender Achse steht der Kranz im Weg, es bliebe nur Ø 6 mm (Modul 1,5 mm), nötig wären ≥ 3,2 mm. Vorschlag daher: Speiser Ø 14 mm oben auf den Kranz, Nabe über Kühleisen an den Stirnflächen zuerst erstarren lassen → offene Frage F32.
+
+Erstarrungsmoduln aus den Konzeptmaßen (M = V/A, ohne Anschnitt/Speiser): Nabe 2,7 mm · Kranz 2,6 mm · Steg 2,5 mm. Die Moduln liegen dicht beieinander — es gibt **keinen ausgeprägten Speisungsweg**; genau das ist zu diskutieren.
+
 ### Skizze (Prinzip, Schnitt durch Achse; Teilung = Achsebene)
 
 ```
@@ -58,20 +68,60 @@ Klassisches Handform-Lehrbeispiel (Riemenscheibe liegend eingeformt, geteiltes M
 ─────────────────────────────────  Teilungsebene (durch Achse)
 ```
 
-## Verworfene Alternative (dokumentiert)
+### Prinzipskizze (maßstäblich, aus den obigen Konzeptmaßen erzeugt)
 
-**Lagerbock mit Durchgangsbohrung:** ebenfalls geeignet (ebene Teilung, ein Kern), aber weniger Fehler-„Bühnen" (kein Kranz/Steg-Kontrast) und als Zinnteil funktional unplausibler. Bleibt Rückfalloption, falls Riemenscheibe nicht in die vorhandenen Formkästen passt (F19).
+![[Bauteil-Riemenscheibe_Skizze.svg]]
 
-## Konsequenzen für Modell/Kernkasten
+![[Bauteil-Riemenscheibe_3D.png]]
 
-- Geteiltes Modell (2 Hälften, verstiftet), Teilung durch Achse → [[Modellbau]]
-- Bei zwei Geometrievarianten (Steg/Nabe): **zwei Modellvarianten drucken** — Mehraufwand beim 3D-Druck gering, da parametrisches CAD (eine Datei, zwei Parametersätze)
-- Ein Kernkasten für beide Versionen (Kern identisch) → [[Kernkasten]]
-- Schwindmaß aus V-S1 vor finalem Druck einpflegen
+> **Status der Skizze:** Prinzipdarstellung, **keine fertigungsreife Zeichnung** nach DIN EN 12890 [Q18]. Nicht enthalten: Schwindmaß (offen, → V-S1 / F10), Formschrägen 1–3°, Kernmarkenspiel/Passung, durchgängige Radien, Anschnitt/Speiser/Windpfeife, Toleranzen und Rauheiten.
+> Erzeugt aus `tools/zeichnungen/bauteil_zeichnung.py` und `tools/zeichnungen/bauteil_3d.py` — Maßänderungen dort im Kopf der Datei (Objekte `VO`/`VF`) ändern und neu erzeugen, damit Tabelle und Skizze nicht auseinanderlaufen.
 
-## Offene Punkte
+## Bauteilvorschlag 10.08.2026: **Stehbuchse mit Fußplatte** (zu F33)
 
-- [x] F19: Innenmaße Formkästen vermessen (Gliedermaßstab, ± 1 mm) → Breite 90 mm, Länge 190 mm, Höhe 80 mm/Hälfte, siehe [[Formkasten]]
-- [ ] **Konflikt:** Ø 70 mm Kranz passt bei Breite 90 mm nicht mit ausreichender Sandumhüllung (nur 10 mm statt ≥30–50 mm je Seite) → Durchmesser reduzieren oder Rückfalloption Lagerbock prüfen, mit Prof. Pähler klären
-- [ ] Abkühlzeit 0,5 kg Sn in Ölsandform messen (Zeitbudget 3 h!) → V-Z1
-- [ ] Freigabe des Konzepts durch Prof. Pähler
+> Zwei Entwürfe sind vorher an derselben Regel gescheitert. Der Nachweis wird deshalb hier explizit geführt und ist in `tools/zeichnungen/check_aushebbarkeit.py` nachrechenbar.
+
+![[Stehbuchse_Vorschlag.svg]]
+
+### Die maßgebende Regel (Aushebbarkeit)
+
+Ein Modellteil lässt sich nur ziehen, wenn **jeder Schnitt parallel zur Teilungsebene in der Projektion des näher an der Teilung liegenden Schnitts liegt** — die Querschnittsfläche darf mit wachsendem Abstand von der Teilung nur **abnehmen**, nie zunehmen. Sonst müsste beim Ziehen ein breiterer Modellteil durch eine engere Sandöffnung; der Sand reißt aus.
+
+| Entwurf | Ergebnis | Ort des Verstoßes |
+|---|---|---|
+| Riemenscheibe, Teilung durch die Achse | ✗ | Ringnut hinter der Kranz-Innenfläche Ø 54 |
+| Lagerbock, waagerechte Bohrung | ✗ | Grundplatte springt von 160 auf 4400 mm² |
+| **Stehbuchse, senkrechte Bohrung** | **✓** | monoton fallend über die gesamte Höhe |
+
+### Geometrie Version O
+
+| Element | Maß |
+|---|---|
+| Fußplatte | 110 × 36 × 7 mm, Unterseite = Teilungsebene |
+| Nabe | Ø 34 außen, Bohrung Ø 18, h = 7 … 47 mm |
+| Rippen | 2 × 5 mm dick, Fußlänge 25 mm, Höhe 25 mm |
+| Kehlen / Formschrägen | R4 / 2° |
+| Kern | Ø 18, stehend; unten Kernlager 15 mm, oben im Ringspeiser geführt |
+| Volumen / Masse | 57 cm³ → ≈ 415 g Sn |
+| Kastenpassung (190 × 90) | 40 mm Sand stirnseitig, 27 mm seitlich |
+
+### Warum der Aufbau zusätzlich einfach ist
+
+Das gesamte Bauteil liegt **im Oberkasten**; der Unterkasten ist eine ebene Sandfläche mit einem einzigen Loch — dem Kernlager. Querlauf und Anschnitt werden in diese ebene Fläche eingeschnitten. Das Modell ist **einteilig** (keine Teilung, keine Passstifte) und damit als 3D-Druck deutlich einfacher als ein geteiltes Modell → stützt E5.
+
+### Gießtechnik
+
+Moduln: Nabe 3,64 mm · Fußplatte 3,06 mm. Ringspeiser Ø 38/Ø 18 über der Nabe: M = 5,00 mm ≥ 1,2 · 3,64 = 4,36 mm ✓. Kernauftrieb F = V · Δρ · g = 0,65 N (≈ 66 g) — der Kern wird nach oben gedrückt und liegt damit sicher an seiner oberen Führung an.
+
+### Offen
+
+- [ ] Ob der Ringspeiser die Fußplatte über den Knoten mitspeist, ist im Vorversuch zu **messen**
+- [ ] Schwindmaß (V-S1 / F10), Kernmarkenspiel, Formschrägenrichtung im CAD
+- [ ] Freigabe durch Team (F33) und Prof. Pähler
+
+---
+
+## Verworfen: Lagerbock mit waagerechter Bohrung (10.08.2026)
+
+Zwischenentwurf, ebenfalls nicht aushebbar: Die Grundplatte liegt 39 mm unter der Teilungsebene und ist breiter als alles darüber — beim Ziehen müsste die 100 × 44 mm große Platte durch die 32 × 5 mm große Rippenöffnung im Sand. Zeichnung `Lagerbock_Vorschlag.svg` bleibt zur Dokumentation des Denkwegs erhalten, ist aber **ungültig**.
+

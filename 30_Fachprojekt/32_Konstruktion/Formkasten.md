@@ -51,9 +51,13 @@ Empfehlungsrichtung: v1 aus Holz für Vorversuche (schnell, billig, Geometrie it
 | Länge | 190 mm | Gliedermaßstab | ± 1 mm |
 | Höhe (je Hälfte) | 80 mm | Gliedermaßstab | ± 1 mm |
 
-Datum der Messung: nicht angegeben — bitte ergänzen. Gemessen: [Person nachtragen].
+Datum der Messung: 10.08.2026. Gemessen: Fynn Barmwater.
 
-> ⚠️ **Konflikt mit [[Bauteilkonzept]]:** Kranz-Außendurchmesser Version O/F = Ø 70 mm. Bei Breite = 90 mm bleibt bei zentrischer Lage nur (90 − 70) / 2 = **10 mm** Sandumhüllung je Seite — deutlich unter der Faustregel von ≥ 30–50 mm (siehe unten). Die Höhe (80 mm/Hälfte) ist mit Kranzradius 35 mm + 45 mm Restsand knapp im Rahmen, die Länge (190 mm) reicht für Nabe/Kernmarken/Gießsystem üppig. **Engpass ist die Breite.** Folgeoptionen: (a) Kranzdurchmesser reduzieren, (b) prüfen ob Gliedermaßstab-Ablesung an dieser Stelle stimmt (mit Messschieber gegenkontrollieren, da die Toleranz hier entscheidungsrelevant ist), oder (c) Rückfalloption Lagerbock (siehe [[Bauteilkonzept]], „Verworfene Alternative") erneut prüfen. Nicht selbst entscheiden — Freigabe/Klärung im nächsten Sprintwechsel mit Prof. Pähler.
+**Führungssystem:** Stifte (Ausführung/Anzahl/Position nicht weiter spezifiziert — bei Bedarf für Fertigungszeichnung nachtragen, ob zusätzlich Buchsen vorhanden sind).
+**Zustand:** gut (keine Beschädigungen berichtet — Detailkriterien wie Dichtheit der Teilungsebene und Verzug wurden nicht einzeln abgefragt).
+
+> **Auslegungsfrage (kein Konflikt mit der Aufgabenstellung, Team-Entscheidung 10.08.2026):** Bei Kranz-Außendurchmesser Ø 70 mm ([[Bauteilkonzept]]) hängt die Sandumhüllung von der **Orientierung des Modells im Kasten** ab. Wird die Rotationsachse entlang der 90-mm-Breite gelegt, bleiben nur (90 − 70) / 2 = 10 mm je Seite — unter der Faustregel ≥ 30–50 mm. **Legt man das Modell stattdessen so ein, dass die Scheibenebene (Ø 70) in die 190-mm-Länge fällt — die Rotationsachse also quer, entlang der 90-mm-Breite —**, ergibt sich radial (190 − 70) / 2 = **60 mm je Seite** — komfortabel im Rahmen. In dieser Orientierung liegt die Achsrichtung in der 90-mm-Breite: Kernlänge inkl. Kernmarken ≈ 50 mm (Ø14×~50 mm) → (90 − 50) / 2 = **20 mm je Seite**, unter der 30–50-mm-Faustregel, aber laut Faustregeltext bei kleinen Teilen/niedriger Gießtemperatur (Sn-Gießtemperatur ≈ 240–280 °C) tendenziell unkritisch [Fachwissen – Q1 prüfen]. Höhe (80 mm/Hälfte) ist mit Kranzradius 35 mm + 45 mm Restsand ausreichend.
+> **Empfehlung:** Modell mit Achse entlang der 190-mm-Länge einformen, keine Anpassung des Kranzdurchmessers nötig. **Zu verifizieren:** ob 20 mm axiale Sandumhüllung an den Kernmarken beim Abguss ausreicht — im ersten Vorversuch (V-F1/V-Z1) praktisch prüfen, nicht nur rechnerisch annehmen. Reine Auslegungsentscheidung des Teams, keine Abweichung von der Aufgabenstellung → keine Rücksprache mit Prof. Pähler nötig (anders als F17).
 
 ## Auslegung Kastengröße (Faustregeln, [Fachwissen])
 

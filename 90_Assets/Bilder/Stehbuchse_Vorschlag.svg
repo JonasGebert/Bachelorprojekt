@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="420.0mm" height="297.0mm" viewBox="0 0 420.0 297.0">
+<defs>
+<pattern id="metall" width="2.4" height="2.4" patternTransform="rotate(45)" patternUnits="userSpaceOnUse">
+ <rect width="2.4" height="2.4" fill="#dce6f2"/><line x1="0" y1="0" x2="0" y2="2.4" stroke="#2b5c96" stroke-width="0.28"/></pattern>
+<pattern id="sand" width="3.0" height="3.0" patternUnits="userSpaceOnUse">
+ <rect width="3.0" height="3.0" fill="#f3ece1"/><circle cx="0.7" cy="0.7" r="0.22" fill="#c2ab8c"/><circle cx="2.2" cy="2.1" r="0.22" fill="#c2ab8c"/></pattern>
+<pattern id="kern" width="2.4" height="2.4" patternUnits="userSpaceOnUse">
+ <rect width="2.4" height="2.4" fill="#f6e2a8"/><circle cx="0.6" cy="0.6" r="0.24" fill="#c9a63c"/><circle cx="1.8" cy="1.8" r="0.24" fill="#c9a63c"/></pattern>
+<style>
+ text{font-family:"DejaVu Sans",Arial,sans-serif;fill:#14243a;}
+ .voll{stroke:#14243a;stroke-width:0.5;fill:none;}
+ .duenn{stroke:#14243a;stroke-width:0.28;fill:none;}
+ .verdeckt{stroke:#14243a;stroke-width:0.3;fill:none;stroke-dasharray:2.5 1.5;}
+ .kasten{stroke:#14243a;stroke-width:0.7;fill:none;}
+ .mitte{stroke:#b03030;stroke-width:0.25;fill:none;stroke-dasharray:7 1.4 1.1 1.4;}
+ .teilung{stroke:#0a7a5a;stroke-width:0.8;fill:none;}
+ .masz{stroke:#14243a;stroke-width:0.25;fill:none;}
+ .hilf{stroke:#14243a;stroke-width:0.18;fill:none;}
+ .pfeil{fill:#14243a;stroke:none;}
+ .rahmen{stroke:#14243a;stroke-width:0.7;fill:none;}
+ .box{stroke:#8fa2bb;stroke-width:0.35;fill:#f7f9fc;}
+ .kurveok{stroke:#0a7a5a;stroke-width:1.0;fill:none;}
+ .kurvebad{stroke:#b03030;stroke-width:1.0;fill:none;stroke-dasharray:3 1.6;}
+ .achse{stroke:#4a5b70;stroke-width:0.4;fill:none;}
+ .gruen{fill:#0a7a5a;} .warn{fill:#b03030;} .sub{fill:#4a5b70;}
+</style></defs>
+<rect width="420.0" height="297.0" fill="#ffffff"/>
+<rect x="10.00" y="10.00" width="400.00" height="277.00" class="rahmen" />
+<text x="16.00" y="20.00" font-size="6.2" text-anchor="start" class="txt" font-weight="bold">Stehbuchse mit Fu&#223;platte &#8212; nachgewiesen aushebbar</text>
+<text x="16.00" y="26.00" font-size="3.1" text-anchor="start" class="sub">Senkrechte Bohrung &#183; ein stehender Kern &#183; das gesamte Bauteil liegt im Oberkasten &#183; Unterkasten bleibt eben</text>
+<text x="404.00" y="20.00" font-size="3.3" text-anchor="end" class="warn" font-weight="bold">VORSCHLAG zu F33</text>
+<line x1="16.00" y1="29.50" x2="404.00" y2="29.50" class="masz"/>
+<text x="88.00" y="42.00" font-size="3.3" text-anchor="middle" class="txt" font-weight="bold">Bauteil Version O &#183; Schnitt durch die Bohrungsachse &#183; 1:1</text>
+<rect x="33.00" y="115.00" width="110.00" height="7.00" class="voll" fill="url(#metall)"/>
+<rect x="71.00" y="75.00" width="8.00" height="40.00" class="voll" fill="url(#metall)"/>
+<path d="M 71.00 115.00 L 46.00 115.00 L 71.00 90.00 Z" class="voll" fill="url(#metall)"/>
+<rect x="97.00" y="75.00" width="8.00" height="40.00" class="voll" fill="url(#metall)"/>
+<path d="M 105.00 115.00 L 130.00 115.00 L 105.00 90.00 Z" class="voll" fill="url(#metall)"/>
+<line x1="88.00" y1="77.00" x2="88.00" y2="119.00" class="mitte"/>
+<line x1="33.00" y1="135.00" x2="143.00" y2="135.00" class="masz"/>
+<path d="M 33.00 135.00 L 35.20 134.23 L 35.20 135.77 Z" class="pfeil"/>
+<path d="M 143.00 135.00 L 140.80 135.77 L 140.80 134.23 Z" class="pfeil"/>
+<text x="88.00" y="133.80" font-size="2.6" text-anchor="middle" class="txt">110</text>
+<line x1="71.00" y1="69.00" x2="105.00" y2="69.00" class="masz"/>
+<path d="M 71.00 69.00 L 73.20 68.23 L 73.20 69.77 Z" class="pfeil"/>
+<path d="M 105.00 69.00 L 102.80 69.77 L 102.80 68.23 Z" class="pfeil"/>
+<text x="88.00" y="67.80" font-size="2.6" text-anchor="middle" class="txt">&#216;34</text>
+<line x1="79.00" y1="62.00" x2="97.00" y2="62.00" class="masz"/>
+<path d="M 79.00 62.00 L 81.20 61.23 L 81.20 62.77 Z" class="pfeil"/>
+<path d="M 97.00 62.00 L 94.80 62.77 L 94.80 61.23 Z" class="pfeil"/>
+<text x="88.00" y="60.80" font-size="2.6" text-anchor="middle" class="txt">&#216;18 &#8212; vom Kern</text>
+<line x1="24.00" y1="75.00" x2="24.00" y2="122.00" class="masz"/>
+<path d="M 24.00 75.00 L 24.77 77.20 L 23.23 77.20 Z" class="pfeil"/>
+<path d="M 24.00 122.00 L 23.23 119.80 L 24.77 119.80 Z" class="pfeil"/>
+<text x="22.40" y="99.50" font-size="2.6" text-anchor="end" class="txt">47</text>
+<line x1="135.00" y1="90.00" x2="135.00" y2="115.00" class="masz"/>
+<path d="M 135.00 90.00 L 135.77 92.20 L 134.23 92.20 Z" class="pfeil"/>
+<path d="M 135.00 115.00 L 134.23 112.80 L 135.77 112.80 Z" class="pfeil"/>
+<text x="136.60" y="103.50" font-size="2.6" text-anchor="start" class="txt">25</text>
+<text x="30.00" y="119.50" font-size="2.6" text-anchor="end" class="txt">7</text>
+<text x="112.00" y="107.00" font-size="2.5" text-anchor="start" class="txt">Rippe 5 mm</text>
+<text x="64.00" y="107.00" font-size="2.5" text-anchor="end" class="txt">R4</text>
+<text x="88.00" y="150.00" font-size="3.3" text-anchor="middle" class="txt" font-weight="bold">Draufsicht &#183; 1:1</text>
+<rect x="33.00" y="150.00" width="110.00" height="36.00" class="voll" fill="url(#metall)"/>
+<rect x="46.00" y="165.50" width="42.00" height="5.00" class="duenn" fill="#c8d6e6"/>
+<rect x="88.00" y="165.50" width="42.00" height="5.00" class="duenn" fill="#c8d6e6"/>
+<circle cx="88.00" cy="168.00" r="17.00" class="voll" fill="#c8d6e6"/>
+<circle cx="88.00" cy="168.00" r="9.00" class="voll" fill="url(#kern)"/>
+<line x1="28.00" y1="168.00" x2="148.00" y2="168.00" class="mitte"/>
+<line x1="88.00" y1="145.00" x2="88.00" y2="191.00" class="mitte"/>
+<line x1="24.00" y1="150.00" x2="24.00" y2="186.00" class="masz"/>
+<path d="M 24.00 150.00 L 24.77 152.20 L 23.23 152.20 Z" class="pfeil"/>
+<path d="M 24.00 186.00 L 23.23 183.80 L 24.77 183.80 Z" class="pfeil"/>
+<text x="22.40" y="169.00" font-size="2.6" text-anchor="end" class="txt">36</text>
+<text x="146.00" y="169.00" font-size="2.5" text-anchor="start" class="sub">2 Rippen</text>
+<text x="237.00" y="42.00" font-size="3.3" text-anchor="middle" class="txt" font-weight="bold">Formaufbau &#183; Schnitt &#183; 1:2</text>
+<rect x="185.50" y="52.00" width="103.00" height="44.00" class="kasten" fill="#eef1f5"/>
+<rect x="185.50" y="96.00" width="103.00" height="44.00" class="kasten" fill="#eef1f5"/>
+<rect x="189.50" y="56.00" width="95.00" height="40.00" class="duenn" fill="url(#sand)"/>
+<rect x="189.50" y="96.00" width="95.00" height="40.00" class="duenn" fill="url(#sand)"/>
+<rect x="209.50" y="92.50" width="55.00" height="3.50" class="voll" fill="url(#metall)"/>
+<rect x="228.50" y="72.50" width="4.00" height="20.00" class="voll" fill="url(#metall)"/>
+<path d="M 228.50 92.50 L 216.00 92.50 L 228.50 80.00 Z" class="voll" fill="url(#metall)"/>
+<rect x="227.50" y="56.00" width="5.00" height="16.50" class="voll" fill="url(#metall)"/>
+<rect x="241.50" y="72.50" width="4.00" height="20.00" class="voll" fill="url(#metall)"/>
+<path d="M 245.50 92.50 L 258.00 92.50 L 245.50 80.00 Z" class="voll" fill="url(#metall)"/>
+<rect x="241.50" y="56.00" width="5.00" height="16.50" class="voll" fill="url(#metall)"/>
+<rect x="232.50" y="56.00" width="9.00" height="47.50" class="voll" fill="url(#kern)"/>
+<rect x="196.50" y="56.00" width="6.00" height="40.00" class="voll" fill="url(#metall)"/>
+<rect x="199.50" y="96.00" width="10.00" height="3.00" class="voll" fill="url(#metall)"/>
+<rect x="259.00" y="56.00" width="2.00" height="36.50" class="voll" fill="url(#metall)"/>
+<line x1="181.50" y1="96.00" x2="292.50" y2="96.00" class="teilung"/>
+<text x="181.50" y="94.20" font-size="2.4" text-anchor="start" class="gruen">Teilungsebene = Plattenunterseite</text>
+<line x1="189.50" y1="105.00" x2="209.50" y2="105.00" class="masz"/>
+<path d="M 189.50 105.00 L 191.70 104.23 L 191.70 105.77 Z" class="pfeil"/>
+<path d="M 209.50 105.00 L 207.30 105.77 L 207.30 104.23 Z" class="pfeil"/>
+<text x="199.50" y="103.80" font-size="2.6" text-anchor="middle" class="txt">40</text>
+<line x1="264.50" y1="105.00" x2="284.50" y2="105.00" class="masz"/>
+<path d="M 264.50 105.00 L 266.70 104.23 L 266.70 105.77 Z" class="pfeil"/>
+<path d="M 284.50 105.00 L 282.30 105.77 L 282.30 104.23 Z" class="pfeil"/>
+<text x="274.50" y="103.80" font-size="2.6" text-anchor="middle" class="txt">40</text>
+<line x1="250.50" y1="56.00" x2="250.50" y2="72.50" class="masz"/>
+<path d="M 250.50 56.00 L 251.27 58.20 L 249.73 58.20 Z" class="pfeil"/>
+<path d="M 250.50 72.50 L 249.73 70.30 L 251.27 70.30 Z" class="pfeil"/>
+<text x="252.10" y="65.25" font-size="2.6" text-anchor="start" class="txt">33</text>
+<line x1="246.50" y1="65.00" x2="249.00" y2="60.00" class="hilf"/>
+<text x="250.60" y="60.90" font-size="2.4" text-anchor="start" class="sub">Ringspeiser &#216;38/&#216;18, offen</text>
+<line x1="237.00" y1="101.00" x2="244.00" y2="109.00" class="hilf"/>
+<text x="245.60" y="109.90" font-size="2.4" text-anchor="start" class="sub">Kern &#216;18 &#8212; unten im Kernlager,</text>
+<text x="245.60" y="113.40" font-size="2.4" text-anchor="start" class="sub">oben im Speiser gef&#252;hrt</text>
+<line x1="209.50" y1="94.50" x2="194.00" y2="109.00" class="hilf"/>
+<text x="195.60" y="109.90" font-size="2.4" text-anchor="start" class="sub">Anschnitt in der</text>
+<text x="195.60" y="113.40" font-size="2.4" text-anchor="start" class="sub">Teilungsebene</text>
+<line x1="260.00" y1="67.00" x2="265.00" y2="74.00" class="hilf"/>
+<text x="266.60" y="74.90" font-size="2.4" text-anchor="start" class="sub">Windpfeife &#216;4</text>
+<text x="358.00" y="42.00" font-size="3.3" text-anchor="middle" class="txt" font-weight="bold">Nachweis: Aushebbarkeit</text>
+<text x="358.00" y="46.50" font-size="2.4" text-anchor="middle" class="sub">Querschnittsfl&#228;che &#252;ber dem Abstand von der Teilung</text>
+<line x1="316.00" y1="128.00" x2="400.00" y2="128.00" class="achse"/>
+<line x1="316.00" y1="128.00" x2="316.00" y2="54.00" class="achse"/>
+<text x="358.00" y="135.50" font-size="2.3" text-anchor="middle" class="sub">Abstand von der Teilungsebene [mm]</text>
+<text x="314.00" y="52.00" font-size="2.3" text-anchor="start" class="sub">A [mm&#178;]</text>
+<line x1="314.80" y1="128.00" x2="316.00" y2="128.00" class="achse"/>
+<text x="314.00" y="129.00" font-size="2.1" text-anchor="end" class="sub">0</text>
+<line x1="314.80" y1="113.20" x2="316.00" y2="113.20" class="achse"/>
+<text x="314.00" y="114.20" font-size="2.1" text-anchor="end" class="sub">1000</text>
+<line x1="314.80" y1="98.40" x2="316.00" y2="98.40" class="achse"/>
+<text x="314.00" y="99.40" font-size="2.1" text-anchor="end" class="sub">2000</text>
+<line x1="314.80" y1="83.60" x2="316.00" y2="83.60" class="achse"/>
+<text x="314.00" y="84.60" font-size="2.1" text-anchor="end" class="sub">3000</text>
+<line x1="314.80" y1="68.80" x2="316.00" y2="68.80" class="achse"/>
+<text x="314.00" y="69.80" font-size="2.1" text-anchor="end" class="sub">4000</text>
+<line x1="314.80" y1="54.00" x2="316.00" y2="54.00" class="achse"/>
+<text x="314.00" y="55.00" font-size="2.1" text-anchor="end" class="sub">5000</text>
+<line x1="316.00" y1="128.00" x2="316.00" y2="129.20" class="achse"/>
+<text x="316.00" y="131.40" font-size="2.1" text-anchor="middle" class="sub">0</text>
+<line x1="332.80" y1="128.00" x2="332.80" y2="129.20" class="achse"/>
+<text x="332.80" y="131.40" font-size="2.1" text-anchor="middle" class="sub">10</text>
+<line x1="349.60" y1="128.00" x2="349.60" y2="129.20" class="achse"/>
+<text x="349.60" y="131.40" font-size="2.1" text-anchor="middle" class="sub">20</text>
+<line x1="366.40" y1="128.00" x2="366.40" y2="129.20" class="achse"/>
+<text x="366.40" y="131.40" font-size="2.1" text-anchor="middle" class="sub">30</text>
+<line x1="383.20" y1="128.00" x2="383.20" y2="129.20" class="achse"/>
+<text x="383.20" y="131.40" font-size="2.1" text-anchor="middle" class="sub">40</text>
+<line x1="400.00" y1="128.00" x2="400.00" y2="129.20" class="achse"/>
+<text x="400.00" y="131.40" font-size="2.1" text-anchor="middle" class="sub">50</text>
+<polyline points="316.00,109.06 316.25,109.06 316.50,109.06 316.76,109.06 317.01,109.06 317.26,109.07 317.51,109.08 317.76,109.08 318.02,109.09 318.27,109.10 318.52,109.11 318.77,109.12 319.02,109.13 319.28,109.15 319.53,109.16 319.78,109.18 320.03,109.19 320.28,109.21 320.54,109.23 320.79,109.25 321.04,109.27 321.29,109.29 321.54,109.32 321.80,109.34 322.05,109.37 322.30,109.39 322.55,109.42 322.80,109.45 323.06,109.48 323.31,109.51 323.56,109.54 323.81,109.58 324.06,109.61 324.32,109.65 324.57,109.68 324.82,109.72 325.07,109.76 325.32,109.80 325.58,109.84 325.83,109.88 326.08,109.93 326.33,109.97 326.58,110.02 326.84,110.07 327.09,110.12 327.34,110.17 327.59,110.22 327.84,110.27 328.10,110.33 328.35,110.38 328.60,110.44 328.85,110.50 329.10,110.56 329.36,110.62 329.61,110.68 329.86,110.74 330.11,110.81 330.36,110.87 330.62,110.94 330.87,111.01 331.12,111.08 331.37,111.15 331.62,111.23 331.88,111.30 332.13,111.38 332.38,111.46 332.63,111.54 332.88,111.62 333.14,111.70 333.39,111.79 333.64,111.88 333.89,111.97 334.14,112.06 334.40,112.15 334.65,112.24 334.90,112.34 335.15,112.43 335.40,112.53 335.66,112.64 335.91,112.74 336.16,112.84 336.41,112.95 336.66,113.06 336.92,113.17 337.17,113.29 337.42,113.40 337.67,113.52 337.92,113.64 338.18,113.77 338.43,113.89 338.68,114.02 338.93,114.15 339.18,114.29 339.44,114.43 339.69,114.56 339.94,114.71 340.19,114.85 340.44,115.00 340.70,115.15 340.95,115.31 341.20,115.47 341.45,115.63 341.70,115.80 341.96,115.97 342.21,116.15 342.46,116.32 342.71,116.51 342.96,116.70 343.22,116.89 343.47,117.09 343.72,117.29 343.97,117.50 344.22,117.72 344.48,117.94 344.73,118.18 344.98,118.41 345.23,118.66 345.48,118.91 345.74,119.18 345.99,119.46 346.24,119.74 346.49,120.04 346.74,120.36 347.00,120.69 347.25,121.04 347.50,121.41 347.75,121.80 348.00,122.23 348.26,122.70 348.51,123.21 348.76,123.79 349.01,124.47 349.26,125.33 349.52,126.66 349.77,125.63 350.02,125.63 350.27,125.63 350.52,125.63 350.78,125.63 351.03,125.63 351.28,125.63 351.53,125.63 351.78,125.63 352.04,125.63 352.29,125.63 352.54,125.63 352.79,125.63 353.04,125.63 353.30,125.63 353.55,125.63 353.80,125.63 354.05,125.63 354.30,125.63 354.56,125.63 354.81,125.63 355.06,125.63 355.31,125.63 355.56,125.63 355.82,125.63 356.07,125.63 356.32,125.63 356.57,125.63 356.82,125.63 357.08,125.63 357.33,125.63 357.58,125.63 357.83,125.63 358.08,125.63 358.34,125.63 358.59,125.63 358.84,125.63 359.09,125.63 359.34,125.63 359.60,125.63 359.85,125.63 360.10,125.63 360.35,125.63 360.60,125.63 360.86,125.63 361.11,125.63 361.36,125.63 361.61,125.63 361.86,125.63 362.12,125.63 362.37,125.63 362.62,125.63 362.87,125.63 363.12,125.63 363.38,125.63 363.63,125.63 363.88,125.63 364.13,125.63 364.38,125.63 364.64,125.63 364.89,125.63 365.14,125.63 365.39,125.63 365.64,125.63 365.90,125.63 366.15,125.63 366.40,125.63 366.65,125.63 366.90,125.63 367.16,125.63 367.41,125.63 367.66,125.63 367.91,125.63 368.16,125.63 368.42,125.63 368.67,125.63 368.92,125.63 369.17,125.63 369.42,125.63 369.68,125.63 369.93,125.63 370.18,125.63 370.43,125.63 370.68,125.63 370.94,125.63 371.19,125.63 371.44,125.63 371.69,125.63 371.94,125.63 372.20,125.63 372.45,125.63 372.70,125.63 372.95,125.63 373.20,125.63 373.46,125.63 373.71,125.63 373.96,125.63 374.21,125.63 374.46,125.63 374.72,125.63 374.97,125.63 375.22,125.63 375.47,125.63 375.72,125.63 375.98,125.63 376.23,125.63 376.48,125.63 376.73,125.63 376.98,125.63 377.24,125.63 377.49,125.63 377.74,125.63 377.99,125.63 378.24,125.63 378.50,125.63 378.75,125.63 379.00,125.63 379.25,125.63 379.50,125.63 379.76,125.63 380.01,125.63 380.26,125.63 380.51,125.63 380.76,125.63 381.02,125.63 381.27,125.63 381.52,125.63 381.77,62.88 382.02,62.88 382.28,62.88 382.53,62.88 382.78,62.88 383.03,62.88 383.28,62.88 383.54,62.88 383.79,62.88 384.04,62.88 384.29,62.88 384.54,62.88 384.80,62.88 385.05,62.88 385.30,62.88 385.55,62.88 385.80,62.88 386.06,62.88 386.31,62.88 386.56,62.88 386.81,62.88 387.06,62.88 387.32,62.88 387.57,62.88 387.82,62.88 388.07,62.88 388.32,62.88 388.58,62.88 388.83,62.88 389.08,62.88 389.33,62.88 389.58,62.88 389.84,62.88 390.09,62.88 390.34,62.88 390.59,62.88 390.84,62.88 391.10,62.88 391.35,62.88 391.60,62.88" class="kurvebad"/>
+<polyline points="316.00,69.39 316.26,69.39 316.53,69.39 316.79,69.39 317.05,69.39 317.32,69.39 317.58,69.39 317.84,69.39 318.11,69.39 318.37,69.39 318.63,69.39 318.90,69.39 319.16,69.39 319.42,69.39 319.68,69.39 319.95,69.39 320.21,69.39 320.47,69.39 320.74,69.39 321.00,69.39 321.26,69.39 321.53,69.39 321.79,69.39 322.05,69.39 322.32,69.39 322.58,69.39 322.84,69.39 323.11,69.39 323.37,69.39 323.63,69.39 323.90,69.39 324.16,69.39 324.42,69.39 324.69,69.39 324.95,69.39 325.21,69.39 325.48,69.39 325.74,69.39 326.00,69.39 326.26,69.39 326.53,69.39 326.79,69.39 327.05,69.39 327.32,69.39 327.58,69.39 327.84,110.87 328.11,110.89 328.37,110.92 328.63,110.94 328.90,110.96 329.16,110.99 329.42,111.01 329.69,111.03 329.95,111.06 330.21,111.08 330.48,111.10 330.74,111.13 331.00,111.15 331.27,111.17 331.53,111.19 331.79,111.22 332.06,111.24 332.32,111.26 332.58,111.29 332.84,111.31 333.11,111.33 333.37,111.36 333.63,111.38 333.90,111.40 334.16,111.43 334.42,111.45 334.69,111.47 334.95,111.50 335.21,111.52 335.48,111.54 335.74,111.57 336.00,111.59 336.27,111.61 336.53,111.64 336.79,111.66 337.06,111.68 337.32,111.70 337.58,111.73 337.85,111.75 338.11,111.77 338.37,111.80 338.64,111.82 338.90,111.84 339.16,111.87 339.42,111.89 339.69,111.91 339.95,111.94 340.21,111.96 340.48,111.98 340.74,112.01 341.00,112.03 341.27,112.05 341.53,112.08 341.79,112.10 342.06,112.12 342.32,112.15 342.58,112.17 342.85,112.19 343.11,112.22 343.37,112.24 343.64,112.26 343.90,112.28 344.16,112.31 344.43,112.33 344.69,112.35 344.95,112.38 345.22,112.40 345.48,112.42 345.74,112.45 346.00,112.47 346.27,112.49 346.53,112.52 346.79,112.54 347.06,112.56 347.32,112.59 347.58,112.61 347.85,112.63 348.11,112.66 348.37,112.68 348.64,112.70 348.90,112.73 349.16,112.75 349.43,112.77 349.69,112.79 349.95,112.82 350.22,112.84 350.48,112.86 350.74,112.89 351.01,112.91 351.27,112.93 351.53,112.96 351.80,112.98 352.06,113.00 352.32,113.03 352.58,113.05 352.85,113.07 353.11,113.10 353.37,113.12 353.64,113.14 353.90,113.17 354.16,113.19 354.43,113.21 354.69,113.24 354.95,113.26 355.22,113.28 355.48,113.30 355.74,113.33 356.01,113.35 356.27,113.37 356.53,113.40 356.80,113.42 357.06,113.44 357.32,113.47 357.59,113.49 357.85,113.51 358.11,113.54 358.38,113.56 358.64,113.58 358.90,113.61 359.16,113.63 359.43,113.65 359.69,113.68 359.95,113.70 360.22,113.72 360.48,113.75 360.74,113.77 361.01,113.79 361.27,113.81 361.53,113.84 361.80,113.86 362.06,113.88 362.32,113.91 362.59,113.93 362.85,113.95 363.11,113.98 363.38,114.00 363.64,114.02 363.90,114.05 364.17,114.07 364.43,114.09 364.69,114.12 364.96,114.14 365.22,114.16 365.48,114.19 365.74,114.21 366.01,114.23 366.27,114.26 366.53,114.28 366.80,114.30 367.06,114.32 367.32,114.35 367.59,114.37 367.85,114.39 368.11,114.42 368.38,114.44 368.64,114.46 368.90,114.49 369.17,114.51 369.43,114.53 369.69,114.56 369.96,114.56 370.22,114.56 370.48,114.56 370.75,114.56 371.01,114.56 371.27,114.56 371.54,114.56 371.80,114.56 372.06,114.56 372.32,114.56 372.59,114.56 372.85,114.56 373.11,114.56 373.38,114.56 373.64,114.56 373.90,114.56 374.17,114.56 374.43,114.56 374.69,114.56 374.96,114.56 375.22,114.56 375.48,114.56 375.75,114.56 376.01,114.56 376.27,114.56 376.54,114.56 376.80,114.56 377.06,114.56 377.33,114.56 377.59,114.56 377.85,114.56 378.12,114.56 378.38,114.56 378.64,114.56 378.90,114.56 379.17,114.56 379.43,114.56 379.69,114.56 379.96,114.56 380.22,114.56 380.48,114.56 380.75,114.56 381.01,114.56 381.27,114.56 381.54,114.56 381.80,114.56 382.06,114.56 382.33,114.56 382.59,114.56 382.85,114.56 383.12,114.56 383.38,114.56 383.64,114.56 383.91,114.56 384.17,114.56 384.43,114.56 384.70,114.56 384.96,114.56 385.22,114.56 385.48,114.56 385.75,114.56 386.01,114.56 386.27,114.56 386.54,114.56 386.80,114.56 387.06,114.56 387.33,114.56 387.59,114.56 387.85,114.56 388.12,114.56 388.38,114.56 388.64,114.56 388.91,114.56 389.17,114.56 389.43,114.56 389.70,114.56 389.96,114.56 390.22,114.56 390.49,114.56 390.75,114.56 391.01,114.56 391.28,114.56 391.54,114.56 391.80,114.56 392.06,114.56 392.33,114.56 392.59,114.56 392.85,114.56 393.12,114.56 393.38,114.56 393.64,114.56 393.91,114.56 394.17,114.56 394.43,114.56 394.70,114.56 394.96,114.56" class="kurveok"/>
+<line x1="334.48" y1="61.40" x2="340.48" y2="61.40" class="kurveok"/>
+<text x="341.98" y="62.40" font-size="2.35" text-anchor="start" class="gruen" font-weight="bold">neu: monoton fallend &#8658; ziehbar</text>
+<line x1="334.48" y1="68.80" x2="340.48" y2="68.80" class="kurvebad"/>
+<text x="341.98" y="69.80" font-size="2.35" text-anchor="start" class="warn" font-weight="bold">alter Lagerbock: springt am Ende</text>
+<text x="341.98" y="76.46" font-size="2.35" text-anchor="start" class="warn">von 160 auf 4400 mm&#178; &#8658; Sandausbruch</text>
+<rect x="20.00" y="196.00" width="152.00" height="42.00" class="box" />
+<text x="23.50" y="202.50" font-size="3.2" text-anchor="start" class="txt" font-weight="bold">Die Regel, die ich vorher falsch hatte</text>
+<text x="23.50" y="208.50" font-size="2.6" text-anchor="start" class="txt" font-weight="bold">Nicht &#8222;keine konkave Fl&#228;che&#8220; &#8212; sondern:</text>
+<text x="23.50" y="212.35" font-size="2.6" text-anchor="start" class="txt">Jeder Schnitt parallel zur Teilungsebene muss in der</text>
+<text x="23.50" y="216.20" font-size="2.6" text-anchor="start" class="txt">Projektion des n&#228;her an der Teilung liegenden Schnitts</text>
+<text x="23.50" y="220.05" font-size="2.6" text-anchor="start" class="txt">liegen. Die Querschnittsfl&#228;che darf mit dem Abstand</text>
+<text x="23.50" y="223.90" font-size="2.6" text-anchor="start" class="txt">von der Teilung nur abnehmen, nie zunehmen.</text>
+<text x="23.50" y="227.75" font-size="2.6" text-anchor="start" class="txt">Sonst muss beim Ziehen ein breiter Modellteil durch</text>
+<text x="23.50" y="231.60" font-size="2.6" text-anchor="start" class="txt">eine engere Sand&#246;ffnung &#8212; der Sand reisst aus.</text>
+<text x="23.50" y="235.45" font-size="2.6" text-anchor="start" class="txt" font-weight="bold">Genau daran sind beide Vorentw&#252;rfe gescheitert.</text>
+<rect x="180.00" y="146.00" width="124.00" height="92.00" class="box" />
+<text x="183.50" y="152.50" font-size="3.2" text-anchor="start" class="txt" font-weight="bold">Formfolge (so wird es gemacht)</text>
+<text x="183.50" y="158.50" font-size="2.6" text-anchor="start" class="txt" font-weight="bold">1  Modell auf das Formbrett stellen</text>
+<text x="183.50" y="162.35" font-size="2.6" text-anchor="start" class="txt">Es steht auf dem unteren Kernmarken-Zapfen,</text>
+<text x="183.50" y="166.20" font-size="2.6" text-anchor="start" class="txt">die Plattenunterseite liegt 15 mm &#252;ber dem Brett.</text>
+<text x="183.50" y="170.05" font-size="2.6" text-anchor="start" class="txt" font-weight="bold">2  Unterkasten anformen, abstreifen</text>
+<text x="183.50" y="173.90" font-size="2.6" text-anchor="start" class="txt">Ergebnis: eine ebene Sandfl&#228;che mit einem</text>
+<text x="183.50" y="177.75" font-size="2.6" text-anchor="start" class="txt">einzigen Loch &#8212; dem Kernlager &#216;18 &#215; 15.</text>
+<text x="183.50" y="181.60" font-size="2.6" text-anchor="start" class="txt" font-weight="bold">3  Querlauf und Anschnitt einschneiden</text>
+<text x="183.50" y="185.45" font-size="2.6" text-anchor="start" class="txt">beides liegt in der ebenen Teilungsfl&#228;che.</text>
+<text x="183.50" y="189.30" font-size="2.6" text-anchor="start" class="txt" font-weight="bold">4  Oberkasten &#252;ber das Modell anformen</text>
+<text x="183.50" y="193.15" font-size="2.6" text-anchor="start" class="txt">mit Einguss-, Speiser- und Windpfeifenstift.</text>
+<text x="183.50" y="197.00" font-size="2.6" text-anchor="start" class="txt" font-weight="bold">5  Oberkasten abheben, Modell abnehmen</text>
+<text x="183.50" y="200.85" font-size="2.6" text-anchor="start" class="txt">Das Modell wandert dabei relativ zum Ober-</text>
+<text x="183.50" y="204.70" font-size="2.6" text-anchor="start" class="txt">kasten nach unten &#8212; jeder Querschnitt wird</text>
+<text x="183.50" y="208.55" font-size="2.6" text-anchor="start" class="txt">kleiner, nichts reisst aus.</text>
+<text x="183.50" y="212.40" font-size="2.6" text-anchor="start" class="txt" font-weight="bold">6  Kern einsetzen, schliessen, giessen</text>
+<text x="183.50" y="216.25" font-size="2.6" text-anchor="start" class="txt">Der Kern sitzt unten im Kernlager und wird</text>
+<text x="183.50" y="220.10" font-size="2.6" text-anchor="start" class="txt">oben im Speiser gef&#252;hrt &#8212; gegen Auftrieb.</text>
+<rect x="312.00" y="146.00" width="93.00" height="92.00" class="box" />
+<text x="315.50" y="152.50" font-size="3.2" text-anchor="start" class="txt" font-weight="bold">Zahlen zum Vorschlag</text>
+<text x="315.50" y="158.50" font-size="2.6" text-anchor="start" class="txt" font-weight="bold">Bauteil</text>
+<text x="315.50" y="162.35" font-size="2.6" text-anchor="start" class="txt">Fu&#223;platte 110 &#215; 36 &#215; 7</text>
+<text x="315.50" y="166.20" font-size="2.6" text-anchor="start" class="txt">Nabe &#216;34 / Bohrung &#216;18, h = 7 &#8230; 47</text>
+<text x="315.50" y="170.05" font-size="2.6" text-anchor="start" class="txt">2 Rippen 5 mm, 25 &#215; 25</text>
+<text x="315.50" y="173.90" font-size="2.6" text-anchor="start" class="txt">Kehlen R4, Formschr&#228;gen 2&#176;</text>
+<text x="315.50" y="177.75" font-size="2.6" text-anchor="start" class="txt">V = 57 cm&#179; &#8594; m &#8776; 415 g Sn</text>
+<text x="315.50" y="181.60" font-size="2.6" text-anchor="start" class="txt" font-weight="bold">Kasten 190 &#215; 90 (vorhanden)</text>
+<text x="315.50" y="185.45" font-size="2.6" text-anchor="start" class="txt">40 mm Sand stirnseitig, 27 mm seitlich</text>
+<text x="315.50" y="189.30" font-size="2.6" text-anchor="start" class="txt" font-weight="bold">Speisung</text>
+<text x="315.50" y="193.15" font-size="2.6" text-anchor="start" class="txt">Modul Nabe 3,64 &#183; Platte 3,06 mm</text>
+<text x="315.50" y="197.00" font-size="2.6" text-anchor="start" class="txt">Ringspeiser &#216;38/&#216;18: M = 5,00 mm</text>
+<text x="315.50" y="200.85" font-size="2.6" text-anchor="start" class="txt">gefordert &#8805; 1,2 &#183; 3,64 = 4,36 mm &#10003;</text>
+<text x="315.50" y="204.70" font-size="2.6" text-anchor="start" class="txt" font-weight="bold">Kern</text>
+<text x="315.50" y="208.55" font-size="2.6" text-anchor="start" class="txt">&#216;18, Auftrieb F = 0,65 N (66 g)</text>
+<text x="315.50" y="212.40" font-size="2.6" text-anchor="start" class="txt">unten Kernlager 15 mm, oben im Speiser</text>
+<text x="315.50" y="216.25" font-size="2.6" text-anchor="start" class="txt" font-weight="bold">Anforderungen</text>
+<text x="315.50" y="220.10" font-size="2.6" text-anchor="start" class="txt">A2 Stehbuchse = reales Maschinenelement</text>
+<text x="315.50" y="223.95" font-size="2.6" text-anchor="start" class="txt">A3 Bohrung nur mit Kern herstellbar</text>
+<text x="315.50" y="227.80" font-size="2.6" text-anchor="start" class="txt">A4 Modell einteilig &#8594; 3D-Druck einfach</text>
+<rect x="20.00" y="244.00" width="385.00" height="41.00" class="box" />
+<text x="23.50" y="250.50" font-size="3.2" text-anchor="start" class="txt" font-weight="bold">Version F gegen&#252;ber Version O &#8212; E7 bleibt unver&#228;ndert g&#252;ltig</text>
+<text x="23.50" y="256.50" font-size="2.55" text-anchor="start" class="txt" font-weight="bold">Rippe 5 &#8594; 2,5 mm  &#183;  Kehlen R4 &#8594; R0 scharf  &#183;  Nabe &#216;34 &#8594; &#216;42 (gr&#246;&#223;ere Anh&#228;ufung)  &#183;  Speiser vorhanden &#8594; keiner  &#183;  Anschnitt in der Teilung &#8594; von oben  &#183;  280 &#176;C &#8594; 240 &#176;C</text>
+<text x="23.50" y="261.10" font-size="2.55" text-anchor="start" class="txt">Erwartete Fehlerbilder an V-F: Sauglunker in der Nabe und im Knoten Nabe/Platte &#183; Kaltlauf in der 2,5-mm-Rippe &#183; Warmriss an der scharfen Kehle &#183; Gasblasen ohne Entl&#252;ftung.</text>
+<text x="23.50" y="265.70" font-size="2.55" text-anchor="start" class="txt" font-weight="bold">Offen und ehrlich benannt: Die Fu&#223;platte (M = 3,06 mm) h&#228;ngt speisungstechnisch am Knoten zur Nabe. Ob der Ringspeiser sie mitspeist, ist im Vorversuch zu messen, nicht zu behaupten.</text>
+<text x="23.50" y="270.30" font-size="2.55" text-anchor="start" class="txt">Ebenfalls offen: Schwindma&#223; (V-S1 / F10), Kernmarkenspiel, Formschr&#228;genrichtung im CAD, Freigabe durch Team (F33) und Prof. P&#228;hler.</text>
+</svg>

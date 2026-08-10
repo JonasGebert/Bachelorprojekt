@@ -6,7 +6,7 @@ tags:
   - register
   - offene-frage
 erstellt: 2026-07-04
-aktualisiert: 2026-08-07
+aktualisiert: 2026-08-10
 ---
 
 # Offene Fragen
@@ -31,9 +31,19 @@ aktualisiert: 2026-08-07
 | F16 | Gruppengröße im FtT-L? | Versuchsskript, Rollenverteilung | mittel |
 | F17 | **Konflikt A4:** Aufgabenstellung verlangt Konstruktion+Fertigung der Formkästen — vorhandene Kästen nutzen = Abweichung. Mit Prof. Pähler klären (ggf. „Nachkonstruktion/Dokumentation der vorhandenen Kästen" als Ersatzleistung) | Bewertung des Projekts | **hoch** |
 | F18 | Temperaturmessung: Einstech-Thermoelement statt IR-Pyrometer? (Emissionsgrad blanker Sn-Schmelze niedrig/instabil → IR unzuverlässig [Fachwissen – prüfen]) | Beschaffung | hoch |
-| F19 | Innenmaße/Zustand der vorhandenen Formkästen (vermessen!) → begrenzt Bauteil- und Gießsystemgröße | bauteil_konzept, CAD | **hoch** |
 | F10 | Schwindmaß Reinzinn real | V-S1 | mittel |
 | F13 | Zeitbedarf Gesamtdurchlauf ≤ 3 h inkl. Theorie/Nachbesprechung? | V-Z1 Generalprobe | hoch |
+| F30 | Kernlänge: [[Bauteilkonzept]] nennt „ca. 50 mm", aus Nabe 24 mm + 2 × 12 mm Kernmarke folgen aber 48 mm. Sollmaß festlegen (bestimmt Kernkasten und Kernlager gemeinsam) | CAD, [[Kernkasten]], [[Modellbau]] | mittel |
+| F33 | **Bauteilentscheidung.** Riemenscheibe und Lagerbock sind beide nicht aushebbar (Querschnittsfläche nimmt mit dem Abstand von der Teilung zu → Sandausbruch, Nachweis in `tools/zeichnungen/check_aushebbarkeit.py`). Vorschlag: **Stehbuchse mit Fußplatte**, senkrechte Bohrung, stehender Kern, Bauteil komplett im Oberkasten, einteiliges Modell → [[Bauteilkonzept]]. **Blockiert das gesamte CAD** | Modellbau, Kernkasten, Vorversuche | **sehr hoch** |
+| F32 | Speiserlage Version O: „über der Nabe" war bei liegender Achse geometrisch nicht speisungsfähig (nur Ø 6 → M = 1,5 mm statt ≥ 3,2 mm). **Wird mit F33 gegenstandslos**, sobald die Stehbuchse beschlossen ist — dort sitzt der Ringspeiser Ø 38/Ø 18 direkt über der Nabe (M = 5,00 mm ✓) | hängt an F33 | niedrig |
+| F31 | Nabenlänge 24 mm > Kranzbreite 20 mm → Nabe steht je Seite 2 mm vor. Konstruktiv gewollt (Nabenauflage) oder soll der Kranz auf 24 mm verbreitert werden? | CAD, Massen-/Speiserabschätzung | mittel |
+
+## Beantwortet (10.08.2026, Team)
+
+| ID | Frage | Antwort |
+|---|---|---|
+| F19 | Innenmaße/Führung/Zustand der vorhandenen Formkästen | Je Hälfte: Breite 90 mm, Länge 190 mm, Höhe 80 mm (Gliedermaßstab, ± 1 mm, gemessen 10.08.2026, Fynn Barmwater). Führung: Stifte. Zustand: gut. Skizze/Foto und Messschieber-Kontrolle der Breite stehen in TASK-016 noch aus |
+| F29 | Passt Ø 70 mm Kranz ([[Bauteilkonzept]]) in den vermessenen Kasten (F19)? | **Ja, bei richtiger Orientierung:** Scheibenebene (Ø 70) in die 190-mm-Länge legen, die **Rotationsachse also quer, entlang der 90-mm-Breite** → radial 60 mm (Länge) bzw. 45 mm (Höhe) Sandumhüllung statt 10 mm. *(Formulierungskorrektur 10.08.2026: die ursprüngliche Fassung „Achse entlang der 190-mm-Länge" widersprach den eigenen Zahlen; die Zahlen 60/45/20 mm waren und sind richtig.)* Kein Durchmesser-Redesign nötig. Reine Auslegungsentscheidung des Teams, keine Abweichung von der Aufgabenstellung → keine Rücksprache mit Prof. Pähler nötig (anders als F17). Axiale Umhüllung an den Kernmarken (≈ 20 mm/Seite) bleibt unter der 30–50-mm-Faustregel — im ersten Vorversuch praktisch verifizieren |
 
 ## Beantwortet (05.08.2026, Team)
 

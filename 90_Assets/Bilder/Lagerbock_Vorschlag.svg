@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="420.0mm" height="297.0mm" viewBox="0 0 420.0 297.0">
+<defs>
+<pattern id="metall" width="2.4" height="2.4" patternTransform="rotate(45)" patternUnits="userSpaceOnUse">
+  <rect width="2.4" height="2.4" fill="#dce6f2"/><line x1="0" y1="0" x2="0" y2="2.4" stroke="#2b5c96" stroke-width="0.28"/>
+</pattern>
+<pattern id="sand" width="3.0" height="3.0" patternUnits="userSpaceOnUse">
+  <rect width="3.0" height="3.0" fill="#f3ece1"/>
+  <circle cx="0.7" cy="0.7" r="0.22" fill="#c2ab8c"/><circle cx="2.2" cy="2.1" r="0.22" fill="#c2ab8c"/>
+</pattern>
+<pattern id="kern" width="2.4" height="2.4" patternUnits="userSpaceOnUse">
+  <rect width="2.4" height="2.4" fill="#f6e2a8"/>
+  <circle cx="0.6" cy="0.6" r="0.24" fill="#c9a63c"/><circle cx="1.8" cy="1.8" r="0.24" fill="#c9a63c"/>
+</pattern>
+<style>
+ text{font-family:"DejaVu Sans",Arial,sans-serif;fill:#14243a;}
+ .voll{stroke:#14243a;stroke-width:0.5;fill:none;}
+ .duenn{stroke:#14243a;stroke-width:0.28;fill:none;}
+ .verdeckt{stroke:#14243a;stroke-width:0.3;fill:none;stroke-dasharray:2.5 1.5;}
+ .kasten{stroke:#14243a;stroke-width:0.7;fill:none;}
+ .mitte{stroke:#b03030;stroke-width:0.25;fill:none;stroke-dasharray:7 1.4 1.1 1.4;}
+ .teilung{stroke:#0a7a5a;stroke-width:0.7;fill:none;}
+ .masz{stroke:#14243a;stroke-width:0.25;fill:none;}
+ .hilf{stroke:#14243a;stroke-width:0.18;fill:none;}
+ .pfeil{fill:#14243a;stroke:none;}
+ .rahmen{stroke:#14243a;stroke-width:0.7;fill:none;}
+ .box{stroke:#8fa2bb;stroke-width:0.35;fill:#f7f9fc;}
+ .gruen{fill:#0a7a5a;} .warn{fill:#b03030;} .sub{fill:#4a5b70;}
+</style></defs>
+<rect width="420.0" height="297.0" fill="#ffffff"/>
+<rect x="10.00" y="10.00" width="400.00" height="277.00" class="rahmen" />
+<text x="16.00" y="20.00" font-size="6.2" text-anchor="start" class="txt" font-weight="bold">Lagerbock (Stehlager) &#8212; Bauteilvorschlag statt Riemenscheibe</text>
+<text x="16.00" y="26.00" font-size="3.1" text-anchor="start" class="sub">Hinterschnittfrei bei ebener Teilung &#183; ein Kern &#183; passt in die vorhandenen Formk&#228;sten 190 &#215; 90 &#215; 80/80 mm</text>
+<text x="404.00" y="20.00" font-size="3.3" text-anchor="end" class="warn" font-weight="bold">VORSCHLAG zu F33 &#8212; Team entscheidet</text>
+<line x1="16.00" y1="29.50" x2="404.00" y2="29.50" class="masz"/>
+<text x="62.00" y="44.00" font-size="3.4" text-anchor="middle" class="txt" font-weight="bold">Bauteil Version O &#183; Vorderansicht</text>
+<text x="62.00" y="48.50" font-size="2.6" text-anchor="middle" class="sub">Blick in Richtung der Bohrungsachse &#183; 1:1</text>
+<rect x="40.00" y="116.00" width="44.00" height="6.00" class="voll" fill="url(#metall)"/>
+<rect x="59.50" y="97.00" width="5.00" height="19.00" class="voll" fill="url(#metall)"/>
+<circle cx="62.00" cy="77.00" r="20.00" class="voll" fill="url(#metall)"/>
+<circle cx="62.00" cy="77.00" r="10.00" class="voll" fill="#ffffff"/>
+<line x1="35.00" y1="77.00" x2="89.00" y2="77.00" class="mitte"/>
+<line x1="62.00" y1="50.00" x2="62.00" y2="129.00" class="mitte"/>
+<line x1="40.00" y1="133.00" x2="84.00" y2="133.00" class="masz"/>
+<path d="M 40.00 133.00 L 42.20 132.23 L 42.20 133.77 Z" class="pfeil"/>
+<path d="M 84.00 133.00 L 81.80 133.77 L 81.80 132.23 Z" class="pfeil"/>
+<text x="62.00" y="131.80" font-size="2.6" text-anchor="middle" class="txt">44</text>
+<line x1="27.00" y1="57.00" x2="27.00" y2="122.00" class="masz"/>
+<path d="M 27.00 57.00 L 27.77 59.20 L 26.23 59.20 Z" class="pfeil"/>
+<path d="M 27.00 122.00 L 26.23 119.80 L 27.77 119.80 Z" class="pfeil"/>
+<text x="25.40" y="90.50" font-size="2.6" text-anchor="end" class="txt">65</text>
+<line x1="34.00" y1="77.00" x2="34.00" y2="122.00" class="masz"/>
+<path d="M 34.00 77.00 L 34.77 79.20 L 33.23 79.20 Z" class="pfeil"/>
+<path d="M 34.00 122.00 L 33.23 119.80 L 34.77 119.80 Z" class="pfeil"/>
+<text x="32.40" y="100.50" font-size="2.6" text-anchor="end" class="txt">45</text>
+<line x1="76.10" y1="62.90" x2="89.00" y2="52.00" class="hilf"/>
+<text x="90.00" y="51.50" font-size="2.8" text-anchor="start" class="txt">&#216;40</text>
+<line x1="69.10" y1="84.10" x2="89.00" y2="93.00" class="hilf"/>
+<text x="90.00" y="94.00" font-size="2.8" text-anchor="start" class="txt">&#216;20 &#8212; vom Kern</text>
+<text x="67.50" y="108.00" font-size="2.6" text-anchor="start" class="txt">Rippe 5</text>
+<text x="87.00" y="120.00" font-size="2.6" text-anchor="start" class="txt">Platte 6</text>
+<text x="96.00" y="150.00" font-size="3.4" text-anchor="middle" class="txt" font-weight="bold">Schnitt A&#8211;A &#183; durch die Bohrungsachse</text>
+<text x="96.00" y="154.50" font-size="2.6" text-anchor="middle" class="sub">Kern eingezeichnet, mit Kernmarken &#183; 1:1</text>
+<rect x="46.00" y="234.00" width="100.00" height="6.00" class="voll" fill="url(#metall)"/>
+<rect x="80.00" y="215.00" width="32.00" height="19.00" class="voll" fill="url(#metall)"/>
+<rect x="80.00" y="175.00" width="32.00" height="10.00" class="voll" fill="url(#metall)"/>
+<rect x="80.00" y="205.00" width="32.00" height="10.00" class="voll" fill="url(#metall)"/>
+<rect x="66.00" y="185.00" width="60.00" height="20.00" class="voll" fill="url(#kern)"/>
+<line x1="80.00" y1="185.00" x2="80.00" y2="205.00" class="verdeckt"/>
+<line x1="112.00" y1="185.00" x2="112.00" y2="205.00" class="verdeckt"/>
+<line x1="59.00" y1="195.00" x2="133.00" y2="195.00" class="mitte"/>
+<line x1="46.00" y1="251.00" x2="146.00" y2="251.00" class="masz"/>
+<path d="M 46.00 251.00 L 48.20 250.23 L 48.20 251.77 Z" class="pfeil"/>
+<path d="M 146.00 251.00 L 143.80 251.77 L 143.80 250.23 Z" class="pfeil"/>
+<text x="96.00" y="249.80" font-size="2.6" text-anchor="middle" class="txt">100</text>
+<line x1="80.00" y1="169.00" x2="112.00" y2="169.00" class="masz"/>
+<path d="M 80.00 169.00 L 82.20 168.23 L 82.20 169.77 Z" class="pfeil"/>
+<path d="M 112.00 169.00 L 109.80 169.77 L 109.80 168.23 Z" class="pfeil"/>
+<text x="96.00" y="167.80" font-size="2.6" text-anchor="middle" class="txt">32</text>
+<line x1="66.00" y1="162.00" x2="126.00" y2="162.00" class="masz"/>
+<path d="M 66.00 162.00 L 68.20 161.23 L 68.20 162.77 Z" class="pfeil"/>
+<path d="M 126.00 162.00 L 123.80 162.77 L 123.80 161.23 Z" class="pfeil"/>
+<text x="96.00" y="160.80" font-size="2.6" text-anchor="middle" class="txt">Kern 60</text>
+<line x1="66.00" y1="182.00" x2="80.00" y2="182.00" class="masz"/>
+<path d="M 66.00 182.00 L 68.20 181.23 L 68.20 182.77 Z" class="pfeil"/>
+<path d="M 80.00 182.00 L 77.80 182.77 L 77.80 181.23 Z" class="pfeil"/>
+<text x="73.00" y="180.80" font-size="2.6" text-anchor="middle" class="txt">14</text>
+<text x="129.00" y="196.00" font-size="2.4" text-anchor="start" class="sub">Kernmarke</text>
+<text x="43.00" y="238.00" font-size="2.6" text-anchor="end" class="txt">6</text>
+<text x="210.00" y="44.00" font-size="3.4" text-anchor="middle" class="txt" font-weight="bold">Formaufbau &#183; Schnitt quer zur Achse</text>
+<text x="210.00" y="48.50" font-size="2.6" text-anchor="middle" class="sub">Ma&#223;stab 1:2</text>
+<rect x="183.50" y="52.00" width="53.00" height="44.00" class="kasten" fill="#eef1f5"/>
+<rect x="183.50" y="96.00" width="53.00" height="44.00" class="kasten" fill="#eef1f5"/>
+<rect x="187.50" y="56.00" width="45.00" height="40.00" class="duenn" fill="url(#sand)"/>
+<rect x="187.50" y="96.00" width="45.00" height="40.00" class="duenn" fill="url(#sand)"/>
+<rect x="199.00" y="115.50" width="22.00" height="3.00" class="voll" fill="url(#metall)"/>
+<rect x="208.75" y="106.00" width="2.50" height="9.50" class="voll" fill="url(#metall)"/>
+<circle cx="210.00" cy="96.00" r="10.00" class="voll" fill="url(#metall)"/>
+<circle cx="210.00" cy="96.00" r="5.00" class="voll" fill="url(#kern)"/>
+<rect x="205.00" y="56.00" width="10.00" height="30.00" class="voll" fill="url(#metall)"/>
+<rect x="220.00" y="94.50" width="4.50" height="3.00" class="voll" fill="url(#metall)"/>
+<line x1="179.50" y1="96.00" x2="240.50" y2="96.00" class="teilung"/>
+<text x="179.50" y="94.20" font-size="2.4" text-anchor="start" class="gruen">Teilungsebene</text>
+<line x1="192.00" y1="56.00" x2="192.00" y2="86.00" class="masz"/>
+<path d="M 192.00 56.00 L 192.77 58.20 L 191.23 58.20 Z" class="pfeil"/>
+<path d="M 192.00 86.00 L 191.23 83.80 L 192.77 83.80 Z" class="pfeil"/>
+<text x="190.40" y="72.00" font-size="2.6" text-anchor="end" class="txt">60</text>
+<line x1="192.00" y1="118.50" x2="192.00" y2="136.00" class="masz"/>
+<path d="M 192.00 118.50 L 192.77 120.70 L 191.23 120.70 Z" class="pfeil"/>
+<path d="M 192.00 136.00 L 191.23 133.80 L 192.77 133.80 Z" class="pfeil"/>
+<text x="190.40" y="128.25" font-size="2.6" text-anchor="end" class="txt">35</text>
+<line x1="187.50" y1="112.00" x2="200.00" y2="112.00" class="masz"/>
+<path d="M 187.50 112.00 L 189.70 111.23 L 189.70 112.77 Z" class="pfeil"/>
+<path d="M 200.00 112.00 L 197.80 112.77 L 197.80 111.23 Z" class="pfeil"/>
+<text x="193.75" y="110.80" font-size="2.6" text-anchor="middle" class="txt">25</text>
+<text x="210.00" y="53.00" font-size="2.4" text-anchor="middle" class="sub">Speiser &#216;20, offen</text>
+<rect x="195.50" y="95.00" width="4.50" height="2.00" class="voll" fill="url(#metall)"/>
+<text x="225.50" y="94.50" font-size="2.4" text-anchor="start" class="sub">Anschnitt</text>
+<text x="194.50" y="94.50" font-size="2.4" text-anchor="end" class="sub">Windpfeife</text>
+<text x="320.00" y="44.00" font-size="3.4" text-anchor="middle" class="txt" font-weight="bold">Draufsicht auf die Teilungsebene</text>
+<text x="320.00" y="48.50" font-size="2.6" text-anchor="middle" class="sub">Unterkasten, Gie&#223;system &#183; 1:2</text>
+<rect x="268.50" y="69.50" width="103.00" height="53.00" class="kasten" fill="#eef1f5"/>
+<rect x="272.50" y="73.50" width="95.00" height="45.00" class="duenn" fill="url(#sand)"/>
+<rect x="295.00" y="85.00" width="50.00" height="22.00" class="verdeckt" />
+<rect x="312.00" y="86.00" width="16.00" height="20.00" class="voll" fill="url(#metall)"/>
+<rect x="305.00" y="91.00" width="7.00" height="10.00" class="voll" fill="url(#kern)"/>
+<rect x="328.00" y="91.00" width="7.00" height="10.00" class="voll" fill="url(#kern)"/>
+<rect x="285.00" y="108.50" width="35.00" height="4.00" class="voll" fill="url(#metall)"/>
+<rect x="318.50" y="106.00" width="3.00" height="4.50" class="voll" fill="url(#metall)"/>
+<circle cx="285.00" cy="110.50" r="2.50" class="voll" fill="url(#metall)"/>
+<circle cx="320.00" cy="84.50" r="1.00" class="voll" fill="url(#metall)"/>
+<rect x="319.00" y="84.50" width="2.00" height="1.50" class="voll" fill="url(#metall)"/>
+<line x1="268.50" y1="96.00" x2="371.50" y2="96.00" class="mitte"/>
+<line x1="285.00" y1="113.50" x2="285.00" y2="127.00" class="hilf"/>
+<text x="299.00" y="130.00" font-size="2.4" text-anchor="middle" class="sub">Einguss &#216;10 senkrecht + Querlauf in der Teilungsebene</text>
+<line x1="321.50" y1="108.50" x2="333.00" y2="125.00" class="hilf"/>
+<text x="333.50" y="126.00" font-size="2.4" text-anchor="start" class="sub">Anschnitt &#216;6</text>
+<line x1="321.00" y1="84.50" x2="330.00" y2="66.00" class="hilf"/>
+<text x="330.50" y="66.00" font-size="2.4" text-anchor="start" class="sub">Windpfeife &#216;4</text>
+<line x1="308.50" y1="91.00" x2="297.00" y2="66.00" class="hilf"/>
+<text x="296.50" y="66.00" font-size="2.4" text-anchor="end" class="sub">Kernmarke</text>
+<line x1="272.50" y1="138.00" x2="367.50" y2="138.00" class="masz"/>
+<path d="M 272.50 138.00 L 274.70 137.23 L 274.70 138.77 Z" class="pfeil"/>
+<path d="M 367.50 138.00 L 365.30 138.77 L 365.30 137.23 Z" class="pfeil"/>
+<text x="320.00" y="136.80" font-size="2.6" text-anchor="middle" class="txt">190</text>
+<line x1="374.50" y1="73.50" x2="374.50" y2="118.50" class="masz"/>
+<path d="M 374.50 73.50 L 375.27 75.70 L 373.73 75.70 Z" class="pfeil"/>
+<path d="M 374.50 118.50 L 373.73 116.30 L 375.27 116.30 Z" class="pfeil"/>
+<text x="376.10" y="97.00" font-size="2.6" text-anchor="start" class="txt">90</text>
+<rect x="165.00" y="150.00" width="118.00" height="62.00" class="box" />
+<text x="168.50" y="156.50" font-size="3.3" text-anchor="start" class="txt" font-weight="bold">Warum dieses Bauteil hinterschnittfrei ist</text>
+<text x="168.50" y="162.50" font-size="2.65" text-anchor="start" class="txt">Teilungsebene = waagerechte Ebene durch die</text>
+<text x="168.50" y="166.50" font-size="2.65" text-anchor="start" class="txt">Bohrungsachse (h = 45 mm), gr&#246;&#223;ter Querschnitt</text>
+<text x="168.50" y="170.50" font-size="2.65" text-anchor="start" class="txt">des Lagerauges liegt darin.</text>
+<text x="168.50" y="174.50" font-size="2.65" text-anchor="start" class="txt" font-weight="bold">Entscheidend: keine zur Ausheberichtung</text>
+<text x="168.50" y="178.50" font-size="2.65" text-anchor="start" class="txt" font-weight="bold">konkave Fl&#228;che im Modell.</text>
+<text x="168.50" y="182.50" font-size="2.65" text-anchor="start" class="txt">Lagerauge, Rippe und Platte sind nach au&#223;en</text>
+<text x="168.50" y="186.50" font-size="2.65" text-anchor="start" class="txt">konvex bzw. eben; die einzige konkave Fl&#228;che</text>
+<text x="168.50" y="190.50" font-size="2.65" text-anchor="start" class="txt">ist die Bohrung &#8212; und die macht der Kern,</text>
+<text x="168.50" y="194.50" font-size="2.65" text-anchor="start" class="txt">nicht das Modell. Genau daran ist die</text>
+<text x="168.50" y="198.50" font-size="2.65" text-anchor="start" class="txt">Riemenscheibe gescheitert (Ringnut hinter</text>
+<text x="168.50" y="202.50" font-size="2.65" text-anchor="start" class="txt">der Kranz-Innenfl&#228;che &#216;54).</text>
+<rect x="288.00" y="150.00" width="118.00" height="62.00" class="box" />
+<text x="291.50" y="156.50" font-size="3.3" text-anchor="start" class="txt" font-weight="bold">Anforderungscheck</text>
+<text x="291.50" y="162.50" font-size="2.65" text-anchor="start" class="txt" font-weight="bold">A2 reales Bauteil &#8212; Stehlager, echtes</text>
+<text x="291.50" y="166.50" font-size="2.65" text-anchor="start" class="txt">  Maschinenelement, Funktion plausibel</text>
+<text x="291.50" y="170.50" font-size="2.65" text-anchor="start" class="txt" font-weight="bold">A3 mindestens ein Kern &#8212; Bohrung &#216;20</text>
+<text x="291.50" y="174.50" font-size="2.65" text-anchor="start" class="txt">  zwingend gekernt, Kern &#216;20 &#215; 60 liegend</text>
+<text x="291.50" y="178.50" font-size="2.65" text-anchor="start" class="txt" font-weight="bold">A4 Modell / Kernkasten &#8212; geteiltes Modell,</text>
+<text x="291.50" y="182.50" font-size="2.65" text-anchor="start" class="txt">  Teilung durch die Achse, 3D-Druck wie E5</text>
+<text x="291.50" y="186.50" font-size="2.65" text-anchor="start" class="txt" font-weight="bold">A5/A6 Zinn &#8212; unver&#228;ndert, ca. 0,43 kg</text>
+<text x="291.50" y="190.50" font-size="2.65" text-anchor="start" class="txt" font-weight="bold">E7 zwei Versionen &#8212; F/O bleibt erhalten,</text>
+<text x="291.50" y="194.50" font-size="2.65" text-anchor="start" class="txt">  gleiche Au&#223;enkontur, siehe Tabelle unten</text>
+<text x="291.50" y="198.50" font-size="2.65" text-anchor="start" class="txt">Kastenpassung: 25 mm Sand seitlich, 35 mm</text>
+<text x="291.50" y="202.50" font-size="2.65" text-anchor="start" class="txt">unter der Platte, 45 mm an den Stirnseiten.</text>
+<rect x="165.00" y="216.00" width="118.00" height="69.00" class="box" />
+<text x="168.50" y="222.50" font-size="3.3" text-anchor="start" class="txt" font-weight="bold">Gie&#223;technik</text>
+<text x="168.50" y="228.50" font-size="2.5" text-anchor="start" class="txt" font-weight="bold">Erstarrungsmoduln (M = V/A):</text>
+<text x="168.50" y="232.05" font-size="2.5" text-anchor="start" class="txt">Lagerauge 3,9 &#183; Grundplatte 2,6 &#183; Rippe 2,2 mm</text>
+<text x="168.50" y="235.60" font-size="2.5" text-anchor="start" class="txt">&#8594; Die dickste Stelle liegt oben, direkt unter</text>
+<text x="168.50" y="239.15" font-size="2.5" text-anchor="start" class="txt">dem Speiser. Genau das war bei der Riemen-</text>
+<text x="168.50" y="242.70" font-size="2.5" text-anchor="start" class="txt">scheibe nicht erreichbar.</text>
+<text x="168.50" y="246.25" font-size="2.5" text-anchor="start" class="txt" font-weight="bold">Speiser: &#216;20 &#8594; M = d/4 = 5,0 mm</text>
+<text x="168.50" y="249.80" font-size="2.5" text-anchor="start" class="txt">erforderlich M &#8805; 1,2 &#183; 3,9 = 4,7 mm &#10003;</text>
+<text x="168.50" y="253.35" font-size="2.5" text-anchor="start" class="txt" font-weight="bold">Offener Punkt:</text>
+<text x="168.50" y="256.90" font-size="2.5" text-anchor="start" class="txt">Der Oberkasten ist 80 mm hoch, der offene</text>
+<text x="168.50" y="260.45" font-size="2.5" text-anchor="start" class="txt">Speiser wird dadurch 60 mm lang (ca. 137 g</text>
+<text x="168.50" y="264.00" font-size="2.5" text-anchor="start" class="txt">Kreislaufmaterial). Mit einem selbst gebauten</text>
+<text x="168.50" y="267.55" font-size="2.5" text-anchor="start" class="txt">40-mm-Oberkasten (A4 verlangt den Bau</text>
+<text x="168.50" y="271.10" font-size="2.5" text-anchor="start" class="txt">ohnehin) w&#228;ren es ca. 46 g.</text>
+<text x="168.50" y="274.65" font-size="2.5" text-anchor="start" class="txt" font-weight="bold">Kernauftrieb: F = V &#183; &#916;&#961; &#183; g = 0,54 N</text>
+<text x="168.50" y="278.20" font-size="2.5" text-anchor="start" class="txt">(&#8776; 55 g) &#8594; Kernmarken 14 mm gen&#252;gen.</text>
+<rect x="288.00" y="216.00" width="118.00" height="69.00" class="box" />
+<text x="291.50" y="222.50" font-size="3.3" text-anchor="start" class="txt" font-weight="bold">Version F gegen&#252;ber Version O</text>
+<text x="291.50" y="228.50" font-size="2.5" text-anchor="start" class="txt" font-weight="bold">Merkmal                V-O            V-F</text>
+<text x="291.50" y="232.05" font-size="2.5" text-anchor="start" class="txt">Rippe                      5 mm         2,5 mm</text>
+<text x="291.50" y="235.60" font-size="2.5" text-anchor="start" class="txt">Kehlen                    R3               R0 scharf</text>
+<text x="291.50" y="239.15" font-size="2.5" text-anchor="start" class="txt">Lagerauge             &#216;40             &#216;48</text>
+<text x="291.50" y="242.70" font-size="2.5" text-anchor="start" class="txt">Anschnitt                seitlich       oben a. Rippe</text>
+<text x="291.50" y="246.25" font-size="2.5" text-anchor="start" class="txt">Speiser                    &#216;20             keiner</text>
+<text x="291.50" y="249.80" font-size="2.5" text-anchor="start" class="txt">Entl&#252;ftung             Windpfeife  keine</text>
+<text x="291.50" y="253.35" font-size="2.5" text-anchor="start" class="txt">Gie&#223;temperatur    ca. 280 &#176;C  ca. 240 &#176;C</text>
+<text x="291.50" y="256.90" font-size="2.5" text-anchor="start" class="txt" font-weight="bold">Erwartete Fehlerbilder an V-F:</text>
+<text x="291.50" y="260.45" font-size="2.5" text-anchor="start" class="txt">Sauglunker im Lagerauge (keine Speisung) &#183;</text>
+<text x="291.50" y="264.00" font-size="2.5" text-anchor="start" class="txt">Kaltlauf in der 2,5-mm-Rippe &#183; Warmriss an</text>
+<text x="291.50" y="267.55" font-size="2.5" text-anchor="start" class="txt">der scharfen Kehle Rippe/Platte (Knoten-</text>
+<text x="291.50" y="271.10" font-size="2.5" text-anchor="start" class="txt">punkt) &#183; Gasblasen ohne Entl&#252;ftung.</text>
+<text x="291.50" y="274.65" font-size="2.5" text-anchor="start" class="txt" font-weight="bold">Didaktisch neu gegen&#252;ber der Riemenscheibe:</text>
+<text x="291.50" y="278.20" font-size="2.5" text-anchor="start" class="txt">Der Knotenpunkt Rippe/Grundplatte ist das</text>
+<text x="291.50" y="281.75" font-size="2.5" text-anchor="start" class="txt">Lehrbuchbeispiel f&#252;r Materialanh&#228;ufung.</text>
+</svg>
