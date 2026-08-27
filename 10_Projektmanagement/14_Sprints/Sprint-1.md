@@ -2,7 +2,7 @@
 typ: sprint
 nummer: 1
 titel: "Sprint 1"
-status: geplant
+status: abgeschlossen
 start: 2026-08-10
 ende: 2026-08-23
 kapazitaet_h: 146
@@ -12,7 +12,7 @@ bereich: gpm
 tags:
   - gpm
   - sprint
-aktualisiert: 2026-08-08
+aktualisiert: 2026-08-27
 ---
 
 
@@ -140,16 +140,25 @@ views:
 
 ## Sprint Review
 
-- Datum: *(eintragen)* · Teilnehmende inkl. Product Owner: *(eintragen)*
-- Sprintziel erreicht? ☐ ja ☐ teilweise ☐ nein
-- Vorgestellte Ergebnisse:
-- Feedback des Product Owners:
+- **Datum:** Mo 24.08.2026 · **Teilnehmende:** Paul Wettering (Scrum Master), Fynn Barmwater (Product Owner), Jonas Gebert. Prof. Pähler nicht anwesend — sein Feedback wurde im Abstimmungstermin am 17.08. eingeholt.
+- **Sprintziel erreicht?** ☑ ja ☐ teilweise ☐ nein — alle drei Bedingungen erfüllt.
+
+| # | Bedingung | Ergebnis |
+|---|---|---|
+| 1 | V-F1 ausgewertet, Sandrezeptur dokumentiert | ✅ Rezeptur steht, in [[E04]] eingetragen |
+| 2 | V-W1 ausgewertet, Aufheizkurve und Gießtemperaturfenster gemessen | ✅ mit Thermoelement Typ K gemessen, [[E09]] entschieden |
+| 3 | Bauteilkonzept von Prof. Pähler freigegeben | ✅ am 17.08.2026, Variante **Stehbuchse mit Fußplatte** (F33), damit auch F14 und F17 beantwortet |
+
+- **Nicht fertig geworden:** [[TASK-021]] parametrisches CAD-Modell (20 h). Bis zur Bauteilfreigabe am 17.08. blockiert, danach nicht mehr abschließbar. Geht vollständig in Sprint 2.
+- **Feedback des Product Owners:** Sprintziel inhaltlich erfüllt; die Aushebbarkeitsprüfung wird als eigenständiges Ergebnis gewertet, weil sie zwei fehlerhafte Entwürfe vor dem Modellbau abgefangen hat.
 
 ## Sprint Retrospective
 
 | Was lief gut? | Was lief nicht gut? | Maßnahme für den nächsten Sprint | Verantwortlich |
 |---|---|---|---|
-|  |  |  |  |
+| Vorversuche bei Göpfert ohne Terminreibung; V-F1 und V-W1 an je einem Tag durchgezogen | Aushebbarkeit wurde erst nach zwei verworfenen Entwürfen geprüft | Aushebbarkeitsprüfung (`check_aushebbarkeit.py`) ist verbindliches Gate, bevor ein CAD-Modell beginnt | Jonas Gebert |
+| Beide GPM-Abgaben termingerecht am 12.08. raus | Terminanfrage an Prof. Pähler ging erst am Sprintstart raus, Kennzahl lief auf gelb | Feste 14-Tage-Taktung mit dem Auftraggeber; Anfrage jeweils am ersten Sprinttag | Fynn Barmwater |
+| Kennzahlen (Burndown, weiches Kriterium, Barometer) wurden durchgehend gepflegt | Ein 20-h-Paket blockierte den ganzen Sprint sichtbar | TASK-021 in zwei Pakete teilen; ab Sprint 2 keine Aufgabe über 15 h, wenn sie an einer offenen Frage hängt | Paul Wettering |
 
 ## Burndown
 

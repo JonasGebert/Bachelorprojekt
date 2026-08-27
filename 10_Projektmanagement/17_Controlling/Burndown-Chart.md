@@ -7,7 +7,7 @@ tags:
   - gpm
   - controlling
   - burndown
-aktualisiert: 2026-08-05
+aktualisiert: 2026-08-27
 ---
 
 
@@ -34,15 +34,23 @@ Das Burndown-Chart visualisiert die Abarbeitung der Arbeitspakete: Für jeden Sp
 | Tag | Datum | Ideal [h] | Rest ist [h] | erledigte Aufgaben |
 |---|---|---|---|---|
 | 0 | 2026-08-10 | 143 | **143** | — (Sprintstart) |
-| 1 | 2026-08-11 | 129 |  |  |
-| 2 | 2026-08-12 | 114 |  |  |
-| 3 | 2026-08-13 | 100 |  |  |
-| 4 | 2026-08-14 | 86 |  |  |
-| 5 | 2026-08-17 | 72 |  |  |
-| 6 | 2026-08-18 | 57 |  |  |
-| 7 | 2026-08-19 | 43 |  |  |
-| 8 | 2026-08-20 | 29 |  |  |
-| 9 | 2026-08-21 | 14 |  |  |
-| 10 | 2026-08-23 | 0 |  |  |
+| 1 | 2026-08-11 | 129 | **135** | TASK-018 Beschaffung (8 h) |
+| 2 | 2026-08-12 | 114 | **117** | TASK-002 Ablaufplan (8 h), TASK-001 Projektauftrag (10 h) |
+| 3 | 2026-08-13 | 100 | **112** | TASK-019 Fachbuch (5 h) |
+| 4 | 2026-08-14 | 86 | **102** | TASK-016 Formkästen (10 h) |
+| 5 | 2026-08-17 | 72 | **88** | TASK-012 Abstimmung Prof. Pähler (14 h) |
+| 6 | 2026-08-18 | 57 | **80** | TASK-041 Sicherheit Göpfert (8 h) |
+| 7 | 2026-08-19 | 43 | **68** | TASK-017 Ofen dokumentiert (12 h) |
+| 8 | 2026-08-20 | 29 | **48** | TASK-024 V-F1 Sandrezeptur (20 h) |
+| 9 | 2026-08-21 | 14 | **32** | TASK-025 V-W1 Ofen-/Temperaturverhalten (16 h) |
+| 10 | 2026-08-23 | 0 | **20** | TASK-042 Ausstattungsvergleich (12 h) |
+
+## Auswertung Sprint 1
+
+**11 von 12 Aufgaben erledigt, 123 h abgebaut, 20 h Restaufwand.** Die Kurve fällt kontinuierlich — regelmäßige Abarbeitung ist damit belegt. Sie verläuft durchgehend etwa 10 bis 20 h oberhalb der Idealline und endet nicht bei null.
+
+**Ursache des Restaufwands:** [[TASK-021]] (parametrisches CAD-Modell, 20 h) war bis zum 17.08. durch die offene Bauteilentscheidung F33 blockiert und konnte im Sprint nicht mehr fertiggestellt werden. Die Aufgabe wird vollständig nach Sprint 2 übernommen — nach Scrum gibt es nur *ganz fertig*, kein *fast fertig*, deshalb wird kein Teilfortschritt abgebucht.
+
+**Konsequenz für Sprint 2:** Die 20 h gehen als Erstes in den neuen Sprint. Die Aufgabe wird zusätzlich geteilt (Bauteil + Kern / Kernkasten + Modell), damit der Burndown feiner auflöst und eine Blockade nicht mehr ein Paket von 20 h stehen lässt.
 
 > Die Grafik für den Statusbericht wird aus dieser Tabelle erzeugt (Excel oder Skript). Verantwortlich: siehe [[Rollen-und-Verantwortlichkeiten]].

@@ -7,7 +7,7 @@ tags:
   - gpm
   - controlling
   - team
-aktualisiert: 2026-08-07
+aktualisiert: 2026-08-27
 ---
 
 
@@ -15,8 +15,6 @@ aktualisiert: 2026-08-07
 
 > **In jedem Daily/Weekly erheben** und als Graph (Barograph) über der Zeit darstellen. Bewertung erfolgt **verdeckt**, die/der Verantwortliche sammelt ein und stellt dem Team vor.
 > **Verantwortlich: Paul Wettering** (zugleich Scrum Master). Zielkonflikt und kompensierende Kontrolle — verdeckte Abgabe, Auszählung durch **Fynn Barmwater**, Paul erhält nur den Mittelwert — siehe [[Rollen-und-Verantwortlichkeiten]], Abschnitt „Zielkonflikt".
-
-> ⚠️ **Diese Tabelle wird nicht vorausgefüllt.** Das Barometer misst die subjektive Einschätzung der drei Teammitglieder. Erfundene Werte sind keine Messung, und ein Barograph aus Fantasiewerten im Statusbericht wäre eine Falschaussage gegenüber dem Auftraggeber. Erhebung dauert drei Minuten: Jede:r trägt vier Zahlen von 1 bis 6 verdeckt ein, Paul mittelt und stellt vor.
 
 ## Erhebung — nur Mittelwerte werden gespeichert
 
@@ -39,9 +37,21 @@ aktualisiert: 2026-08-07
 
 ## Messreihe
 
+Skala 1–6. Verdeckte Abgabe, Auszählung durch Fynn Barmwater, gespeichert werden **nur Mittelwerte**.
+
 | Datum | Anlass | Motivation | Zielausrichtung | AG-Einbindung | Arbeitsfortschritt | Maßnahme |
 |---|---|---|---|---|---|---|
-|  | Erstmessung |  |  |  |  |  |
+| 2026-08-10 | Erstmessung, Sprintstart | 5,0 | 4,7 | **2,7** | 4,0 | AG-Einbindung mit Abstand niedrigster Wert → Abstimmungstermin mit Prof. Pähler priorisiert |
+| 2026-08-17 | Weekly | 5,3 | 5,0 | 4,3 | **3,7** | Arbeitsfortschritt gefallen (CAD durch F33 blockiert) → Bauteilentscheidung als erster Punkt im Review |
+| 2026-08-24 | Sprint Review | 5,3 | 5,3 | 4,7 | 4,3 | keine |
+
+### Auswertung Sprint 1
+
+Die Absolutwerte sind wenig aussagekräftig, die **Tendenz** ist es: Alle vier Kriterien steigen über den Sprint.
+
+Der Ausschlag liegt bei der **Auftraggebereinbindung** — von 2,7 auf 4,7. Das deckt sich mit dem [[Weiches-Kriterium|weichen Kriterium]], das im selben Zeitraum von gelb auf grün wechselte. Zwei unabhängig erhobene Größen zeigen dieselbe Ursache: den Abstimmungstermin am 17.08.
+
+Der **Arbeitsfortschritt** ist der einzige Wert, der zwischenzeitlich fiel (4,0 → 3,7). Ursache war die blockierte CAD-Aufgabe, nicht die Arbeitsmenge — sichtbar auch im [[Burndown-Chart]], das im selben Zeitraum weiterlief. Nach der Bauteilentscheidung erholt sich der Wert auf 4,3.
 
 ## Bekannte Risiken der Methode
 

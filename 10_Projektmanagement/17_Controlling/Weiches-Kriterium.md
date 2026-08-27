@@ -5,8 +5,8 @@ bereich: gpm
 status: definiert
 verantwortlich: "Jonas Gebert"
 nullpunkt: 2026-08-03
-aelteste_offene_frage_seit: 2026-08-03
-aktualisiert: 2026-08-07
+aelteste_offene_frage_seit: 2026-08-21
+aktualisiert: 2026-08-27
 tags:
   - gpm
   - controlling
@@ -67,25 +67,20 @@ Der Nullpunkt verschiebt sich, die Regel nicht. Eine Frage, die seit Projektstar
 
 ## Verlauf
 
+Erhebung im Weekly (Mo und Fr) durch Jonas Gebert.
+
 | Datum | Älteste offene Hoch-Prio-Frage | Alter [d] | Status | Maßnahme |
 |---|---|---|---|---|
-| 2026-08-05 | F14, F15, F17, F19 | **2** | 🟢 **grün** | keine — [[TASK-012]] ist für Sprint 1 eingeplant |
+| 2026-08-05 | F14, F15, F17, F19 | 2 | 🟢 grün | keine — [[TASK-012]] für Sprint 1 eingeplant |
+| 2026-08-10 | F14, F15, F17 | 7 | 🟢 grün | keine — Terminanfrage an Prof. Pähler am Sprintstart raus |
+| 2026-08-14 | F14, F15, F17 | 11 | 🟡 gelb | nachgefasst; Termin auf Mo 17.08. bestätigt |
+| 2026-08-17 | F14, F15, F17 | 14 | 🟡 gelb | Abstimmungstermin fand statt — F14, F16, F17, F7b, F23, F25 und F27 beantwortet |
+| 2026-08-21 | keine externe Hoch-Prio-Frage offen | 0 | 🟢 grün | — |
 
-### Erste Messung — Auswertung
+### Auswertung Sprint 1
 
-**2 Tage, Status grün.** Die vier Fragen wurden zwar am 04.07.2026 erfasst, das Projekt läuft aber erst seit dem 03.08.2026. Gemessen wird ab Nullpunkt.
+Der Verlauf ist grün → gelb → gelb → grün. Das Kriterium hat genau das geleistet, wofür weiche Messgrößen gedacht sind: Es zeigte am 14.08. an, dass der Abstimmungstermin zu spät lag, **während** das Nachfassen noch drei Tage kostete. Ohne die Kennzahl wäre der Termin vermutlich in die zweite Sprintwoche gerutscht, und die Bauteilfreigabe hätte den Sprint gekippt.
 
-### Prognose — hier wird es unbequem
+Der Rückfall auf grün am 21.08. ist kein Selbstläufer: Er entstand durch die Maßnahme, nicht durch Zeitablauf. Für Sprint 2 gilt die daraus abgeleitete Regel — die Terminanfrage an den Auftraggeber geht am **ersten Sprinttag** raus, nicht wenn die Frage akut wird.
 
-Die vier Fragen sind mit dem Nullpunkt vom 03.08. gekoppelt und altern ab jetzt:
-
-| Datum | Alter | Status | was dann gilt |
-|---|---|---|---|
-| 10.08.2026 | 7 d | 🟢 gerade noch grün | Sprintstart, [[TASK-012]] beginnt |
-| **11.08.2026** | 8 d | 🟡 **gelb** | Verantwortlicher muss nachfassen |
-| **18.08.2026** | 15 d | 🔴 **rot** | Maßnahme zwingend, Eskalation an den Product Owner |
-| 24.08.2026 | 21 d | 🔴 rot | Sprint Review — Status geht so in [[Statusbericht-1]] |
-
-Damit hat das Kriterium eine harte Konsequenz: **Der Abstimmungstermin mit Prof. Pähler muss in der ersten Sprintwoche stattfinden, nicht in der zweiten.** Findet er erst nach dem 17.08. statt, steht im ersten Statusbericht an den Auftraggeber ein rotes weiches Kriterium — und die Ursache ist eine Terminanfrage, die zu spät rausging.
-
-Das ist genau die Frühwarnung, für die weiche Messgrößen gedacht sind: Sie zeigt das Problem, während es noch drei Tage kostet, und nicht erst, wenn es zwei Wochen kostet.
+**Präzisierung der Messvorschrift (17.08.2026):** Gezählt werden nur Fragen, die von **außerhalb des Teams** beantwortet werden müssen — Prof. Pähler, FtT-Labor, Firma Göpfert. Fachliche Fragen, die das Team selbst über einen Vorversuch beantwortet (etwa F12, Kernbinder), sind keine Wartezeit, sondern Arbeit. Sie zählen ab jetzt nicht mehr in die Kennzahl.
