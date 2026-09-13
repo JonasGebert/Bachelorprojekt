@@ -7,7 +7,7 @@ tags:
   - gpm
   - controlling
   - team
-aktualisiert: 2026-08-27
+aktualisiert: 2026-08-28
 ---
 
 
@@ -42,16 +42,20 @@ Skala 1–6. Verdeckte Abgabe, Auszählung durch Fynn Barmwater, gespeichert wer
 | Datum | Anlass | Motivation | Zielausrichtung | AG-Einbindung | Arbeitsfortschritt | Maßnahme |
 |---|---|---|---|---|---|---|
 | 2026-08-10 | Erstmessung, Sprintstart | 5,0 | 4,7 | **2,7** | 4,0 | AG-Einbindung mit Abstand niedrigster Wert → Abstimmungstermin mit Prof. Pähler priorisiert |
-| 2026-08-17 | Weekly | 5,3 | 5,0 | 4,3 | **3,7** | Arbeitsfortschritt gefallen (CAD durch F33 blockiert) → Bauteilentscheidung als erster Punkt im Review |
-| 2026-08-24 | Sprint Review | 5,3 | 5,3 | 4,7 | 4,3 | keine |
+| 2026-08-17 | Weekly | 5,3 | 5,0 | **2,7** | **3,7** | Arbeitsfortschritt gefallen (CAD durch F33 blockiert) → Bauteilentscheidung als erster Punkt im Review |
+| 2026-08-21 | Weekly, letzter Sprinttag | 5,3 | 5,3 | **3,0** | 4,3 | AG-Einbindung bleibt niedrigster Wert → festes Berichtswesen mit Prof. Pähler vereinbaren (kurzer Statusmail-Turnus je Sprintwechsel) |
 
 ### Auswertung Sprint 1
 
-Die Absolutwerte sind wenig aussagekräftig, die **Tendenz** ist es: Alle vier Kriterien steigen über den Sprint.
+Die Absolutwerte sind wenig aussagekräftig, die **Tendenz** ist es.
 
-Der Ausschlag liegt bei der **Auftraggebereinbindung** — von 2,7 auf 4,7. Das deckt sich mit dem [[Weiches-Kriterium|weichen Kriterium]], das im selben Zeitraum von gelb auf grün wechselte. Zwei unabhängig erhobene Größen zeigen dieselbe Ursache: den Abstimmungstermin am 17.08.
+**Teammotivation und Zielausrichtung** liegen durchgehend im oberen Bereich (5,0–5,3) und steigen leicht — die Rollenverteilung vom 05.08. und das geschärfte Sprintziel wirken.
 
-Der **Arbeitsfortschritt** ist der einzige Wert, der zwischenzeitlich fiel (4,0 → 3,7). Ursache war die blockierte CAD-Aufgabe, nicht die Arbeitsmenge — sichtbar auch im [[Burndown-Chart]], das im selben Zeitraum weiterlief. Nach der Bauteilentscheidung erholt sich der Wert auf 4,3.
+Der **Arbeitsfortschritt** fiel zwischenzeitlich (4,0 → 3,7). Ursache war die blockierte CAD-Aufgabe, nicht die Arbeitsmenge — sichtbar auch im [[Burndown-Chart]], das im selben Zeitraum weiterlief. Nach der Bauteilentscheidung erholt sich der Wert auf 4,3.
+
+Die **Auftraggebereinbindung** ist über den gesamten Sprint das schwächste Kriterium (2,7 / 2,7 / 3,0). Der Kontakt zu Prof. Pähler beschränkt sich bisher auf Einzeltermine ohne festen Turnus; ein abgesprochenes Berichtswesen im Sinne der Kriteriendefinition existiert nicht. Das ist konsistent mit dem [[Weiches-Kriterium|weichen Kriterium]] (Alter der ältesten offenen Hoch-Prio-Frage) und mit [[R13]]: offene Fragen, die nur der Auftraggeber entscheiden kann, bleiben lange liegen.
+
+**Maßnahme für Sprint 2 (präventiv, verantwortlich Fynn Barmwater):** fester Abstimmungsrhythmus zum Sprintwechsel — Kurzstatus per Mail montags, Präsenztermin zum Sprint Review. Zielwert für die nächste Erhebung: ≥ 4,0.
 
 ## Bekannte Risiken der Methode
 

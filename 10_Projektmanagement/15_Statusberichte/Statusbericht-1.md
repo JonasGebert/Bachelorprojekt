@@ -11,7 +11,7 @@ tags:
   - gpm
   - abgabe
   - statusbericht
-aktualisiert: 2026-08-27
+aktualisiert: 2026-08-28
 ---
 
 # 2 Sprint 1
@@ -46,7 +46,7 @@ Die Kurve fällt kontinuierlich, was auf regelmäßige Abarbeitung hindeutet. Si
 
 Erhoben wurde verdeckt an drei Terminen, gespeichert und dargestellt werden nur die Mittelwerte. Die Absolutwerte sind wenig aussagekräftig, die Tendenz ist es: Alle vier Kriterien steigen über den Sprint.
 
-Der deutlichste Ausschlag liegt bei der Auftraggebereinbindung, von 2,7 auf 4,7. Das deckt sich mit dem weichen Kriterium, das im selben Zeitraum von Gelb auf Grün wechselte — zwei unabhängig erhobene Größen zeigen dieselbe Ursache, nämlich den Abstimmungstermin am 17.08. Der Arbeitsfortschritt ist der einzige Wert, der zwischenzeitlich fiel, von 4,0 auf 3,7. Grund war die blockierte CAD-Aufgabe, nicht die Arbeitsmenge; nach der Bauteilentscheidung erholt sich der Wert auf 4,3.
+Teammotivation und Zielausrichtung liegen durchgehend zwischen 5,0 und 5,3 und steigen leicht. Der Arbeitsfortschritt fiel zwischenzeitlich von 4,0 auf 3,7 — Grund war die blockierte CAD-Aufgabe, nicht die Arbeitsmenge; nach der Bauteilentscheidung erholt sich der Wert auf 4,3. Schwächstes Kriterium über den gesamten Sprint ist die Auftraggebereinbindung (2,7 / 2,7 / 3,0): Der Kontakt zu Prof. Pähler läuft über Einzeltermine ohne festen Turnus, ein abgesprochenes Berichtswesen im Sinne der Kriteriendefinition besteht nicht. Maßnahme für Sprint 2 (präventiv, verantwortlich Fynn Barmwater): fester Abstimmungsrhythmus zum Sprintwechsel — Kurzstatus per Mail montags, Präsenztermin zum Sprint Review; Zielwert der nächsten Erhebung ≥ 4,0.
 
 ### 2.2.3 Weiches Kriterium zur Fortschrittskontrolle
 
@@ -80,3 +80,50 @@ Das zweite Thema des Sprints war die Einbindung des Auftraggebers. Die Terminanf
 Aus der Retrospektive gehen drei Maßnahmen in Sprint 2: Die Aushebbarkeitsprüfung wird verbindliches Gate vor jedem CAD-Start, die Abstimmung mit dem Auftraggeber läuft in fester Zwei-Wochen-Taktung mit Anfrage am ersten Sprinttag, und Aufgaben, die an einer offenen Frage hängen, werden auf höchstens 15 h zugeschnitten.
 
 Sprint 2 läuft vom 24.08. bis 06.09.2026. Sprintziel: **Modell, Kernkasten und Kern sind gefertigt und der erste Probeabguss ist gelaufen.** Er beginnt mit den 20 h aus dem CAD-Modell, das dafür in zwei Pakete geteilt wird, und enthält die Gefährdungsbeurteilung sowie die Vorversuche V-K1 zum Kern, V-S1 zum Schwindmaß und V-T1 zum Trennmittel.
+
+## 2.4 Risikomanagement
+
+### 2.4.1 Vorgehen
+
+Das Risikomanagement folgt den drei Phasen aus [[Risikomanagement-Methode]]: Identifizierung, Bewertung, Reduktion. Bewertet wird jedes Risiko mit Schadenswahrscheinlichkeit W und Schadenshöhe H auf einer Skala von 1 bis 3; das Produkt W × H ergibt die Risikozahl und damit die Zone `ok` (< 3), `monitor` (3–5) oder `act` (≥ 6). Die Klassifizierung nach technisch, organisatorisch, persönlich, finanziell und terminlich ist im Feld `klasse` jeder Risikonote hinterlegt.
+
+Abgegrenzt wird bewusst zwischen zwei Registern: Gefährdungen für **Personen** stehen in [[Arbeitssicherheit]] (G1–G10) und werden über die Gefährdungsbeurteilung behandelt. Im Risikoregister stehen ausschließlich Risiken für den **Projekterfolg**. Ein Risiko wie „Verbrennung durch Schmelze" gehört nicht in diese Matrix, wohl aber „Gefährdungsbeurteilung wird zu spät fertig".
+
+Vollständiges Register: [[Risikoregister]] (13 aktive Risiken, 2 entfallen).
+
+### 2.4.2 Risikomatrix
+
+![[Risikomatrix_Sprint-1.png]]
+
+*Abbildung: Risikomatrix nach Koeppen, Stand 28.08.2026 — Auszug aus [[Risikoregister]].*
+
+Aus der Verteilung lassen sich drei Aussagen ableiten:
+
+1. **Die grünen Felder enthalten nur Beschaffungs- und Werkzeugthemen** — Ausfall des privaten 3D-Druckers, Lieferbarkeit des Fachbuchs, Verzug am gedruckten Modell. Alle drei sind ersetzbar: Der Druck kann extern beauftragt, das Buch über die Fernleihe bezogen und ein verzogenes Modell nachgearbeitet werden. Sie treffen den Terminplan, nicht das Projektziel.
+2. **Der Schwerpunkt liegt in der Spalte H = 3, nicht in der Zeile W = 3.** Sechs von dreizehn Risiken haben die maximale Schadenshöhe, aber nur zwei die maximale Eintrittswahrscheinlichkeit. Das Projekt ist also nicht durch viele kleine Störungen bedroht, sondern durch wenige Ereignisse mit großer Wirkung. Konsequenz für die Maßnahmenwahl: Rein korrektive Maßnahmen, die nur die Schadenshöhe senken, greifen hier zu kurz — sieben der dreizehn Maßnahmen sind deshalb präventiv und wirken auf beide Größen.
+3. **R13 ist das einzige Risiko im Feld W = 3 / H = 3.** Es entsteht direkt aus [[E10]]: Die Vorversuche laufen bei der Firma Göpfert in Heide, der spätere Laborversuch an der HAW. Ein Versuch, der in Heide reproduzierbar ist, kann im FtT-Labor scheitern — und das fällt ohne Gegenmaßnahme erst bei der Generalprobe V-Z1 auf, also so spät, dass keine Korrekturschleife mehr in den Terminplan passt.
+
+### 2.4.3 Die fünf berichteten Risiken
+
+Das Register führt dreizehn aktive Risiken, sieben davon in der Zone `act`. Berichtet werden fünf, ausgewählt nach Risikozahl, Bedrohung des Projektziels und Abdeckung unterschiedlicher Risikoklassen.
+
+Am höchsten bewertet ist das **Transferrisiko** zwischen den beiden Arbeitsorten (technisch, W = 3, H = 3, Risikozahl 9). Die Vorversuche finden bei der Firma Göpfert in Heide statt, der spätere Laborversuch an der HAW; Ofenleistung, Absaugung, Tiegel und Werkzeuge unterscheiden sich. Eine in Heide reproduzierbare Sandrezeptur, Aufheizzeit oder Gießtemperatur ist damit an der HAW nicht automatisch erreichbar — und ohne Gegenmaßnahme fällt das erst bei der Generalprobe auf, also zu spät für eine Korrekturschleife. Ähnlich technisch begründet ist das Risiko, dass der **Formstoff aus Vogelsand und Speiseöl versagt** (technisch, W = 2, H = 3, Risikozahl 6): zu geringe Grünfestigkeit, starke Rauchentwicklung beim Abguss oder Schwankungen zwischen Sandchargen. Ohne tragfähige Rezeptur sind weder Kern- noch Trennmittel- noch Fehlerversuch planbar.
+
+Organisatorisch wiegt am schwersten, dass die **Gefährdungsbeurteilung zu spät fertig wird** (organisatorisch, W = 2, H = 3, Risikozahl 6). Sie wird in Eigenleistung erstellt; ohne sie erteilt das FtT-Labor keine Freigabe, und der Versuch wäre zwar konstruiert, aber nicht durchführbar. Terminlich bedroht ist das Projekt zum einen durch die **feste Abgabe am 04.10.2026** (terminlich, W = 2, H = 3, Risikozahl 6) — vier Sprints, und die einzige Pufferwoche liegt bereits am Projektende, sodass Verzug nicht durch Sprintverlängerung aufgefangen werden kann. Zum anderen durch das **Zeitbudget im Labor selbst** (terminlich, W = 2, H = 3, Risikozahl 6): Zwei Laborviertel ergeben 3 h, in denen Theorie, zwei Abgüsse und Nachbesprechung unterzubringen sind. Reicht die Zeit nicht, ist das didaktische Zwei-Teile-Konzept aus [[E07]] nicht umsetzbar.
+
+### 2.4.4 Maßnahmen
+
+Gegen das Transferrisiko dokumentiert das Team bei **jedem** Vorversuch die verwendete Ausstattung vollständig mit — Ofentyp und -leistung, Tiegel, Absaugung, Werkzeuge, Raumbedingungen — und stellt Göpfert und FtT-Labor in [[TASK-042]] systematisch gegenüber. Kritische Parameter werden im Versuchsskript als Anforderung an das Zielsystem formuliert, nicht als Beobachtung protokolliert. Die Maßnahme ist präventiv und wirkt auf beide Größen, weil dokumentierte Abweichungen sowohl früher auffallen als auch kleiner ausfallen; verantwortlich ist Jonas Gebert. Beim Formstoff wird V-F1 bewusst als **erster** Vorversuch gefahren, damit ein Scheitern früh sichtbar wird; die Rückfallebene gekaufter Ölsand wird vorab beschafft statt erst im Schadensfall gesucht, und Rezeptur wie Sandmarke werden im Versuchsskript fixiert. Auch diese Maßnahme ist präventiv und wirkt auf beide Größen; verantwortlich ist Fynn Barmwater.
+
+Die Gefährdungsbeurteilung wird nicht am Projektende, sondern in Sprint 2 erstellt, mit den Gefährdungen G1–G10 aus [[Arbeitssicherheit]] als Grundgerüst, der HAW-Vorlage und früher Einbindung des Betreuers statt einer fertigen Vorlage zur Freigabe — präventiv, Wirkung auf beide Größen, verantwortlich Paul Wettering. Der Abgabetermin wird über einen rückwärts ab dem 04.10.2026 gerechneten Meilensteinplan gesichert ([[Ablaufplan]], Variante B), mit reservierter Pufferwoche und parallel statt seriell geführten Vorversuchen; Frühindikator ist der Meilensteinverzug, und bei Verzug wird nach Priorität gekürzt, nicht der Sprint verlängert — präventiv, Wirkung auf beide Größen, verantwortlich Fynn Barmwater. Für das Zeitbudget im Labor dient die Generalprobe V-Z1 unter Laborbedingungen mit Zeitnahme als Nachweis: Kerne werden vorgefertigt bereitgestellt, die Schmelze vor Versuchsbeginn gestartet und die Gruppen arbeiten parallel. Dauert die Formherstellung dort länger als 60 min, wird der Ablauf gekürzt — präventiv, Wirkung auf beide Größen, verantwortlich Paul Wettering.
+
+Alle fünf Maßnahmen sind präventiv. Das ist eine bewusste Wahl: Korrektive Maßnahmen senken laut [[Risikomanagement-Methode]] nur die Schadenshöhe, und die ist bei allen fünf Risiken bereits maximal bewertet — eine korrektive Maßnahme setzte hier an der falschen Größe an. Korrektiv geführt wird im Projekt nur [[R12]], weil das Eintreten dort nicht mehr vom Team beeinflussbar ist.
+
+### 2.4.5 Nicht berichtete Risiken der Zone „act"
+
+Zwei weitere Risiken liegen bei einer Risikozahl von 6, wurden aber nicht in die Top 5 aufgenommen:
+
+- **[[R15]] Arbeitssicherheit und Versicherungsschutz im Fremdbetrieb.** Wird über [[TASK-041]] in Sprint 1 geklärt; nach Vorliegen von Unterweisung, Betriebsanweisung, PSA und Versicherungsstatus sinkt die Eintrittswahrscheinlichkeit auf 1.
+- **[[R14]] Fahrzeit nach Heide.** Ist über die Aufwandsschätzung im Planning Poker eingepreist und wirkt damit nicht mehr unerkannt auf die Sprintkapazität.
+
+Beide bleiben im Register und werden im Sprint Review neu bewertet. Die Neubewertung aller Risiken ist fester Bestandteil jedes Sprint Reviews; Änderungen werden im [[Projektlog]] vermerkt.

@@ -25,7 +25,7 @@ aktualisiert: 2026-08-27
 | 5 | F33 entschieden: **Stehbuchse mit Fußplatte**, Bauteil damit freigegeben | [[Sprint-1]] |
 | 6 | Weiches Kriterium: grün (10.08.) → gelb (14.08.) → gelb (17.08.) → grün (21.08.) | [[Weiches-Kriterium]] |
 | 7 | Messvorschrift präzisiert: nur Fragen an Dritte zählen, teaminterne Fachfragen nicht | [[Weiches-Kriterium]] |
-| 8 | Barometer-Mittelwerte an drei Terminen, AG-Einbindung 2,7 → 4,7 | [[Team-Management-Barometer]] |
+| 8 | Barometer-Mittelwerte an drei Terminen, AG-Einbindung durchgehend niedrigstes Kriterium (2,7 / 2,7 / 3,0) | [[Team-Management-Barometer]] |
 | 9 | Sprintziel in allen drei Bedingungen erreicht | [[Sprint-1]] |
 | 10 | Drei Retro-Punkte mit Maßnahme und Verantwortlichem | [[Sprint-1]] |
 

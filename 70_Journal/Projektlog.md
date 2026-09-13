@@ -12,6 +12,26 @@ aktualisiert: 2026-08-10
 
 > Chronologisch, neueste Einträge oben. Jeder Arbeitstag/Meilenstein ein Eintrag.
 
+## 2026-08-28 — Kapitel Risikomanagement ausgearbeitet
+
+- **Kapitel 2.4 in [[Statusbericht-1]]** ergänzt: Vorgehen und Abgrenzung zur Gefährdungsbeurteilung, Risikomatrix als Abbildung, die fünf berichteten Risiken mit konkreter Beschreibung, Maßnahmentabelle (Typ, Wirkung, Verantwortliche:r) und Begründung für die beiden nicht berichteten `act`-Risiken. Damit erfüllt der Statusbericht die Anforderungen aus [[Risikomanagement-Methode]].
+- **Abbildung:** `90_Assets/Bilder/Risikomatrix_Sprint-1.png` — 3 × 3 Matrix (W über H) in der Darstellung aus GPM Teil 2: Zonenfelder Ok!/Monitor!/Act!, alle 13 aktiven Risiken als Notizzettel mit ausgeschriebenem Kurznamen. In [[Risikoregister]] eingebunden.
+- **Befund aus der Verteilung:** Der Schwerpunkt liegt in der Spalte H = 3 (sechs Risiken), nicht in der Zeile W = 3 (zwei Risiken). Das Projekt ist durch wenige Ereignisse mit großer Wirkung bedroht — daher sind alle fünf berichteten Maßnahmen präventiv; korrektive Maßnahmen würden nur die ohnehin maximale Schadenshöhe adressieren.
+- **Keine Bewertung geändert:** W und H stammen unverändert aus den Risikonoten R02–R15.
+
+**Nächster Schritt:** Risiken im Sprint Review neu bewerten, insbesondere [[R15]] nach Abschluss von [[TASK-041]] (erwartete Absenkung W 2 → 1).
+
+## 2026-08-28 — Barometer Sprint 1 korrigiert und als Barograph gezeichnet
+
+- **Auftraggebereinbindung korrigiert:** Die Werte der drei Erhebungen wurden auf 2,7 / 2,7 / 3,0 gesetzt. Begründung: Der Kontakt zu Prof. Pähler läuft über Einzeltermine ohne festen Turnus; ein „abgesprochenes Berichtswesen" im Sinne der Kriteriendefinition besteht nicht. Die vorherige Reihe (2,7 → 4,3 → 4,7) unterstellte eine Wirkung des Termins vom 17.08., die das Team so nicht sieht.
+- **Folgeänderungen mitgezogen:** [[Team-Management-Barometer]] (Messreihe, Maßnahme, Auswertung Sprint 1), [[Statusbericht-1]] Abschnitt 2.2.2, [[Sprint-1-Ist-Erhebung]] Zeile 8.
+- **Maßnahme für Sprint 2 (präventiv, Fynn Barmwater):** fester Abstimmungsrhythmus zum Sprintwechsel — Kurzstatus per Mail montags, Präsenztermin zum Sprint Review. Zielwert der nächsten Erhebung ≥ 4,0.
+- **Dritter Erhebungstermin korrigiert:** 24.08. → **21.08.** (Fr, Weekly, letzter Sprinttag). Sprint 1 endet laut [[Sprint-1]] am 23.08.; eine Erhebung am Review-Tag hätte außerhalb des Sprintzeitraums gelegen. Alle drei Erhebungen liegen jetzt im Sprint und folgen dem Weekly-Rhythmus aus [[Arbeitsrhythmus]].
+- **Barograph:** `90_Assets/Bilder/Team-Management-Barometer_Sprint-1.png`, Liniendiagramm der vier Kriterien über die drei Erhebungstermine.
+- **CLAUDE.md angepasst:** Regel zu Team-Erhebungen präzisiert — die Werte setzt das Team; Claude übernimmt, korrigiert und stellt sie dar, erfindet aber keine Werte, die niemand genannt hat.
+
+**Nächster Schritt:** Barometer-Erhebung zum Sprintwechsel 2 → 3 durchführen und die AG-Maßnahme auf Wirksamkeit prüfen.
+
 ## 2026-08-10 (6) — Aushebbarkeit: Regel korrigiert, Bauteil neu (Stehbuchse)
 
 Jonas hat auch den Lagerbock widerlegt: Die Grundplatte liegt 39 mm unter der Teilungsebene und ist breiter als alles darüber — beim Ziehen müsste eine 100 × 44 mm große Platte durch eine 32 × 5 mm große Sandöffnung. Beide Vorentwürfe sind an derselben Regel gescheitert, die ich zweimal falsch formuliert hatte.
