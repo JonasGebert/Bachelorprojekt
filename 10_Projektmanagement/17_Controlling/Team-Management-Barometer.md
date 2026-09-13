@@ -7,13 +7,14 @@ tags:
   - gpm
   - controlling
   - team
-aktualisiert: 2026-08-28
+aktualisiert: 2026-09-13
 ---
 
 
 # Team-Management-Barometer
 
 > **In jedem Daily/Weekly erheben** und als Graph (Barograph) über der Zeit darstellen. Bewertung erfolgt **verdeckt**, die/der Verantwortliche sammelt ein und stellt dem Team vor.
+> **Achtung Diagrammtyp:** Die Grafik braucht eine echte Datums-/xy-Achse, keine Kategorieachse mit gleich breiten Abständen — sonst stimmt der zeitliche Abstand zwischen den Erhebungsterminen nicht (Bewertung Statusbericht 1, Runde 1: „Vermutlich wurde ein Liniendiagramm statt xy-Graph verwendet"). 10.08. → 17.08. sind 7 Tage, 17.08. → 21.08. sind nur 4 Tage — das muss sich in der Punktabstand-Breite widerspiegeln.
 > **Verantwortlich: Paul Wettering** (zugleich Scrum Master). Zielkonflikt und kompensierende Kontrolle — verdeckte Abgabe, Auszählung durch **Fynn Barmwater**, Paul erhält nur den Mittelwert — siehe [[Rollen-und-Verantwortlichkeiten]], Abschnitt „Zielkonflikt".
 
 ## Erhebung — nur Mittelwerte werden gespeichert
