@@ -20,13 +20,13 @@ aktualisiert: 2026-08-28
 
 ### 2.1.1 Sprintziel
 
-Sprintziel Sprint 1 (10.08.–23.08.2026): **Die beiden Materialgrundlagen stehen und das Bauteil ist freigegeben.**
+Sprintziel Sprint 1 (10.08. bis 23.08.2026): **Die beiden Materialgrundlagen stehen und das Bauteil ist freigegeben.**
 
-Das Ziel galt als erreicht, wenn am 23.08.2026 drei Bedingungen erfüllt sind: Der Vorversuch V-F1 ist ausgewertet und eine reproduzierbare Sandrezeptur — Vogelsand-Marke, Ölanteil, Verdichtung — ist dokumentiert. Der Vorversuch V-W1 ist ausgewertet, Aufheizkurve und Gießtemperaturfenster für Reinzinn liegen mit Thermoelement gemessen vor. Das Bauteilkonzept ist von Prof. Pähler freigegeben und damit eingefroren.
+Das Ziel ist erreicht, wenn am 23.08.2026 drei Bedingungen erfüllt sind. Der Vorversuch zur Sandrezeptur ist ausgewertet und eine reproduzierbare Mischung aus Vogelsand und Speiseöl liegt mit Ölanteil und Verdichtung dokumentiert vor. Der Vorversuch zum Ofenverhalten ist ausgewertet, Aufheizkurve und Gießtemperaturfenster für Reinzinn sind mit dem Thermoelement gemessen. Das Bauteilkonzept ist von Prof. Pähler freigegeben und damit eingefroren.
 
-Diese drei Punkte wurden gewählt, weil sie die Blockaden mit der größten Reichweite lösen: Ohne Sandrezeptur ist kein Kern-, Trennmittel- und Fehlerversuch planbar, ohne Temperaturfenster kein Abguss, ohne freigegebenes Bauteil keine Konstruktion.
+Diese drei Punkte lösen die Blockaden mit der größten Reichweite. Ohne Sandrezeptur lässt sich kein weiterer Vorversuch planen, ohne Temperaturfenster kein Abguss, ohne freigegebenes Bauteil keine Konstruktion.
 
-Der Sprint umfasste 12 Aufgaben mit 143 h gegenüber einer Teamkapazität von 146 h, also 98 % Auslastung. Der kritische Pfad lief über die Beschaffung des Thermoelements: Wäre die Bestellung nicht am ersten Sprinttag herausgegangen, wäre V-W1 nicht auswertbar gewesen.
+Der Sprint umfasst zwölf Aufgaben mit 143 Stunden gegenüber einer Teamkapazität von 146 Stunden, also 98 Prozent Auslastung. Der kritische Pfad läuft über die Beschaffung des Thermoelements. Geht die Bestellung nicht am ersten Sprinttag heraus, ist der Vorversuch zum Ofenverhalten nicht auswertbar.
 
 ### 2.1.2 Aktuelles Task Board
 
