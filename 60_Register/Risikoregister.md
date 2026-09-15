@@ -5,7 +5,7 @@ bereich: beide
 tags:
   - risiko
   - uebersicht
-aktualisiert: 2026-08-05
+aktualisiert: 2026-08-28
 ---
 
 
@@ -17,6 +17,11 @@ aktualisiert: 2026-08-05
 ![[Risikomatrix.base]]
 
 ## Risikomatrix
+
+![[Risikomatrix_Sprint-1.png]]
+
+*Abbildung: Risikomatrix nach Koeppen, Stand 28.08.2026. Ausgearbeitetes Kapitel: [[Statusbericht-1]], Abschnitt 2.4.*
+
 
 | W \ H | 1 (niedrig) | 2 (mittel) | 3 (hoch) |
 |---|---|---|---|

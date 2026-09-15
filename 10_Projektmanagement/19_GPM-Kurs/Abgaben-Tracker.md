@@ -6,7 +6,7 @@ tags:
   - gpm
   - abgabe
   - tracker
-aktualisiert: 2026-08-07
+aktualisiert: 2026-09-13
 ---
 
 
@@ -19,7 +19,7 @@ aktualisiert: 2026-08-07
 | 1 | Drei Teamregeln + Reaktion bei Nicht-Einhaltung | vor GPM Teil 2 | ✅ abgegeben | [[Teamregeln]] | — |
 | 2 | Von allen Teammitgliedern **und** Auftraggeber:in unterschriebene Aufgabenstellung | eine Woche nach GPM Teil 2 → **≈ 12.08.2026** | 🟡 PDF fertig, wartet auf Unterschriften | [[Projektauftrag]] · Fertigstellungstermin **04.10.2026** gesetzt · **vorher F17 (Ab-2 Formkästen) mit Prof. Pähler klären** | [[TASK-001]] |
 | 3 | Ablaufplan des Gesamtprojekts | eine Woche nach GPM Teil 2 → **≈ 12.08.2026** | 🟡 PDF fertig, versandbereit | [[Ablaufplan]] · Sprinttage Mo/Mi/Fr eingetragen · legt die Statusbericht-Fristen fest | [[TASK-002]] |
-| 4 | Statusbericht 1 (One Pager) | 1 Woche nach Ende Sprint 1 (23.08.) → **≈ 30.08.2026**, exakte Frist bestätigt Prof. Koeppen | ⬜ offen | [[Statusbericht-1]] | [[TASK-011]] |
+| 4 | Statusbericht 1 (One Pager) | 1 Woche nach Ende Sprint 1 (23.08.) → **≈ 30.08.2026**, exakte Frist bestätigt Prof. Koeppen | ✅ abgegeben, bewertet **63/70 (90 %)** — Mängel: Dateiname-Konvention weiterhin nicht eingehalten, PM-Methoden-Zuordnung fehlte im Bericht, Product Backlog nicht sinnvoll gefüllt (für Statusbericht 2 vormerken), Burndown-Aufgabennamen nicht an Sprint Backlog angeglichen (jetzt korrigiert), Barometer-Grafik "nicht korrigiert" (Ursache noch zu klären) | [[Statusbericht-1]] | [[TASK-011]] |
 | 5 | Statusbericht 2 | ca. 1 Woche nach Ende Sprint 2 (06.09.) → **≈ 13.09.2026** | ⬜ offen | | |
 | 6 | Statusbericht 3 | ca. 1 Woche nach Ende Sprint 3 (20.09.) → **≈ 27.09.2026** | ⬜ offen | | |
 | 7 | Statusbericht 4 | nach Ende Sprint 4 (27.09.) → **≈ 04.10.2026** | ⬜ offen | in der Pufferwoche | |

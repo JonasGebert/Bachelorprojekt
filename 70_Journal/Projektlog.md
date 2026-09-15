@@ -5,12 +5,57 @@ bereich: beide
 tags:
   - journal
 erstellt: 2026-07-04
-aktualisiert: 2026-08-10
+aktualisiert: 2026-09-13
 ---
 
 # Projektlog
 
 > Chronologisch, neueste Einträge oben. Jeder Arbeitstag/Meilenstein ein Eintrag.
+
+## 2026-09-13 — Bewertung Statusbericht 1 eingearbeitet (63/70, 90 %)
+
+- **Bewertung von Prof. Koeppen liegt vor:** Statusbericht 1 erreicht 63 von 70 Punkten (90 %). Kein Kriterium mit 0 Punkten oder ≤ 50 %.
+- **Jetzt korrigiert (rückwirkend noch möglich):**
+  - **Burndown-Chart** ([[Burndown-Chart]]): Aufgabennamen in der Spalte „erledigte Aufgaben" waren gegenüber dem Sprint Backlog aus [[Sprint-1]] verkürzt/abweichend (z. B. „TASK-041 Sicherheit Göpfert" statt „Unterweisung und Versicherung bei Göpfert klären"). Auf wortgleiche Bezeichnung inkl. TASK-ID-Wikilink umgestellt.
+  - **[[R10]] Formstoff-Risiko:** `wirkung` von `beide` auf `schadenshoehe` korrigiert. Koeppens Kommentar: Weder das vorgezogene V-F1 noch der bereitliegende Ersatzstoff (Ölsand) ändern die Wahrscheinlichkeit, dass Vogelsand + Speiseöl versagt — beides senkt nur die Schadenshöhe. Folgeänderung in [[Statusbericht-1]] Abschnitt 2.4.4 (Formstoff-Absatz) und 2.4.2 (Zähler „sieben der dreizehn" → „sechs der dreizehn" Maßnahmen mit Wirkung auf beide Größen).
+- **Für Statusbericht 2 vormerken (laut Koeppen nicht mehr rückwirkend korrigierbar):**
+  - Vorgabe zum Dateinamen der Abgabe weiterhin nicht eingehalten — Konvention ist `JJJJ-MM-TT_<Dokument>_<Projekt>_<Nachnamen>.pdf` (Frist als Datum), siehe [[Konventionen]]. Beim nächsten Export mit `tools/md2pdf.py` beachten.
+  - PM-Methoden-Zuordnung je Teammitglied fehlte im abgegebenen Bericht — die Tabelle existiert bereits vollständig in [[Rollen-und-Verantwortlichkeiten]] (Abschnitt „Verantwortung für PM-Methoden"); muss beim Zusammenstellen von Kapitel 1.3.1 mit übernommen werden.
+  - Product Backlog wurde als nicht sinnvoll gefüllt bewertet — vor Statusbericht 2 in [[Product-Backlog]] prüfen.
+- **Noch ungeklärt:** Team-Management-Barometer-Grafik wurde mit „nicht korrigiert" bewertet, obwohl die Werte am 28.08. bereits korrigiert wurden (siehe Eintrag unten). Unklar, welche frühere Korrekturauflage konkret gemeint war — nicht geraten, sondern bei Prof. Koeppen oder im Team zu klären.
+- **Abgaben-Tracker aktualisiert:** [[Abgaben-Tracker]] Zeile 4 von „offen" auf „abgegeben, bewertet" gesetzt.
+
+**Korrigierte Abgabe erzeugt** (auf Basis des tatsächlich eingereichten Dokuments `Statusbericht _1_Gruppe_1.pdf`, nicht der abweichenden Vault-Fassung):
+- `90_Assets/Abgaben/2026-08-31_Statusbericht-1_Metallguss_Gebert-Barmwater-Wettering_korrigiert.docx` und `.pdf` — Layout, Deckblatt, Aufgabenstellung, User Stories, Ablaufplan, Team-Regeln, Risikomatrix-Grafik, Barometer- und Kommunikations-Grafik sowie das signierte One Pager sind unverändert aus dem Original übernommen. Geändert: 1.3.1 um die PM-Methoden-Tabelle ergänzt; Product Backlog im Task Board um sieben bereits erledigte GPM-Vorbereitungsschritte bereinigt (17 → 10 Einträge); Burndown-Legende an die Sprint-Backlog-Bezeichnungen angeglichen; Maßnahme 2 (Formstoff) auf „senkt nur die Schadenshöhe" korrigiert.
+- `90_Assets/Diagramme/Sprint-1-Diagramme.xlsx` — Burndown, Team-Management-Barometer und weiches Kriterium (Kommunikation) als echte, editierbare Excel-Diagramme mit Datentabellen, damit das Team sie für Sprint 2–4 weiterführen kann.
+- Weiterhin offen: echte Dateinamen-Konvention nur für diesen Export sichergestellt, nicht für die tatsächlich bei Koeppen eingereichte Datei nachträglich änderbar.
+
+**Erstbewertung (Runde 1, 60/70, 86%) nachträglich gefunden und ausgewertet** — löst zwei offene Punkte auf:
+- **Barometer-Grafik korrigiert:** Konkreter Fehler laut Runde-1-Kommentar: „Vermutlich wurde ein Liniendiagramm statt xy-Graph verwendet, dadurch stimmt der zeitliche Abstand der Punkte nicht." Grafik lief bisher mit gleich breiten Kategorien statt echter Datumsachse (10.08.→17.08. = 7 Tage, 17.08.→21.08. = 4 Tage, bisher gleich breit dargestellt). Korrigiert in [[Team-Management-Barometer]] (`90_Assets/Bilder/Team-Management-Barometer_Sprint-1.png`, jetzt mit echter Datumsachse), im korrigierten Statusbericht-Export und in `Sprint-1-Diagramme.xlsx` (jetzt Excel-Streudiagramm mit x-Werten statt Kategorieachse). Werte unverändert.
+- **Task-Board-Korrektur präzisiert:** Runde 1 sagt explizit, die sieben GPM-Punkte "hätten in den Sprint Backlog von Sprint 1 gemusst" — nicht ersatzlos entfernt werden. Da sie bei Sprintende bereits erbracht waren, stehen sie im korrigierten Export jetzt in der Spalte „Erledigt" (vorherige Fassung hatte sie fälschlich ganz gestrichen).
+- Beide Korrekturen im Export `2026-08-31_Statusbericht-1_..._korrigiert.docx/.pdf` und in `Sprint-1-Diagramme.xlsx` bereits eingearbeitet.
+
+**Nächster Schritt:** Dateiname- und PM-Methoden-Punkt beim Zusammenstellen von Statusbericht 2 aktiv gegenprüfen; beim nächsten Barometer-Export auf echte Datumsachse achten.
+
+## 2026-08-28 — Kapitel Risikomanagement ausgearbeitet
+
+- **Kapitel 2.4 in [[Statusbericht-1]]** ergänzt: Vorgehen und Abgrenzung zur Gefährdungsbeurteilung, Risikomatrix als Abbildung, die fünf berichteten Risiken mit konkreter Beschreibung, Maßnahmentabelle (Typ, Wirkung, Verantwortliche:r) und Begründung für die beiden nicht berichteten `act`-Risiken. Damit erfüllt der Statusbericht die Anforderungen aus [[Risikomanagement-Methode]].
+- **Abbildung:** `90_Assets/Bilder/Risikomatrix_Sprint-1.png` — 3 × 3 Matrix (W über H) in der Darstellung aus GPM Teil 2: Zonenfelder Ok!/Monitor!/Act!, alle 13 aktiven Risiken als Notizzettel mit ausgeschriebenem Kurznamen. In [[Risikoregister]] eingebunden.
+- **Befund aus der Verteilung:** Der Schwerpunkt liegt in der Spalte H = 3 (sechs Risiken), nicht in der Zeile W = 3 (zwei Risiken). Das Projekt ist durch wenige Ereignisse mit großer Wirkung bedroht — daher sind alle fünf berichteten Maßnahmen präventiv; korrektive Maßnahmen würden nur die ohnehin maximale Schadenshöhe adressieren.
+- **Keine Bewertung geändert:** W und H stammen unverändert aus den Risikonoten R02–R15.
+
+**Nächster Schritt:** Risiken im Sprint Review neu bewerten, insbesondere [[R15]] nach Abschluss von [[TASK-041]] (erwartete Absenkung W 2 → 1).
+
+## 2026-08-28 — Barometer Sprint 1 korrigiert und als Barograph gezeichnet
+
+- **Auftraggebereinbindung korrigiert:** Die Werte der drei Erhebungen wurden auf 2,7 / 2,7 / 3,0 gesetzt. Begründung: Der Kontakt zu Prof. Pähler läuft über Einzeltermine ohne festen Turnus; ein „abgesprochenes Berichtswesen" im Sinne der Kriteriendefinition besteht nicht. Die vorherige Reihe (2,7 → 4,3 → 4,7) unterstellte eine Wirkung des Termins vom 17.08., die das Team so nicht sieht.
+- **Folgeänderungen mitgezogen:** [[Team-Management-Barometer]] (Messreihe, Maßnahme, Auswertung Sprint 1), [[Statusbericht-1]] Abschnitt 2.2.2, [[Sprint-1-Ist-Erhebung]] Zeile 8.
+- **Maßnahme für Sprint 2 (präventiv, Fynn Barmwater):** fester Abstimmungsrhythmus zum Sprintwechsel — Kurzstatus per Mail montags, Präsenztermin zum Sprint Review. Zielwert der nächsten Erhebung ≥ 4,0.
+- **Dritter Erhebungstermin korrigiert:** 24.08. → **21.08.** (Fr, Weekly, letzter Sprinttag). Sprint 1 endet laut [[Sprint-1]] am 23.08.; eine Erhebung am Review-Tag hätte außerhalb des Sprintzeitraums gelegen. Alle drei Erhebungen liegen jetzt im Sprint und folgen dem Weekly-Rhythmus aus [[Arbeitsrhythmus]].
+- **Barograph:** `90_Assets/Bilder/Team-Management-Barometer_Sprint-1.png`, Liniendiagramm der vier Kriterien über die drei Erhebungstermine.
+- **CLAUDE.md angepasst:** Regel zu Team-Erhebungen präzisiert — die Werte setzt das Team; Claude übernimmt, korrigiert und stellt sie dar, erfindet aber keine Werte, die niemand genannt hat.
+
+**Nächster Schritt:** Barometer-Erhebung zum Sprintwechsel 2 → 3 durchführen und die AG-Maßnahme auf Wirksamkeit prüfen.
 
 ## 2026-08-10 (6) — Aushebbarkeit: Regel korrigiert, Bauteil neu (Stehbuchse)
 

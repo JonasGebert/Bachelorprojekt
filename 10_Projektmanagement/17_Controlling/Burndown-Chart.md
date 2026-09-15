@@ -7,7 +7,7 @@ tags:
   - gpm
   - controlling
   - burndown
-aktualisiert: 2026-08-27
+aktualisiert: 2026-09-13
 ---
 
 
@@ -34,16 +34,18 @@ Das Burndown-Chart visualisiert die Abarbeitung der Arbeitspakete: Für jeden Sp
 | Tag | Datum | Ideal [h] | Rest ist [h] | erledigte Aufgaben |
 |---|---|---|---|---|
 | 0 | 2026-08-10 | 143 | **143** | — (Sprintstart) |
-| 1 | 2026-08-11 | 129 | **135** | TASK-018 Beschaffung (8 h) |
-| 2 | 2026-08-12 | 114 | **117** | TASK-002 Ablaufplan (8 h), TASK-001 Projektauftrag (10 h) |
-| 3 | 2026-08-13 | 100 | **112** | TASK-019 Fachbuch (5 h) |
-| 4 | 2026-08-14 | 86 | **102** | TASK-016 Formkästen (10 h) |
-| 5 | 2026-08-17 | 72 | **88** | TASK-012 Abstimmung Prof. Pähler (14 h) |
-| 6 | 2026-08-18 | 57 | **80** | TASK-041 Sicherheit Göpfert (8 h) |
-| 7 | 2026-08-19 | 43 | **68** | TASK-017 Ofen dokumentiert (12 h) |
-| 8 | 2026-08-20 | 29 | **48** | TASK-024 V-F1 Sandrezeptur (20 h) |
-| 9 | 2026-08-21 | 14 | **32** | TASK-025 V-W1 Ofen-/Temperaturverhalten (16 h) |
-| 10 | 2026-08-23 | 0 | **20** | TASK-042 Ausstattungsvergleich (12 h) |
+| 1 | 2026-08-11 | 129 | **135** | [[TASK-018]] Beschaffung, v. a. Thermoelement Typ K (8 h) |
+| 2 | 2026-08-12 | 114 | **117** | [[TASK-002]] Ablaufplan einreichen (8 h), [[TASK-001]] Projektauftrag unterschreiben lassen (10 h) |
+| 3 | 2026-08-13 | 100 | **112** | [[TASK-019]] Fachbuch Fritz/Schulze [Q1] beschaffen (5 h) |
+| 4 | 2026-08-14 | 86 | **102** | [[TASK-016]] Formkästen vermessen (10 h) |
+| 5 | 2026-08-17 | 72 | **88** | [[TASK-012]] Abstimmungstermin Prof. Pähler (F14/F16/F17/F7b/F25/F27) (14 h) |
+| 6 | 2026-08-18 | 57 | **80** | [[TASK-041]] Unterweisung und Versicherung bei Göpfert klären (8 h) |
+| 7 | 2026-08-19 | 43 | **68** | [[TASK-017]] Ofen dokumentieren, Aufheizkurve (12 h) |
+| 8 | 2026-08-20 | 29 | **48** | [[TASK-024]] V-F1 Sandrezeptur (20 h) |
+| 9 | 2026-08-21 | 14 | **32** | [[TASK-025]] V-W1 Ofen- und Temperaturverhalten (16 h) |
+| 10 | 2026-08-23 | 0 | **20** | [[TASK-042]] Ausstattungsvergleich Göpfert ↔ FtT-Labor (12 h) |
+
+> Aufgabennamen sind wortgleich mit der Spalte „Aufgabe" im Sprint Backlog von [[Sprint-1]] (inkl. TASK-ID als Wikilink) — Bewertung Statusbericht 1 bemängelte abweichende Kurznamen zwischen Burndown-Grafik und Sprint Backlog.
 
 ## Auswertung Sprint 1
 
