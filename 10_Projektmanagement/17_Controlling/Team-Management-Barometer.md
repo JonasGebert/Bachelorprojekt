@@ -7,7 +7,7 @@ tags:
   - gpm
   - controlling
   - team
-aktualisiert: 2026-09-13
+aktualisiert: 2026-09-22
 ---
 
 
@@ -45,6 +45,9 @@ Skala 1–6. Verdeckte Abgabe, Auszählung durch Fynn Barmwater, gespeichert wer
 | 2026-08-10 | Erstmessung, Sprintstart | 5,0 | 4,7 | **2,7** | 4,0 | AG-Einbindung mit Abstand niedrigster Wert → Abstimmungstermin mit Prof. Pähler priorisiert |
 | 2026-08-17 | Weekly | 5,3 | 5,0 | **2,7** | **3,7** | Arbeitsfortschritt gefallen (CAD durch F33 blockiert) → Bauteilentscheidung als erster Punkt im Review |
 | 2026-08-21 | Weekly, letzter Sprinttag | 5,3 | 5,3 | **3,0** | 4,3 | AG-Einbindung bleibt niedrigster Wert → festes Berichtswesen mit Prof. Pähler vereinbaren (kurzer Statusmail-Turnus je Sprintwechsel) |
+| 2026-09-04 | Weekly, Ende Sprint 2 | 5,3 | 5,0 | **3,3** | 4,7 | AG-Zielwert 4,0 verfehlt, kein Präsenztermin in Sprint 2 → Präsenztermin mit Gussteilen in Sprint 3 |
+| 2026-09-18 | Weekly, Ende Sprint 3 | 5,7 | 5,7 | 4,7 | **4,3** | AG-Zielwert erreicht (Termin 14.09.); Fortschritt gesunken (Generalprobe offen) → Laborfragen gebündelt am 21.09. klären |
+| 2026-09-21 | Sprintstart Sprint 4 | 5,3 | 5,7 | 4,7 | **4,0** | Fortschritt sinkt vor der Abgabe weiter → offene Punkte priorisiert in Sprint 4 |
 
 ### Auswertung Sprint 1
 
