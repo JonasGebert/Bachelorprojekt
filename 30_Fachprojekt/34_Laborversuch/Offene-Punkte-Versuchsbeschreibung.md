@@ -8,7 +8,7 @@ tags:
   - laborversuch
   - offene-punkte
 erstellt: 2026-09-17
-aktualisiert: 2026-09-17
+aktualisiert: 2026-09-20
 ---
 
 # Offene Punkte Versuchsbeschreibung Metallguss
@@ -20,7 +20,7 @@ aktualisiert: 2026-09-17
 
 Die Punkte hängen voneinander ab. Sinnvolle Reihenfolge:
 
-1. **Bauteilzeichnung mit Gießsystem fertigstellen (B1).** Ohne sie sind V1–V3 nicht rechenbar und die Musterlösung (D1) nicht möglich.
+1. **Bauteilzeichnung mit Gießsystem fertigstellen (B1).** Ohne sie sind V1 und V2 nicht rechenbar und die Musterlösung (D1) nicht möglich.
 2. **Termin mit Prof. Pähler (Block A).** Alles in einem Termin klären. Die Fragen stehen unten fertig formuliert.
 3. **Nächster Guss / Generalprobe als Messtermin nutzen (Block C).** Dort lassen sich sieben markierte Werte in einem Durchgang erfassen. Messbogen vorher ausdrucken.
 4. **Musterlösung rechnen und Skript final befüllen (Block D).**
@@ -56,7 +56,7 @@ Die Punkte hängen voneinander ab. Sinnvolle Reihenfolge:
 
 | ☐ | Nr. | Stelle im Skript | Was genau | Wer |
 |---|---|---|---|---|
-| ☐ | B1 | Vorbereitende Berechnungen: **Anlage – Zeichnung mit Maßen** | Technische Zeichnung des Rohres mit Flanschen **plus Gießsystem** (Eingusstrichter, Eingusskanal, Lauf, Anschnitt, Steiger) mit allen Maßen, die V1–V3 brauchen: Volumina, projizierte Fläche A_P in der Teilungsebene, Höhe H (Oberkastenhöhe), Kernmaße inkl. Kernmarken, kleinster Eingussquerschnitt A_E. Maße des erkalteten Teils, nicht des Modells. | |
+| ☐ | B1 | Vorbereitende Berechnungen: **Anlage – Zeichnung mit Maßen** | Technische Zeichnung des Rohres mit Flanschen **plus Gießsystem** (Eingusstrichter, Eingusskanal, Lauf, Anschnitt, Steiger) mit allen Maßen, die V1 und V2 brauchen: Volumina, projizierte Fläche A_P in der Teilungsebene, Höhe H (Oberkastenhöhe), Kernmaße inkl. Kernmarken. Maße des erkalteten Teils, nicht des Modells. | |
 | ☐ | B2 | Schritt 16: **Lauf und Anschnitt gemäß Anleitung** | Lage und Querschnitt von Lauf und Anschnitt festlegen (in Teilungsebene oder im Oberkasten?). Ergebnis in B1 und in die Schritt-für-Schritt-Anleitung. | |
 | ☐ | B3 | Abbildung 1 (nicht markiert) | Skizze gegen die reale Form prüfen: liegt das Rohr waagerecht, geht die Teilung durch die Achse, wo sitzen Einguss und Steiger? Falls abweichend: Skizze anpassen lassen. | |
 | ☐ | B4 | Schritt 6 und 10 (nicht markiert) | Stimmt es, dass das Modell geteilt ist und die Hälften über Passstifte zusammengesetzt werden? Welche Hälfte kommt in den Unterkasten? Stimmt es, dass der Kernkasten zweiteilig ist? | |
@@ -79,7 +79,7 @@ Die Punkte hängen voneinander ab. Sinnvolle Reihenfolge:
 | ☐ | C8 | Kennwerte: **Dichte Ölsandkern ρ_K** | Richtwert für die häusliche Rechnung | Kern im Kernkasten stampfen, wiegen; Volumen aus CAD → ρ_K = m_K / V_K (3 Kerne) | |
 | ☐ | C9 | Kennwerte: **Masse Oberkasten m_OK** | Richtwert für die häusliche Rechnung | eingeformten Oberkasten wiegen (3 Formen) | |
 | ☐ | C10 | Kennwerte: **Zuschlag x** | Verlust durch Krätze und Tiegelrest | Zinn vor dem Schmelzen wiegen, danach Gussteil + Gießsystem + Krätze + Tiegelrest wiegen → x = (m_Tiegel − m_G − m_GS) / (m_G + m_GS) | |
-| ☐ | C11 | Kennwerte: **Ausflusszahl μ** | Wert für V2 | Gießzeit t_G stoppen, Füllzeit mit μ = 1 berechnen → μ ≈ t_F(μ = 1) / t_G. Ergebnis mit Literaturwert vergleichen. | |
+| ~~☐~~ | C11 | ~~Kennwerte: **Ausflusszahl μ**~~ — **entfallen 2026-09-20:** Füllzeitrechnung (alte V2) aus der Versuchsbeschreibung gestrichen. | Wert für V2 (alt) | Gießzeit t_G stoppen, Füllzeit mit μ = 1 berechnen → μ ≈ t_F(μ = 1) / t_G. Ergebnis mit Literaturwert vergleichen. | |
 | ☐ | C12 | nicht markiert | Ausstattungsliste gegen den Bestand an der HAW prüfen: Stampfer, Sieb, Formerlöffel, Luftspieß, Blasebalg, Beschwerungsgewichte, Waage, PSA, Löschsand. Was fehlt, muss beschafft werden. | Inventur vor Ort | |
 
 **Messbogen für den Messtermin (ausdrucken):**
@@ -104,7 +104,7 @@ Die Punkte hängen voneinander ab. Sinnvolle Reihenfolge:
 
 | ☐ | Nr. | Was genau | Wer |
 |---|---|---|---|
-| ☐ | D1 | **Musterlösung V1–V3** mit den echten Maßen und Werten rechnen. Prüfen, ob m_Bes > 0 herauskommt. Ist der Oberkasten allein schon schwer genug, ist V3 als Aufgabe wertlos. Dann Beschwerung weglassen oder Aufgabe umformulieren. Musterlösung nur für Betreuer, nicht ins Skript. | |
+| ☐ | D1 | **Musterlösung V1 und V2** mit den echten Maßen und Werten rechnen. Prüfen, ob m_Bes > 0 herauskommt. Ist der Oberkasten allein schon schwer genug, ist V2 (Beschwerungsgewicht) als Aufgabe wertlos. Dann Beschwerung weglassen oder Aufgabe umformulieren. Musterlösung nur für Betreuer, nicht ins Skript. | |
 | ☐ | D2 | Musterlösung mit dem Messtermin vergleichen: gab es bei der berechneten Beschwerung Grat oder Kernversatz? | |
 | ☐ | D3 | Alle Werte ins Skript eintragen, gelbe Markierungen entfernen, Seite 1 in Word auf Umbruch prüfen. | |
 | ☐ | D4 | Repo nachziehen: [[Bauteilkonzept]] (Rohr mit Flanschen), [[E04]] (roter Ölsand für Form und Kern), [[E07]] (nur noch ein Teil), F12, F14, F33 schließen, Eintrag im [[Projektlog]]. | |
